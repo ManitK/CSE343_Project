@@ -1,0 +1,1789 @@
+id,timestamp,description,severity
+322807,1136765774,"Spelling mistake in docs, section ""Searching for Bugs""",trivial
+322462,1136433443,"LDAP Authentication: if LDAPbinddn is defined, re-bind as that user before searching",minor
+323721,1137449482,New charts feature crashes,major
+325079,1138459549,The login form on the Bugzilla home page may redirect your login and password to another site,major
+325579,1138858963,"changing a bug generates multiple ""Bug Processed""",major
+326142,1139232477,usemenuforusers appears not to work due to admin or usevisibilitygroup settings,minor
+328063,1140526484,[PostgreSQL] Upgrading to 2.23 on PostgreSQL generates an error,critical
+328166,1140563784,editusers.cgi does not work because it has a Byte Order Mark at the beginning,critical
+328385,1140710509,"dependency tree images missing from #251656 """,minor
+328615,1140892115,"DBD::mysql::st execute failed: Duplicate entry '135075-25155' for key 1 [for Statement ""INSERT INTO watch (watched, watcher)",blocker
+328615,1140923437,Watching the same user twice produces a SQL error,major
+328801,1141089799,"Bug Already Marked Duplicate Error should linkify ""This bug"" and any other bug numbers",minor
+330310,1142241875,[PostgreSQL] Perl crashes during checksetup.pl on Windows ActiveState Perl 5.8.7,major
+330599,1142417067,checksetup.pl - mysql 5.1.7 incompatibility when creating schema - TYPE=MYISAM,major
+330599,1142435092,"[MySQL 5.1] MySQL does not support ""TYPE"" as part of CREATE TABLE",minor
+329630,1141718198,Release Notes for 2.23.1,blocker
+322122,1136186532,"Crash if I close/query a bug, Bugzilla has suffered an internal error",critical
+325788,1138966255,Getting an odd datbase error on the main bage,critical
+327262,1139964226,Taking Backup of the Database creates an SQL script which is incorrect.,critical
+323294,1137125043,Search result showing inproper date.,major
+324098,1137709420,error at global.pl ---Tainted error,major
+324398,1137982493,Could not submit new bugs,major
+324788,1138248929,query returns bugs of all products even for restricted users,major
+327904,1140402144,"Internal error in Config.pm, line 151",major
+328371,1140703024,User E-mail notification of new user account verification broken.,major
+328709,1141008001,Unable to Create Reports / Charts,major
+331076,1142813312,rdfgvaerdfgv,major
+333870,1144911886,missing links in sidebar.cgi,trivial
+331365,1143019751,Sendmail complains about a possible attack because there's a newline in the email address,minor
+335354,1145926379,'Template->process() failed twice' when make languages param multiple to 1,minor
+331688,1143254871,Dependency graph is showing web dot error.,major
+333581,1144732716,Provide editbugs as default timetrackinggroup value,minor
+337681,1147395993,"When trying to impersonate someone, the UI displays the password field when using the ENV method (with user_info_class=""Env,CGI"")",major
+337777,1147441995,Typo at bottom; 'myslqd' should be 'mysqld',minor
+337995,1147670323,having the probelem with rajesh,major
+337996,1147670765,having the probelem with rajesh,major
+338573,1148028962,Auth throws an insecure dependency error because username is tainted,major
+340828,1149745337,it's impossible to search bugmail for comments by a person,blocker
+343189,1151583474,checksetup.pl HASH reference error with 2.18.5 to 2.20.2/2.22 upgrade,critical
+343726,1152145368,No image produced in either Graphical Reports or New Charts .,major
+343752,1152166343,order not properly validated,critical
+339731,1152182974,[LDAP] URI-parsing code duplicated with Net::LDAP,minor
+344106,1152507145,Error upgrading Bugzilla to version 2.23.2+,critical
+344448,1152718521,editparams.cgi doesn't let me clear a group in editparams.cgi,critical
+344527,1152767775,Charts are broken using mod_perl,major
+344527,1152768059,Charts and dependency graphs are broken using mod_perl,critical
+323521,1137307712,editkeywords.cgi does not HTMLify descriptions,minor
+344282,1152618948,Require DBI 1.41+ for DBD::Pg 1.45,trivial
+345958,1153874907,Inactive Flag Types should not be a fatal error - Bugzilla has suffered an internal error.,major
+345971,1153956540,"Consistently use ""web server"" instead of ""webserver""",trivial
+346091,1153979649,editparams.cgi should validate the 'timezone' parameter,minor
+346086,1153971371,attachment.cgi lets you view descriptions of private attachments even when you are not in the insidergroup,minor
+346155,1153998664,users with bless privs can see member lists for all groups,minor
+346249,1154133717,show_bug produces invalid XML according to its DTD,minor
+348464,1155378803,votes.cgi fails with a taint error,major
+349026,1155801586,Find a Specific Bug for Closed bugs returns NO ROWS,blocker
+353656,1158819378,bugzilla user interface gets corrupted by multiple localized users resolving bugs as duplicates,blocker
+353758,1158872285,Installation Document specific to SuSe EL9.0 with MySql,critical
+354304,1159338095,Changing several bugs at once fails if aliases are in use,blocker
+351765,1157655212,bz goes deadloop on some comments,critical
+353520,1158743360,Insecure dependency in piped open while running with -T switch at Bugzilla/BugMail.pm line 653.,critical
+355870,1160243117,"Users can create products they can't edit, if makeproductgroups is on and they aren't in editusers",minor
+330365,1142245261,"[PostgreSQL] It's somehow possible to generate two ""relevance"" columns on buglist.cgi",minor
+357209,1161182675,collectstats failed due to duplicates.cgi: Use of uninitialized value in string ne at (eval 57) line 31.,major
+357278,1161237500,BugMail.pl should use values from globals/field-descs.none.tmpl (Resolution & Status specifically),major
+357429,1161343090,Renaming a group which plays a special role generates a SQL error,critical
+357391,1161311558,"No space between ""Actions:"" and ""Home"" when logged out",minor
+357847,1161679553,Perl modules Email-Reply and Email-MIME-Modifier missing from the,critical
+358238,1161857878,"The string ""attachment"" followed by a number anywhere in bugzilla will mess up attachment",major
+359234,1162463885,missing indexes cause upgrades to fail -- code think-o,critical
+360607,1163422231,"Account creation fails with 'Can't locate object method ""_headers_as_string""'",critical
+361251,1163969843,update Bugzilla FAQ,blocker
+363912,1166159048,"editwhines uses both the word ""query"" and the word ""search"" for the same thing",trivial
+363916,1166159172,buglist.cgi can throw an error about JavaScript even though QuickSearch no longer uses JS,minor
+363915,1166159326,"The group currently being edited should not be linkified, in editgroups.cgi",minor
+364055,1166252973,Message confusing when your version of DBD::foo or MySQL/Pg is too old,minor
+325691,1138907860,terms.Bugs not used in saved searches template,trivial
+364172,1166430035,Wording on showdependencytree.cgi is bad when there are no dependencies,trivial
+364169,1166430538,"There is a ""show votes for this bug"" link when the bug has no votes",trivial
+364165,1166430594,"""Unclassified"" classification appears in ""Format for Printing"" but not normal view",minor
+364637,1166707593,"contrib/bzdbcopy.pl: Can't locate object method ""params"" via package ""Bugzilla"" at Bugzilla/DB/Mysql.pm line 65",critical
+363717,1166995993,Cloning a bug results in HTML-filtered text in initial description,major
+365070,1167175248,"MSIE caches enter_bug, causing the  do not agree resulting in bugzilla accusing me of filing bugs using the same form",critical
+365450,1167535652,misuse of some HTML tags in global/messages.html.tmpl,minor
+365456,1167505795,bug/summarize-time uses p as br,minor
+365483,1167543873,admin/fieldvalues/created has useless <p>,minor
+365484,1167543978,admin/fieldvalues/deleted has useless <p>,minor
+365486,1167544055,admin/fieldvalues/edit has useless <p>,minor
+365554,1167592972,globbal/user-error uses p as br,minor
+365557,1167594795,account/profile-activity has useless <p>,minor
+365559,1167594970,account/confirm-new uses p as br,minor
+365560,1167595271,account/permissions uses invalid usage for p,minor
+365565,1167596353,admin/fieldvalues/list has useless <p>,minor
+365566,1167596388,admin/fieldvalues/select-field has useless <p>,minor
+365567,1167596438,admin/fieldvalues/updated has useless <p>,minor
+365568,1167596684,admin/group/edit has useless <p>,minor
+365525,1167748109,Periods in wrong place in relation to parentheses,trivial
+365229,1167281522,email_in.pl modifies bug permissions without user entering fields,minor
+365035,1167127874,Problem to define path caused by Bugzilla::Config (with fix :),major
+366152,1168221389,"process_bug trims whitespace from the URL field, process_bug doesn't",trivial
+366306,1168229072,Can't use attachments.thedata as a field name.,major
+366384,1168299208,"improve the message ""Delete Component of Product 'Derivatives'""",trivial
+366385,1168299222,"improve the message ""Deleted Component '''' from Product 'Derivatives'""",trivial
+367466,1169162241,trying to file a bug you wrote the previous night fails without any way to retrieve the bug report,blocker
+367466,1169163288,"If you submit enter_bug three days after you fill it out, you can't submit the bug",minor
+367924,1169551379,index.cgi : Use of uninitialized value in substitution (s///) at (eval 22) line 44.,minor
+365119,1167195832,please remove reference to talkback from guided template,minor
+364177,1166364856,"On attachment and bug creation, if *one* requestee cannot see the bug, *all* requests are cancelled",major
+365926,1167895267,Attachments mis-served as utf-8,major
+370370,1171417521,"mod_perl crashes when going to ""Parameters"" page",major
+370664,1171621024,Upgrade from 2.16.7 to 2.22.1-2 fails without updating the database,critical
+370739,1171691994,Bugzilla UI broken with Firefox 2.0.0.x,blocker
+371808,1172489803,'emailsuffix' is duplicated on email notification,minor
+372589,1173000378,Firefox squishes bugsearch window making it difficult to use,major
+372723,1173087545,Bookmarkable template URLs on enter_bug.cgi contain tokens,major
+373869,1173826006,In search result screen sort the bugs by any custom field displays an error screen,critical
+373869,1173826557,Custom field names must be all lowercase or buglist.cgi sorting throws an error,major
+372668,1173063391,Email failed to send if using port number in bugzilla install,major
+374951,1174558957,Initial installation creates the mysql db using latin1 charset,major
+374051,1173934580,Email notifications not being sent,major
+376061,1175270377,changing requestee should not change requester,major
+379787,1178287295,Flag request mail has a blank requestee when requestee doesn't get the mail,minor
+380797,1179228861,"Email_in.pl works but reports ""Can't locate PatchReader.pm"" when run under fetchmail",minor
+376427,1175614429,Exported XML files contain the incorrect status and resolution,major
+383432,1181081210,edituser for a deleted user should not give internal server error :),critical
+384000,1181521052,bugzilla.org request system feature bullet is too proud,minor
+385003,1182210100,"Entering a tag name manually (""create and add the tag"") should not silently remove the tag from any other bugs. (overwrites)",major
+385384,1182464881,"if a particular x/y pair of values have no matches, they shouldn't show up in a report table",minor
+386860,1183533602,Insufficient escaping of From address when using email_in.pl / sending emails,major
+389471,1185329774,Ability to specify the product version in guided bug entry form,minor
+389815,1185592493,Can't edit shared queries if you can't run them,minor
+390557,1186002169,Uninitialized value in process_bug.cgi when user is in the timetracking group and there's no comment field,minor
+391073,1186370614,process_bug.cgi throws an error if a bug is moved to another product or component where a given flag doesn't apply as is,major
+391519,1186660014,Perl errors can display the password during login,minor
+391669,1186723524,Adding a comment via email_in.pl fails because there are many fields that process_bug.cgi requires but aren't provided to it,major
+394933,1188908070,“neworchanged” of bugmail could be localizable more easily,minor
+395603,1189344267,"ERROR: ""invalid bug attribute remaining_time"" with timetrackinggroup set to blank",major
+395771,1189489962,Advanced search results sorted incorrectly when sorted by importance,major
+395970,1189601597,mid-air collision resolution doesn't do what it says,major
+396558,1190094860,Dependency change e-mails include status changes that happened a long time ago,major
+349567,1156161490,strict_isolation in post_bug should also check can_see_product,major
+397544,1190720445,ppm repository command is outdated,trivial
+398990,1191814880,Adding a comment (from user with 'Canedit' rights only) via email_in.pl fails,major
+398990,1192442722,process_bug.cgi shouldn't check the 'reporter' field as this field is not editable,minor
+400256,1192664776,Link / URL autodetection chokes in international symbols,major
+355620,1160059823,Sect 6.6 of the Bugzilla Guide fails to line wrap correctly in PDF version,trivial
+405404,1196050858,"HTML::Scrubber throws ""undef error - Wide character in subroutine entry"" when a field filtered with html_light contains UTF-8 characters",major
+406758,1196742451,buglist help for keywords says tag,minor
+408446,1197653889,attachment.cgi can not display attachment right(garbled ).,major
+408446,1197654500,"Non-text attachments are mangled by ""binmode STDOUT, ':utf8'""",critical
+410608,1199318533,"utf8 ""\xC1"" does not map to Unicode",critical
+413121,1200721278,UTF-8 in templates are garbaged,critical
+378908,1177580085,Edit Group Access Controls hint for Default Default is missing a period,minor
+416382,1202458713,"Trying to attach bug gives Insecure dependency in sprintf while running with -T switch at (eval 42) line 6., referer: http://10.4.1.7:5556/attachment.cgi?bugid=806&action=enter",critical
+416382,1202479725,"Adding an attachment with Perl 5.10 and CGI.pm < 3.33 throws a taint errorTrying to add bug attachment gives Insecure dependency in sprintf while running with -T switch at (eval 42) line 6., referer: http: ... attachment.cgi?bugid=806&action=enter",major
+418518,1203431395,Keyword search fails right after creation,minor
+419979,1204123423,Bugzilla::DB::bz_add_field_table directly modifies the FIELD_TABLE_SCHEMA constant,major
+390370,1205736675,"""Products"" should be ""Other Classifications"" when reclassifying products in editclassifications.cgi",trivial
+424640,1206243437,the image should be visible.,critical
+425606,1206652534,wrapping is broken,major
+425665,1206680803,XSS in show_bug.cgi,blocker
+425665,1206711481,XSS in show_bug.cgi: id isn't filtered for format=multiple,critical
+425433,1206607571,bug/edit.html.tmpl attempting to commit readonly fields,minor
+322955,1136891543,bug_email and bug_email_append are broken and have no maintainer,major
+431201,1209377384,recode.pl crash when trying to convert 2.16 datbase to 3.0.3 schema,major
+431201,1209387618,recode.pl crash when trying to convert 2.16 database to 3.0.3 schema,critical
+437369,1212626965,Sanitycheck does not check the full text table: bugs_fulltext,minor
+438810,1213230666,Whining error in Bugzilla,major
+438810,1213362303,"Whines fail when a group is manually deleted that was receiving whines, and sanitycheck.cgi should report this problem",minor
+443162,1215081757,"Status Update for Bugzilla 3.2rc1, 3.0.5, and 2.22.5",blocker
+443169,1215082803,"The ""Release Info"" page needs updating for Bugzilla 3.2rc1, 3.0.5, and 2.22.5",blocker
+443166,1215082825,"Release/News Announcement for Bugzilla 3.2rc1, 3.0.5, and 2.22.5",blocker
+443164,1215082847,"The ""changes"" page needs updating for Bugzilla 3.2rc1, 3.0.5, and 2.22.5",blocker
+443163,1215082872,"Update the Download page for Bugzilla 3.2rc1, 3.0.5, and 2.22.5",blocker
+437169,1217858318,[SECURITY] Local files on the server can be attached to a bug (making them publicly visible) when importing bugs with -attach_path,minor
+449984,1218295200,Cookies should be created as SSL-only,critical
+450013,1218338986,Can sudo a user without sending email,blocker
+450747,1219149913,"Minor JS cleanup for the ""edit multiple bugs"" page",minor
+452734,1219966560,"Since update to Bugzilla 3.2, keywords cannot be entered by just typing them in anymore",major
+452746,1219969028,Link to the bug in the bug header/title bar includes a space,minor
+452844,1220005551,_check_dependencies not using detainted bug id from Bugzilla::Bug->check,major
+452844,1220183714,Taint error in _check_dup_id(),critical
+452736,1219967264,"Since update to 3.2, the link ""Vote for this bug"" has disappeared",critical
+452888,1224848432,"The status selector is too far from the comment box, leading to a serious usability problem",major
+453389,1220371493,Keyword autocomplete mishandles arrow keys,major
+431744,1209642093,Change Column link URL contains more than 3x's the characters in the base buglist.cgi URL,major
+431744,1221486106,Change Column link URL contains more than 3x the characters in the base buglist.cgi URL,minor
+456058,1221814304,Extra space included in hyperlink to commenter mailto,minor
+355283,1159876522,user login password can be brute forced because there is no lockout policy,major
+460303,1224146244,Can not mark a bug as duplicate,major
+460995,1224578274,need to use terms.abug in description for makeproductgroups,minor
+461745,1225067046,Deleting a user in Bugzilla must change bugs or create referential integrity problems,major
+464130,1226330453,Internet Explorer 7 does not show resolution_settings when changing bug_status,major
+465606,1227013557,"If a user doesn't have access to change target milestone, it gets set back to default.",major
+465930,1260948131,Some fields have no description in the user auto-completion form,minor
+466491,1227513619,Dependency list output differs from Dependency Graph,major
+466692,1227608976,[SECURITY] It's way too easy to delete keywords/flags (etc...?),major
+467171,1227956215,Editing attachments doesn't update the Last-Modified timestamp,minor
+472400,1231254289,gnatsparse doesn't work with newer schemas,major
+472416,1231258463,"""Pick a product"" hint is not obvious when cloning a bug",minor
+460074,1224062785,Guided bug entry creates public bugs. Expected it to have same group membership defaults as using non-guided method.,minor
+474881,1232641530,Custom CSS files are always requested,minor
+476603,1233612636,editing attachments doesn't have any CSRF protection,blocker
+476678,1233659343,Rich clients unable to update bugs need security token included in bug xml,blocker
+476925,1233749541,Comment lost when going back from the mid-air collision page and reloading the bug,critical
+478698,1234736128,checksetup.pl fails to connect to MySql 5.1,critical
+480044,1235486271,"Bugzilla sets gigantic BUGLIST cookie, then refuses all my requests",critical
+453962,1220666054,Browser requirements for Bugzilla searchplugin,minor
+486057,1238433878,Title of product_name_already_in_use is inconsistent with its description,minor
+488064,1239554395,Cannot download security-sensitive bug attachments with shift-click,major
+491467,1241489636,"Every other query throws ""Invalid column name"" code error",trivial
+495853,1243855927,Use of uninitialized value in buglist.cgi,major
+497130,1244532141,"failed query - if a ""."" (period) is in the version name",critical
+467992,1228404691,Login fails if the users LDAP account is denied search in LDAP,major
+498378,1245051085,Getting local timezone is 10% of show_bug.cgi,critical
+498309,1245031169,quoteUrls needs to cache 'bug' term,critical
+498318,1245036996,Speed up format_comment,critical
+499112,1245292721,Interal error if smtp is changed to smtp.gmail.com,major
+504522,1247699221,Search field on mainpage in 3.4RC1 not empty automatically when entering the field,major
+505079,1247959914,Saving a query with same name as existing named tag silently overwrites the named tag query,critical
+509176,1249676838,When bugzilla is viewed through HTML frame or iframe login does not retain,major
+510147,1250099139,Wide character in print at collectstats.pl line 206. Result from running perl -T collectstats.pl,major
+508189,1249328564,Logging in after changing your password exposes your new password in the URL,minor
+515149,1252391496,BugMail.pm uses urlbase for dependency notifications despite sslbase is set,minor
+515191,1252398935,SQL Injection via Bug.search,critical
+516157,1252812054,MySQL 6.x uses ENGINE not TYPE for invoking InnoDB,major
+517761,1253418099,Checksetup creates and deletes ./data/duplicates/ directory every time,trivial
+517793,1253448516,The Bugzilla::Template::_init method causes Bugzilla::Template->create() to leak a small amount of RAM,minor
+519426,1254194571,New versions not shown in dropdowns,major
+436189,1211976179,Word wrap of comments broken by new CSS width constraint,trivial
+436189,1254615491,Word wrap of comments broken by new CSS width constraint under certain fonts,minor
+520768,1254802936,SQL Error when trying to search,major
+520993,1254894396,Custom field that should appear only when Resolution is FIXED is not displayed when changing bug to RESOLVED FIXED,major
+521184,1254946090,importxml.pl only imports one bug,major
+522404,1255535664,Cannot create components for multiple products in a row in one script,minor
+523071,1255910355,Request (or) MyRequests url is not found in bugzilla home page(it is bugzilla Request System feature),major
+523495,1256051304,Infinite redirect loop when viewing an attachment,major
+524795,1256652932,Regression: Bad wrapping,major
+474738,1232564027,Search description is misleading about boolean charts,minor
+531107,1259142183,Enabling a extension results in Perl Command Line Interpreter has stopped working with Deep recursion on subroutine warnings,blocker
+531107,1259144115,"[Windows] Enabling a extension results in ""deep recursion on subroutine"" warnings",critical
+531243,1259194153,Bugzilla crashes on show_bug if it's hit while a custom field is being added,major
+532865,1259887549,Duplicate bug filed when page is reloaded after filing a bug.,major
+523185,1255947491,"Upgrade 3.2.3 to 3.4.2 with Oracle ""Checksetup fails with ORA-00905 missing keyword"" Options",critical
+534844,1260843513,Bugzilla interface is verry slow,critical
+534798,1260818910,[SECURITY] old-params.txt file should be under the datadir so it is protected from the web by .htaccess,major
+532518,1259761129,Attachment Access Denied page for displays user as being logged out,trivial
+537789,1262606706,'Add users to my watch list (comma separated list)' link not working!,minor
+537834,1262616958,Buglist results using atom ctype do not display users with empty real names,major
+533363,1263902810,"Using ""Bug ID contains foo"" in boolean charts or ""Exclude bug numbered"" crash PostgreSQL 8.3 and newer (non-character data types are no longer automatically cast to TEXT)",major
+543342,1264928835,Release Notes for Bugzilla 3.4.5,critical
+544434,1265341809,describecomponents.cgi only lists enterable products,minor
+545610,1265849965,Bugzilla report error (missing status infos) with mod_perl,major
+499151,1245308567,Cache translatable terms and descriptions,major
+531577,1266504086,Single-file extensions will look for their templates in extensions/template/ and libraries in extensions/lib/,minor
+547550,1266729443,error when editing groups,major
+549595,1267501041,Changing a Bug is sending to a Blank page,major
+553693,1269002617,SECURITY: LogOut Doesn't Work if Password Update is Attempted and Fails,major
+553693,1269863487,A new logincookie is created when changing the password or email address instead of reusing the existing one,minor
+555766,1269852951,Multiple methods contain SQL Injection via group name,major
+557017,1270327960,Non-localized strings in Administration > Groups (descriptions of default groups are not localized),minor
+559790,1271385574,job queue fails to work silently,major
+561296,1271971570,Cannot update priority name when it is the default priority,minor
+561758,1272262107,file error - admin/params/example.html.tmpl: not found,major
+562014,1272343683,"Advanced searching using ""keyword"" field returns incorrect results when >1 keyword",major
+562014,1273438190,"Advanced searching using ""keyword"" ""contains none"" or ""does not match regex"" field returns incorrect results",major
+562551,1272479788,Template Hooks cannot be utilized without extensions/create.pl,minor
+564028,1273060160,Interdiff silenty fails,major
+567780,1274688664,"When closing a bug as a duplicate, the error ""There is no field 'dup_id'"" is displayed",major
+571817,1276457316,Invalid parameter passed to Bugzilla when Editing Groups,major
+572514,1276688713,Trying to search for --webm or -webm seems to take forever (?),major
+572602,1276711476,Calling Bug->create() without assigned_to specified does not produce a default assignee,major
+521416,1255066682,Adding component causes: Undef to trick_taint,major
+582941,1280382009,Wrong example for the object_end_of_set_all in the Example extension.,minor
+585006,1281065137,"The function Bugzilla::Attachment->create requires a description argument, and that argument was not set.",critical
+556649,1270131931,Sudo Functionality Notification to User Can Be Bypassed,major
+586560,1281550686,"Account lock-outs do not disable active sessions, allowing user on banned IP to continue interacting with Bugzilla",major
+587108,1281694136,asdwed,critical
+591165,1282852079,"Header injection, cross-site scripting in report.cgi",major
+590144,1283344835,The deadline is not kept in saved searches when set to 'Now',minor
+516457,1252916846,jobqueue.pl: possible memory leak?,minor
+594237,1283880089,marking a bug duplicate requires adding comment even if commentonduplicate is off,major
+594231,1283878710,in advanced search bugzilla is not using the url specified in urlbase to redirect,major
+575947,1277864600,Users with passwords length less than 6 characters can't login after migration from 2.22.3 to 3.6.1,major
+595664,1284276126,Maximum password length is hardcoded in the UI when editing user accounts,minor
+600464,1285709487,[SECURITY] Content/Header injection due to non-random multipart/x-mixed-replace boundary,critical
+600668,1285759541,Able to change (at least) the status whiteboard via the web service even though usestatuswhiteboard is off,major
+603127,1286632196,Runninc checksetup for first time fails when creating database with error bz_schema table already exists.,critical
+603314,1286769919,Unprivileged users cannot create bugs any more,major
+588175,1282046424,"The ""changed after"" searches do not include bugs which have an attachment added to them",major
+577428,1278535118,Whining start error at cron,major
+607909,1288226625,Hours worked / work_time is marked as changing when commenting even when you don't enter a value,minor
+615570,1291103203,misstype in global/messages.html.tmpl,minor
+615574,1291103559,"When viewing a bug that is the result of a saved search, the buglist and 'show last search results' links belong to a different search",major
+617133,1291640925,Reporting for components causes errors,major
+619864,1292531746,The buglist crashes for 3 mins if I search for the query --,critical
+620796,1292938682,Bugzilla::Migrate->create_legal_values chokes trying to create components,critical
+621572,1293447750,"chart.cgi should use $cgi->redirect instead of print ""Location:""",trivial
+625339,1294891689,Couldn't untar /.cpan/source/authors/id/A/AN/ANDK/CPAN-1.9402.tar,critical
+627660,1295570247,"Create account page has ""Send"" as submit button, which doesn't make sense",minor
+628034,1295692474,XSS in Bugzilla,major
+633185,1297316909,Keywords not appearing as drop-down menu when filing a new Bug.,major
+634826,1297889575,.htaccess file permissions are not checked by checkconfig.pl,minor
+636084,1298405755,Advance Search,major
+643411,1300733643,New default bug limit makes time summary results confusing,minor
+644281,1300878075,"Preference setting ""Show next bug in list"" for doesn't take into account a sorted list",minor
+644962,1301025525,"All users can see each other in drop-down lists despite the ""usevisibilitygroups"" parameter set to ""on"".",major
+648899,1302434950,Advanced Search - components not linked to their products,major
+650222,1302827030,user redirected to welcome page after loggin on,major
+651491,1303277682,Security vulnerability allowing to remove CCs,critical
+652427,1303623570,Going back to the new bug page looses the description if possible duplicates have been searched for,critical
+526737,1257388865,bugzilla_ldapsync.rb fails,major
+653341,1303930992,Bug.create() fails to error out if an invalid group is passed,critical
+654121,1304318724,XML Parsing Error: not well-formed. Char 0x0 out of allowed range,critical
+659816,1306333843,Quicksearch only works for ASCII strings (when quoted),major
+661314,1306920689,Product list in search page is not limited to products for which the user has permission and which he can access.,major
+664089,1308007911,Zend XMLRPC Error,major
+671213,1310516872,"Bugzilla is setting AND instead of OR in query, despite of what the user selects",major
+673044,1311194376,"The token you submitted does not exist , has expired or has been cancelled",blocker
+673043,1311194271,"The token you submitted does not exist , has expired or has been cancelled",blocker
+693267,1318211974,All features of  bugzilla are not available in firefox latest version and the older versions. when a bug is viewed fixed on attribute not available.Available with Internet explorer and other browsers.,major
+692354,1322524484,Incorrect parameter type in WebServices documentation for Bug.add_comment,minor
+715132,1325658165,Graphical Reports feature is not available,blocker
+715514,1325747671,"showdependencytree misleading with ""does not depend on any bugs"" if all bugs are resolved",minor
+718319,1326807206,JSON-RPC permits to bypass token checks and can lead to CSRF (no victim's action required),critical
+469068,1228938643,SMTP parameters not documented,minor
+728639,1329637852,[SECURITY] User lockout policy can be bypassed by using X-FORWARDED-FOR header,major
+729908,1329979620,The Bugzilla_Stable CVS tag no longer exists and so using this tag deletes all files,blocker
+731219,1330412188,XMLRPC content-type verification fails if a charset is provided,major
+746547,1334724581,"SMALLSERIAL is of type INT2, not INT1",trivial
+756550,1337336250,Alias is resolved to a bug number for a private bug,critical
+765315,1339751679,It is not possible to call Bugzilla::Component->new with 'name' & 'product' params,blocker
+765558,1339895634,params_to_objects does not work properly in consecutive calls,major
+776982,1343119260,Increase longdescs primary key size to INTSERIAL for future growth,critical
+780657,1344242075,This Bug is very critical,critical
+781850,1344585097,Do not leak personal information to all users,critical
+771100,1344859133,Unable to attach a file to a bug with perl 5.16.0,major
+786159,1346098525,Vulnerabilities in Password mangament by the web application,critical
+788392,1346788373,Database problem with adding autoincrement field,major
+790296,1348498906,[SECURITY] Field values are not escaped correctly in tabular reports,major
+795191,1348766913,Login  is not functioning,critical
+798389,1349421143,Update the URL mentioned by checksetup.pl to download patchutils,trivial
+799721,1349794400,PostgreSQL 9.2 requires DBD::Pg 2.19.3,major
+810954,1352709267,"In the ""reclassify products"" page, form labels are not in bold",trivial
+811280,1352784067,Bugzilla::Bug->new() is called multiple times when displaying a bug,major
+811650,1352848846,Bugzilla::Classification->new() queries the database multiple times for the same information when displaying a bug,major
+811630,1352841207,Bugzilla::Attachment->new() queries the database multiple times for the same information when displaying a bug,major
+814049,1353487187,The mybugstemplate parameter is not filtered in templates,minor
+322190,1136253354,error in regex in .htaccess files,minor
+322212,1136271894,DERIVE_GROUPS_TABLES_ALREADY_LOCKED is ignored on 2.20+ when creating a new user object,critical
+322224,1136277472,editusers.cgi is changing the preferences to default when visited,major
+322231,1136281841,When uploading a objectice-c++ file (.mm) bugzilla sets the MIME type as application/octet-stream,minor
+322244,1136288128,cookies are incorrectly detainted when logging out,trivial
+322412,1136385816,Typo in error message,trivial
+322728,1136674939,Oversize attachments lead to dead end,minor
+322960,1136893631,Release Notes for Bugzilla 2.22rc1,blocker
+322963,1136894487,Bugzilla does not list who gets an email after changing a flag,minor
+323031,1136949458,process_bug.cgi crashes when encountering a deleted user,minor
+323070,1136979715,Internect Explorer - Advanced search for multiple component/version/target followed by Back Button doesn't remember pick lists,minor
+323106,1137002810,create-series Error: 'options' is null or not an object.,major
+323293,1137124314,showing system error while searching all bugs in specific search.,major
+323392,1137204782,admin/classifications/select.html.tmpl has a link pointing to itself,trivial
+323728,1137453254,Page show_bug.cgi crash if trying to view Long Format,critical
+323766,1137478393,Unable to add a new product,major
+323912,1137582398,"When a group cannot be deleted because it is in used, ThrowUserError() should be called",minor
+323967,1137605696,trivial UI changes for 2.20 (Selenium compat),trivial
+324099,1137709424,error at global.pl ---Tainted error,major
+324101,1137709610,error at global.pl ---Tainted error,major
+324235,1137815951,poor wording on parameter showall products,trivial
+324399,1137982894,"Rename the ""New"" link in the footer as ""New bug"" or ""Enter new bug""",trivial
+324990,1138373153,Bug Activity Page does not use bug summary in page title,trivial
+325037,1138420614,Remove whitespaces from the 'Long Format' button,trivial
+325195,1138570037,Error when confirming user deletion,minor
+325309,1138666105,"The ""Enter a bug # or some search terms"" box uses wrong URL for show_bug.cgi",minor
+325448,1138770159,"In editparams.cgi, radio button and checkbox descriptions should be enclosed in <label></label> tags",trivial
+326060,1139184708,Templates should not check for flag.setter; it is always known,trivial
+326080,1139195676,Dependency graph has troubles with local graphviz path containing spaces,minor
+326311,1139319971,New charts do not honor terms.bug,trivial
+326803,1139633019,"Wrong colspan for ""summarize time"" link below time tracking bar on show_bug.cgi",trivial
+327334,1140001586,undef error - DBD::mysql::db do fail,critical
+328089,1140521309,Additional Comments field columns are constant at 80 cols,trivial
+328108,1140527394,Unable to login on a fresh Bugzilla install,blocker
+328239,1140617945,Software error when editing the 'docs_urlbase' parameter,major
+328379,1140708148,Fix spelling: 'visitng' -> 'visiting',minor
+328484,1140771198,Can't locate Bugzilla/DB.pm in @INC in bugzilla_email_append.pl,major
+328493,1140773314,Can't locate Bugzilla/DB.pm in @INC in bugzilla_email_append.pl,major
+328507,1140779258,Can't edit system parameters through Parameters footer,major
+328628,1140913941,Attachment File name in utf8,minor
+328689,1140978754,"DBD::mysql::st execute failed: Duplicate entry '135075-25155' for key 1 [for Statement ""INSERT INTO watch (watched, watcher)",blocker
+328730,1141022341,Internal Error,critical
+328852,1141113382,Search crashes complaining about enablequips param,major
+329172,1141313858,cookies (and other variables) are not cleared in speedycgi,minor
+329177,1141319611,Bugzilla fails when there are no keywords,critical
+329178,1141319659,DB::Mysql has old code for MySQL 3.x,trivial
+329189,1141325853,"Release Bugzilla 2.20.2, 2.22, and 2.23.1",blocker
+329193,1141327368,"Status Update for Bugzilla 2.20.2, 2.22, and 2.23.1",blocker
+329194,1141327862,"Update ""Download"" Page for Bugzilla 2.20.2, 2.22, and 2.23.1",blocker
+329195,1141328143,"Update ""Changes"" Page for Bugzilla 2.20.2, 2.22, and 2.23.1",blocker
+329196,1141328438,"Release/News Announcement for Bugzilla 2.20.2, 2.22, and 2.23.1",blocker
+329197,1141328837,"Update ""Release Info"" page for Bugzilla 2.20.2, 2.22, and 2.23.1",blocker
+329528,1141639276,"Templates with an empty ""div"" (whose class attribute is, probably, written in Portuguese)",trivial
+329556,1141655377,Internal Server Error on 60% of all clicks,major
+329628,1141718125,Release Notes for 2.22,blocker
+329629,1141718163,Release Notes for 2.20.2,blocker
+329632,1141718352,Update New Features page for Bugzilla 2.22,blocker
+330186,1142073651,Crash when changing the status of a bug which has dependencies,blocker
+330339,1142232673,"versioncache file gets corrupted when machine runs out of disk space, does not auto recover",minor
+330430,1142292971,Data too long for column 'thetext',major
+330519,1142347537,Remove unused IsInClassification() function from globals.pl,trivial
+330555,1142390757,"H1, H2 and H3 are not filtered in global/header.html.tmpl",major
+330580,1142410775,Postgres: Email may or may not be sent from BugMail::ProcessOneBug(),major
+330583,1142411511,Bad alignment of ) for Alias,trivial
+330588,1142412408,missing newline in Search.pm,trivial
+330700,1142497531,Bugzilla 3.0: Roadmap,blocker
+330717,1142504371,Remove AUTOLOAD from Bug.pm,minor
+330837,1142583890,"Fix sudo_in_progress to not say ""an sudo""",trivial
+330838,1142583963,"Fix still_unresolved_bugs to not say ""has still""",trivial
+330840,1142584096,product_not_specified should specify which thing was being edited,trivial
+330841,1142584190,"Pick a standard term to mean ""change a bug's product""",trivial
+330843,1142584232,"product_disabled says Bugs Entry, it probably should say Bug Entry",trivial
+330844,1142584391,"patch_too_large should favor ""splitting"" over ""breaking""",trivial
+330849,1142584913,"milestone_required should use ""select"" instead of ""determine""",trivial
+330931,1142659332,Bugzilla wraps URLs in request notifications,minor
+330944,1142668487,Add 'extensions' to .cvsignore,trivial
+330984,1142707493,"milestone_is_default grammar is bad: ""and so""",trivial
+330985,1142708707,login_required_for_pronoun doesn't make sense,trivial
+330986,1142709105,local_file_too_large doesn't make sense,trivial
+330987,1142709334,invalid_parameter doesn't indicate what parameter is being given an invalid value,trivial
+330988,1142709664,Errors should consistently use only one of authorized and authorised,trivial
+330989,1142709951,"Why does illegal_change_deps use ""empowered"" inconsistently with ""allowed""",trivial
+331313,1142983058,Env.pm creates user accounts explicitly and thus skips the insert_new_user routine,major
+331489,1143105219,Changing Multiple Bugs does not always change all bugs in Selection.,major
+331583,1143172977,twice utf8 encoding in MySql database,major
+331643,1143205467,"Software error: DBD::mysql::st execute failed: Got a packet bigger than 'max_allowed_packet' bytes [for Statement ""INSERT INTO attachments",critical
+331816,1143399973,twice utf8 encoding in MySql database,major
+332190,1143664953,Bugzilla do not proccess strings as Unicode strings when UTF-8 parameter is set,major
+332995,1144297119,Steps to Reproduce default content has an extra linebreak,trivial
+333031,1144317376,Uninitialized value when entering a new bug with no alias given,minor
+333158,1144405081,how to change default value of some field and add new field,major
+333195,1144425311,Cannot post a bug with keywords in it,critical
+333326,1144562179,Sanitycheck fails to send unsent bugmail when %changer% substitution is used,major
+333407,1144623170,file_too_large error should mention AttachURL when enabled,minor
+333442,1144652024,checksetup  fails on renaming short_desc key without key kength,major
+333682,1144789306,editparams.cgi does not retain the new values. It always refers back to default values,critical
+333836,1144889696,extra </a> in sudo_password_required message,trivial
+333844,1144899892,Cc: field is filled with all users when usemenuforusers is ON,major
+333867,1144910668,contrariety example in search-help,trivial
+334001,1144996992,"""How to Release Bugzilla"" docs recommend breaking people's LASTORDER cookies",minor
+334344,1145251485,process_bug.cgi is broken when changing several bugs at once,blocker
+334617,1145411384,importxml.pl crashes when importing bugs having attachments from versions 2.20 or older,major
+335064,1145670234,no data to display either with old charts and new charts over time,major
+335087,1145691683,"wrong ""login"" reference instead of ""email address""",minor
+335150,1145773847,checksetup.pl: Use of uninitialized value in string eq at Bugzilla/DB/Schema.pm line 1383.,trivial
+335177,1145801249,Simple CSS error,trivial
+335191,1145810973,"""power on"" button failure in toaster",critical
+335417,1145961171,editparams.cgi?section=query -> defaultquery help text rewrite,trivial
+335488,1146009535,search button not working if you select more than 76 search criterias in query.cgi,major
+335743,1146142112,localconfig generated by checksetup.pl contains an extra '\',trivial
+336861,1146871231,"error message if create a component with a name, which was used in past, but is not used now",minor
+337026,1146989104,Users with no privs cannot edit bugs anymore (if being logged out first),blocker
+337073,1147019749,"When changing several bugs at once, the original resolution should be correctly displayed in the error message",minor
+337151,1147080760,"""How to Release Bugzilla"" docs should include instructions to avoid bug 330313 to recur",minor
+337209,1147099600,Missing whitespaces in the 'fieldvalue_still_has_bugs' error message,trivial
+337485,1147258832,checksetup.pl does not correctly upgrade email settings if upgrading from a very old version,minor
+337661,1147377922,"LDAP user login failure: Can't locate object method ""realname"" via package ""Bugzilla::User""",major
+337683,1147396393,"The user prefs tab let you change the password and email address of a user being impersonated when using the ENV method (with user_info_class=""Env,CGI"")",major
+337864,1147519106,Failure to recognize Windows XP Professional 64bit Edition,minor
+337948,1147617865,"accesskey=""b"" conflict",minor
+338157,1147762678,Status Whiteboard not part of a Bookmarkable Template?,minor
+338623,1148074370,"2.20 doesn't have ""After changing bugs"" and ""Add individual bugs to saved searches""",minor
+339270,1148563109,"Edit saved simple search does not remember ""All"" Status option",minor
+339369,1148642019,"during logout, says ""Your login has been forgotten"" instead of ""You have been logged out.""",trivial
+339820,1149057686,Entering an invalid assignee when amending a bug can result in loss of Comments and other changes just entered !!!!,critical
+339877,1149082439,The entire interface fucking sucks,major
+340130,1149238264,B8 and B9 don't have consistent URLs due to lack of section id,trivial
+340154,1149247311,query.cgi#chart doesn't work anymore,minor
+340239,1149315019,Bar chart And Pie chart Not generated in Bugzilla 2.22.,major
+340253,1149324554,.cgi scripts should call Throw*Error() instead of die(),minor
+340309,1149393434,process_bug.cgi fails when changing several bugs at once if all bugs are in the same product,critical
+340991,1149845469,The bugzilla-enter-bug-page is broken in IE7/Vista Beta2,major
+341088,1149934899,Use of uninitialized value in crypt at Bugzilla/Util.pm line 339.,minor
+341192,1150037560,Release Bugzilla 2.23.2,blocker
+341197,1150038856,"Update ""Changes"" Page for 2.23.2",blocker
+341198,1150039108,Release/News Announcement for 2.23.2,blocker
+341267,1150101285,page.cgi?id=fields.html has invalid Platform/OS values if the default ones got renamed/removed,trivial
+341285,1150109746,Update bugzilla-update.xml,blocker
+341456,1150214654,Bugzilla/Search/Quicksearch.pm shouldn't use Bugzilla.pm,minor
+341539,1150274149,Component list not filtered when a product selected on Request Queue or Edit Flag Types,minor
+341822,1150463408,attachments when retrieved from postgres are garbage,major
+341866,1150523436,"'changer' in editproducts.cgi must be a user login, not a user ID",major
+341867,1150523866,post_bug.cgi lets users with editbugs and canconfirm privs enter bugs as UNCONFIRMED even when votes_to_confirm is 0,minor
+342053,1150713166,Quicksearch.pm defined $cgi outside routines,major
+342060,1150717848,checksetup fails if no database exists,blocker
+342270,1150853190,colon in name of product or component breaks inclusions/exclusions in flags,major
+342404,1150943404,changing product page should let you figure out what bug you're hurting,minor
+342731,1151291332,"checksetup.pl ""answers"" file seems to be broken",major
+342861,1151381720,Cannot upgrade from any version before 2.17.1.,critical
+343050,1151506019,process_bug.cgi tries to send emails to too many bugs,minor
+343166,1151575232,$template->process leaks 512K of RAM per call under mod_perl,major
+343364,1151765511,Changing Multiple Bugs is broken on the tip,critical
+343421,1151830652,change its to it's or its not to it isn't or something,trivial
+343566,1151996964,Runtests test 004 fails on some systems with a complaint about RELATIVE,major
+343699,1152117672,votes.cgi: Reference found where even-sized list expected,trivial
+343702,1152119034,"editflagtypes.cgi: Argument """" isn't numeric in numeric gt (>) at template/en/default/request/email.txt.tmpl line 155.",minor
+343725,1152145284,No image produced in either Graphical Reports or New Charts .,major
+343728,1152147540,No image produced in either Graphical Reports or New Charts .,major
+343802,1152192192,index.cgi returns: No value for param user_verify_class (try running checksetup.pl again) at Bugzilla/Config.pm line 182.,critical
+343916,1152278162,hidden submit button should have display: none,trivial
+344055,1152455558,Bugzilla now requires Filter::Util::Call,major
+344342,1152671569,utf-8 chars are encoded twice in the mysql db,minor
+344497,1152752139,Cannot create new bugs,blocker
+344612,1152803391,$silent does not work properly in checksetup.pl anymore,major
+344661,1152839305,Cannot upgrade my PostgreSQL installation anymore,blocker
+344915,1153104978,Non-installed modules are reported incorrectly,major
+344961,1153134409,Display custom fields on show_bug.cgi before the time table,trivial
+345032,1153192967,Tainted value in request.cgi when restricting the search to a given flag,major
+345104,1153223912,$field_descs values in field_descs.none.html are overwritten by values from the DB,minor
+345244,1153313811,Bug template creation window has silly title,minor
+345313,1153364075,Undefined subroutine &Bugzilla::Component::check_component called at C:/Bugzilla/post_bug.cgi line 145.,major
+345381,1153401044,Cannot add any new field in editvalues.cgi,critical
+345389,1153405741,Template-Toolkit 2.15 moved Template::Plugin::GD into a separate package,major
+345405,1153414677,showdependencygraph.cgi: Dependency Graphs are broken on mod_perl,major
+345652,1153650020,request.cgi should look at flags.modification_date instead of flags.creation_date,minor
+345728,1153721306,From: addresses in BugMail.pm may contain spurious line breaks or \,major
+346501,1154213731,"Release Bugzilla 2.18.6, 2.20.3, 2.22.1, and 2.23.3",blocker
+346502,1154213912,Release Notes For Bugzilla 2.18.6,blocker
+346504,1154213964,Release Notes For Bugzilla 2.20.3,blocker
+346505,1154213992,Release Notes For Bugzilla 2.22.1,blocker
+346506,1154214070,"Release/News Announcement for Bugzilla 2.18.6, 2.20.3, 2.22.1, and 2.23.3",blocker
+346507,1154214132,"Update ""Release Info"" pages for 2.18.6, 2.20.3, 2.22.1, and 2.23.3",blocker
+346508,1154214196,"Status Update for 2.18.6, 2.20.3, 2.22.1, and 2.23.3",blocker
+346509,1154214249,"Update ""Download"" Page for 2.18.6, 2.20.3, 2.22.1, and 2.23.3",blocker
+346510,1154214278,"Update ""Changes"" Page for 2.18.6, 2.20.3, 2.22.1, and 2.23.3",blocker
+346524,1154225096,"Security Advisory for 2.18.6, 2.20.3, 2.22.1, and 2.23.3",blocker
+346525,1154225103,"Security Advisory for 2.18.6, 2.20.3, 2.22.1, and 2.23.3",blocker
+346691,1154333267,Software error when trying to create new Bugzilla account,critical
+346733,1154345441,Administrator account seems not exist in 'profile' table,minor
+346814,1154391158,Undef Error in editgroups.cgi,major
+346838,1154407111,opsys and platforms should be in database instead of sensitive configuration file,minor
+347124,1154559980,Bugzilla download Page empty,minor
+347272,1154614812,Deleting a user account crashes Bugzilla,critical
+347360,1154667694,Incorrect field name in FlagType.pm,trivial
+347699,1154897248,Product List shows All when it should restrict to only allowed Products,major
+347706,1154899630,Params can't be updated when webservergroup is empty,critical
+347713,1154908898,Group access control is not effective while searching a product.,major
+347809,1154958354,Duplicate entry DB error when recreating component with same name as deleted component,minor
+347817,1154963397,[PostgreSQL] Cannot create a new bug object when custom fields exist,critical
+347845,1154995499,mod_perl makes Apache use so much RAM that 15 concurrent users cause swap thrashing,major
+347871,1155014184,Bad table conversion in upgrade process,major
+347893,1155021940,reassigning a bug might lock out the previous assignee,minor
+347991,1155080240,Classifications without products don't show up in editproducts.cgi,minor
+348070,1155114496,"An arrayref is always ""true""",minor
+348281,1155218809,importxml.pl dies if there is no TM or the TM is empty,minor
+348331,1155263979,Duplicated IDs on all pages,trivial
+348337,1155272028,enter_bug.cgi doesn't pass HTML validation,minor
+348700,1155593661,lastdiffed and LOCALTIMESTAMP(0) are always equal,major
+348871,1155717811,make show_bug valid,minor
+349015,1155795954,importxml.pl throws error if there is no bug_status in xml-mail,minor
+349162,1155880691,Don't show flag options '+' and '-' to people who are not able to set them,trivial
+349205,1155893723,userprefs.cgi shows no options to users for review,major
+349367,1156002537,Display a message when a custom field has been successfully created,trivial
+349423,1156065821,Release Notes for Bugzilla 3.0,blocker
+349766,1156251592,Use of uninitialized value in pattern match (m//) at editusers.cgi line 270,minor
+350112,1156429047,bugzilla-update.xml missing,major
+350120,1156430705,undefined value when creating a new user account,trivial
+350237,1156513665,checksetup does not properly add a short_desc index to old installations,critical
+350244,1156515063,profiles.disabledtext has its definition changed every time checksetup runs,major
+350751,1156935409,undef error - Can't find param named keywords at Bugzilla/Config.pm line 171.,major
+351182,1157201985,Odd number of elements in anonymous hash in editusers.cgi,minor
+351462,1157456000,Errors are always displayed in plain text,major
+351478,1157462790,userprefs.cgi mysteriously fails (Our template-toolkit requirement is too low),major
+351771,1157661710,attachment.cgi?...action=viewall should not show removed attachments,minor
+352355,1158043881,Cannot log in on a fresh installation,blocker
+352410,1158067494,Shared Queries don't work if usevisibiltygroups is off,major
+352700,1158224085,Classification->products returns all products regardless of user privileges,critical
+352702,1158224511,Warnings in the web server error log when no URL is given on bug creation,minor
+352967,1158385332,"Changing a DB column type to ""serial"" is broken on postgre",major
+353211,1158578017,account/prefs/footer.html.tmpl is dead code,minor
+353333,1158646979,"""attachment"" or other keyword linkified if followed by new line",trivial
+353464,1158706865,make process_bug valid HTML4,minor
+353796,1158897939,Rename BugMail::ProcessOneBug() as BugMail::Send,trivial
+353817,1158904814,Trying to delete a product I get a software error,blocker
+353818,1158905328,checksetup.pl fails with attach_data doesn't exist,major
+354085,1159115069,Attempt to free unreferenced scalar in checksetup (win32),major
+354274,1159217419,Bugzilla vulnerable to multiple XSRF,critical
+354314,1159244585,"Missing ""--do_not_change--"" option for custom select fields when changing several bugs at once",major
+354660,1159404058,"please reword ""use in total""",trivial
+355172,1159798597,"[Selenium] <name=""newqueryname"" ...> needs an ID",trivial
+355616,1160058300,"Top nav should have ""Preferences,"" and shouldn't have ""Sanity Check.""",minor
+355709,1160111681,[PostgreSQL] Crash when querying the DB,major
+355728,1160118682,"XSS in the ""id"" parameter of showdependencygraph when ""doall"" is set",critical
+355833,1160188832,Groups are out of order when sharing queries,minor
+355924,1160279148,report.cgi generates bare '&' in img src URL,minor
+356074,1160401081,Omitting description from editfields.cgi is incorrect,trivial
+356256,1160520581,missing 'are' in email notification,trivial
+356272,1160539790,"button, add another boolean chart",minor
+356286,1160551250,Bugzilla overly dependent on bug status names (hard coded workflow),major
+356336,1160571124,Crash when calling showdependencytree.cgi with no bug ID,minor
+356393,1160615004,No title is displayed when confirming a bug by popular votes,minor
+356677,1160816727,Update bugzilla-update.xml,blocker
+356794,1160961043,"Cannot enter bug for certain Component ""A legal component is not set.""",major
+356804,1160965590,Compilation abouted of index.cgi with version 2.23.3 on IIS,major
+356971,1161066496,make releases list easier maintenance,minor
+357211,1161183517,collectstats failed due to duplicates.cgi: Use of uninitialized value in string ne at (eval 57) line 31.,major
+357346,1161272837,Invalid ID for some <input> fields in global/userselect.html.tmpl,minor
+357374,1161298389,"Can't locate object method ""use_for"" via package ""Bugzilla::Group""",major
+357396,1161314258,"Mass-change broken due to the undesired onClick=""document.location='show_bug.cgi?id=XXX'""",major
+357474,1161381382,"whine.pl says ""email address has not been properly set"" with default parameters",major
+357537,1161437599,MIME-Types version requirement is at least 0.02,minor
+357677,1161584397,Crash on enter_bug.cgi,blocker
+357680,1161587570,add an option to not send <label> spam to timeless,major
+357690,1161590807,Field Values still visible in navigation bar for user with editcomponents rights,minor
+357858,1161684805,Having links to search for and create a new bug 4 times on a page is excessive,minor
+358229,1161855071,Checksetup.pl for v2.22.1 fails,major
+358394,1161932417,General problem when using MySql 5.0,major
+358484,1161997995,rss feed of bugs don't have a rel attribute,minor
+358486,1161999078,env_no_email mistakenly refers to an environment variable where it should refer to a param,trivial
+358703,1162163531,WebService functions version and timezone should follow bugzilla standard,minor
+358956,1162299752,[PostgreSQL] Sequences need to be renamed when their field is renamed,major
+359499,1162604947,skins/standard/show_bug.css is gone,trivial
+359663,1162777967,Mcaffe firewall blocks the outgoing emails,minor
+359768,1162843702,voting should not offer a text field if the user only has one vote available or voting error is wrong,minor
+359854,1162896288,"In bug/create/create.html.tmpl, put set_assign_to() back into onload (or make the code comment saying ""it doesn't work"" explain why we shouldn't)",trivial
+359943,1162959159,Prev/Next <link rel>s not working on process_bug.cgi page,minor
+360489,1163333042,"Can't locate object method ""type_name"" via package ""Bugzilla::Field"" when listing custom fields",major
+360520,1163354784,Docs need to be changed to include info about the Email:: modules instead of the Mail:: modules,critical
+360570,1163402826,Test Bug,trivial
+360587,1163410468,DBD::mysql::db do failed: BLOB/TEXT column 'status_whiteboard' can't have a default value at Bugzilla/DB.pm line 513,blocker
+360630,1163444715,doesn't print html header,minor
+360663,1163483681,cant edit users -- editusers.cgi calls bad postgresql query,major
+360688,1163492375,cannot specify charset when ispatch=1,minor
+360719,1163507883,Can I play with bugzilla here?,critical
+360838,1163597358,runtests 001 fails if Email::Reply is not installed,minor
+361114,1163816031,Release Bugzilla 2.22.2 and 2.23.4,blocker
+361115,1163816173,Release Notes For Bugzilla 2.22.2,blocker
+361116,1163816235,Release/News Announcement for Bugzilla 2.22.2 and 2.23.4,blocker
+361117,1163816354,"Update ""Release Info"" pages for Bugzilla 2.22.2 and 2.23.4",blocker
+361118,1163816393,Status Update for Bugzilla 2.22.2 and 2.23.4,blocker
+361119,1163816429,"Update ""Download"" Page for Bugzilla 2.22.2 and 2.23.4",blocker
+361120,1163816467,"Update ""Changes"" Page for Bugzilla 2.22.2 and 2.23.4",blocker
+361121,1163816522,Update bugzilla-update.xml for Bugzilla 2.23.4,blocker
+361135,1163830258,entence which summarises the problem. Please be descriptive and use lots of keywords.,trivial
+361136,1163830446,entence which summarises the problem. Please be descriptive and use lots of keywords.,trivial
+361140,1163834909,Upgrades from versions with enums fail UTF-8 conversion,critical
+361149,1163841662,Auth modules generate warnings about deprecated pseudo-hashes,minor
+361158,1163849939,UTF-8 conversion fails on MySQL 5,critical
+361176,1163866116,[PostgreSQL] Warning when creating the logincookies table,minor
+361867,1164515155,allowbugdeletion should not say versions can delete bugs,minor
+361870,1164517306,SQL query in Bugzilla::Bug::EmitDependList() too complicated,trivial
+361877,1164522552,"Argument """" isn't numeric in numeric gt (>) at data/template/template/en/default/global/user-error.html.tmpl line 1526",minor
+361980,1164618253,"Clean up ""my"" variable scoping, take 2",major
+362066,1164674153,strict_isolation: cannot remove user from CC list,major
+362126,1164710665,Check MySQL 4.1.22 announcement for Bugzilla-Specific issues,major
+362865,1165314018,email-in.pl permissions not good after running checksetup,minor
+362996,1165405089,email_in.pl throws warnings of uninitialized values given certain input,trivial
+363227,1165591637,Template error processing or creating bugs,major
+363556,1165886836,No obvious way to log in to view/change a bug when you're not logged in.,major
+363894,1166110320,Better date format in user account creation and email address change,minor
+364008,1166192775,IIS5 gives 405 error on login from homepage (index.cgi not explicitly specified),minor
+364025,1166214233,default value for defaultquery isn't unescaped,trivial
+364094,1166294489,login-small.html.tmpl's table needs an id for skinning,minor
+364195,1166387318,No way to search for private comments,major
+364216,1166412192,Flag::_validate() called with wrong arguments when retargetting flags,major
+364293,1166460860,Do not call can_see_product() from templates,minor
+364361,1166515403,"The word ""Customising"" in chapter 6 title is spelled wrong in all documentation",trivial
+364505,1166610469,Charts not localizable,minor
+364517,1166614957,"showdependencytree bug counts run words together and use plural ""bugs"" incorrectly",trivial
+364743,1166778256,Crash when renaming components,critical
+364833,1166873286,"Don't say ""commit"" for personal settings",trivial
+364863,1166912845,"on confirming a new account page, wrong 'Email Address' is shown when logged in",minor
+364865,1166914473,Just testing your report,trivial
+364879,1166923664,custom field creating page produces invalid html,minor
+364919,1166961922,"Watching-related text at bottom of ""Email Preferences"" page has typos",minor
+364920,1166961984,Watcher list should be sorted alphabetically,minor
+364924,1166963260,"Either use ""Cc"" or ""CC"" for ""carbon copy"", not both!",minor
+364952,1166989079,"Clicking ""Hide/Show Obsolete"" link should not scroll show_bug page",minor
+365064,1167168479,describecomponents.cgi is blank if classifications are enabled,major
+365067,1167169760,Flags set from the enter_bug page are not mentioned in email,major
+365072,1167173975,trying to file a bug with an attachment gave me an error,critical
+365084,1167178030,bugzilla won't let me attach a patch when i file a bug,major
+365148,1167212959,"OpenBSD, OpenVMS and OpenSolaris indistinguishable in OS column in buglist.cgi",trivial
+365179,1167228971,"Performance problems with multiple fields chosen in the ""where one or more of the following changed"" box",major
+365254,1167300986,"When running a shared saved search, its name is not displayed at the top of the bug list",minor
+365264,1167310592,The modification date of flags is erased on flag modification,major
+365287,1167331764,"Accessing post_bug.cgi with no parameters results in a misleading error ""A legal severity was not set""",major
+365352,1167388185,Lists of bugs (a.k.a tags) may be overwritten or deleted when tagging a new bug,critical
+365376,1167401171,query.cgi: Use of uninitialized value at line 178,minor
+365387,1167430993,Bug Posting fails because of flagtypes.id,critical
+365401,1167457842,CSS error in dependency-tree.css,minor
+365438,1167494933,some errors need update due to name changed by bug 364013,minor
+365442,1167496155,"If product/component does not have any flags, ""Flags: / Requestee:"" header should not be shown",minor
+365443,1167497082,Bugmail for new bugs without flags contains two unneeded lines,trivial
+365455,1167505125,per-bug-queries should have its own label,minor
+365470,1167533868,Locate Attachment page still has an Edit button,trivial
+365479,1167542864,maintainer link should not force mailto,minor
+365480,1167543373,admin/components/select-product has useless <p>,trivial
+365482,1167543773,admin/fieldvalues/create has useless <p>,trivial
+365555,1167593250,globbal/code-error uses strange mark up,minor
+365556,1167593468,globbal/confirm-user-match uses strange mark up/uses p as br,minor
+365561,1167595735,admin/classifications/del uses strange mark up,minor
+365562,1167595915,admin/components/confirm-delete uses strange mark up,minor
+365563,1167596077,admin/components/footer uses invalid mark up,minor
+365564,1167596208,admin/components/updated uses strange mark up,minor
+365739,1167764337,Wrong error message while attaching a invalid filein bug creation,major
+365753,1167773712,"Incorrect ""Cancel"" link when moving bug to another product",minor
+365818,1167818572,Unable to add new components -- editcomponents.cgi error,major
+366041,1167976266,Problem with foreign characters,major
+366270,1168193314,Editing an attachment as comment is pretty much unusable,major
+366466,1168342673,flag notification mail has canceled spelled incorrectly,trivial
+366558,1168407088,importxml dies because sql query with field ID in table versions,major
+366593,1168423726,everconfirmed is no longer passed to XML bug files,major
+366624,1168440741,testserver.pl fails to find the GID for the httpd process,major
+366644,1168458062,When commiting a bug that doesn't not have any keywords it returns an undef error and doesn't send email notification,major
+366672,1168488014,importxml.pl doesn't work in commandline mode,major
+366738,1168522408,Use of uninitialized value in numeric eq (==) in ./importxml.pl if the bug is not visible to the reporter and the CC list,minor
+366795,1168564968,"""New comments"" determine mail, not ""Assignee added / removed"" for assignee new bugs",minor
+367071,1168870174,"mod_perl <Directory> block doesn't let .htaccess work, and doesn't include the blacklists for files that shouldn't be downloaded",blocker
+367077,1168874741,Big attachments which should be stored locally are not,critical
+367087,1168895972,"MIME::Parser is up to date, but it checks for MIME::Parser (v5.406) not found",major
+367422,1169128792,"A classification created with no products, does not provide a UI for adding products later",minor
+367654,1169361314,Param('upgrade_notification') eq 'development_snapshot' should catch release candidates too if no development snapshot is available,major
+367722,1169428789,multiple comments from different dates in bugmail,minor
+367872,1169524770,Edit products,major
+367894,1169535759,"Missing separator after the ""Sanity Check"" link in the footer",trivial
+368006,1169570193,patch for Bug 365503 always produces empty p element,minor
+368047,1169615021,Midair-overriding reopening-midair by closing leaves resolution empty,minor
+368147,1169663626,A coding error preventing converting of database table to finish,major
+368654,1170099031,Release Notes for Bugzilla 2.20.4,blocker
+368656,1170100740,"Security Advisory for release of Bugzilla 2.20.4, 2.22.2, and 2.23.4",blocker
+368941,1170279603,trgrst,critical
+368977,1170312900,email_in doesn't set remaining hours when resolving a bug,minor
+369439,1170704625,Last two flags in list have fonts that don't match rest of flags,minor
+369624,1170835399,Changing Username in prefs throws error,major
+369768,1170932341,query.cgi has no title in the banner,trivial
+369958,1171072857,Attachment edit page has unneeded <br>s,trivial
+369982,1171095039,Meaningless column in userprefs.cgi if the user cannot share his saved searches,minor
+369994,1171105479,Obsolete custom fields should be excluded from the activity table,minor
+370060,1171164626,it has fitted with xp operating system,major
+370253,1171321820,"quicksearchhack omits ""owner"" shortcut",trivial
+370398,1171440718,Dependency graph do not show up,major
+370732,1171684059,Update bugzilla-update.xml for Bugzilla 3.0 RC1,blocker
+370913,1171876594,query.cgi associates wrong components with products if at least one product has no component,major
+370921,1171879054,reporter_accessible and cclist_accessible checkboxes in show_bug.cgi are editable by users with no privs,minor
+371537,1172314646,new installation fails attempting to populat duplicates table,major
+371733,1172465654,"URL Attachment requires ""http://"", else causes ""no file specified"" error",minor
+371758,1172474179,Where does the mail queue exist,minor
+371774,1172482031,process_bug.cgi should only validate longdesclength on mid-air collision,minor
+371931,1172551269,email_in.pl script signature delimiter not recognized,major
+371979,1172568261,"javascript textbox contraction should happen in a timeout, not immediately",minor
+372125,1172645982,"cannot find bugs related to component, if  component has comma in his name",minor
+373286,1173390391,Versions from 2.17.4 - 2.23.2 can no longer upgrade,critical
+373300,1173404139,Passing parameters to any webservice through XMLRPC from java every time fails,major
+373312,1173415627,bugzilla terms should not be used for db name,trivial
+373315,1173416425,p in the last li looks like it's other block,trivial
+373411,1173455512,The bug resolution can be set independently of the bug status,major
+373413,1173457604,Wrong variable used when displaying the resolution,minor
+373423,1173475223,Inter-Bug Comment Links Don't Work,minor
+373492,1173532773,Data in data/mining/* are corrupted,critical
+373521,1173565056,raw 'bug' is used in pages/release-notes.html.tmpl and not be caught by test,trivial
+373534,1173585893,because of incomplete information,minor
+373655,1173689395,Votes lost!,critical
+373768,1173770953,Construction of the initial state not correct for UNCONFIRMED status,major
+373865,1173821640,group name are missing on the group edit page,minor
+373894,1173841260,Cannot iterate through search results,minor
+374200,1174014670,Able to see a bug for which i don't have prmission,critical
+374302,1174080891,Bug 354627 introduced some broken <table>,minor
+374303,1174091719,bug searches are awkward,major
+374620,1174387470,Release of Bugzilla 3.0,blocker
+374768,1174459028,Incorrect timestamps when creating bugs or adding additional comments,major
+374771,1174461350,"Using the word ""attachment"" in the description or comment fields",minor
+375246,1174768915,"Installation is broken by ""can't coerce array into hash""",critical
+375251,1174778449,Typo in the Bugzilla::WebService documentation,trivial
+375357,1174850884,GD::Graph requires GD::Text (not vice-versa),minor
+375559,1174983602,Cloning bugs should automatically choose the same product as the to-be-cloned bug,minor
+375602,1174999618,makedocs.pl --with-pdf parameter check is buggy,minor
+375676,1175058384,Limit search output,critical
+376068,1175279741,I can't run programs on HPC,critical
+376324,1175549706,can't search for bugs described in cyrillic,major
+376467,1175651142,"The 'bug number' is invalid. If you are trying to use QuickSearch, you need to enable JavaScript in your browser. To help us fix this limitation, add your comments to bug 70907",major
+377147,1176260696,page cannot be displayed error while creating/updating bugs,major
+377735,1176759641,How to  restore the old data of bugzilla2.20.2 to bugzilla2.22.2,critical
+378392,1177241455,Bugzilla comment URLs (fragments) are not hyperlinked properly,minor
+378759,1177489362,Quick Search plugin does not conform to OpenSearch specification,major
+378810,1177511661,Emai::MIME error when creating a new account,major
+378865,1177554077,e-mails are wide open in Thunderbird's BugZilla system,major
+378907,1177579874,edit user back to the edit user list should rely on Referrer not url encoding the search,minor
+378910,1177580569,"Adding a person to a group twice (use two tabs) triggers DBD::mysql::st execute failed: Duplicate entry ... for key 1 [for Statement ""INSERT INTO user_group_map",critical
+379238,1177891386,fff,critical
+379702,1178245650,DBD::ROOT FILE NOT FOUND,major
+379772,1178278881,Status Update for Bugzilla 3.0,blocker
+379773,1178278992,Update Download Page for Bugzilla 3.0,blocker
+379774,1178279032,"Update ""Changes"" Page for Bugzilla 3.0",blocker
+379775,1178279110,Release Announcement / News-Page Update for Bugzilla 3.0,blocker
+379776,1178279223,Release Info Pages and Index for Bugzilla 3.0,blocker
+379777,1178279284,Finalize Release Notes for Bugzilla 3.0,blocker
+379861,1178407910,QUICKSTART file needs grammatical polishing.  Am including updated version.,trivial
+380103,1178630656,No product name provided when editing a component,minor
+380709,1179184788,collectstats.pl can't find ThrowCodeError when a failure occurs,minor
+381011,1179363261,Not able to install bugzilla 3.0,critical
+381044,1179381851,enter_bug.cgi Values for Platform and OS not in sync with Database,minor
+381935,1180012801,The Bugzilla search feature is broken when using empty search criteria.,major
+382060,1180099425,contrib/bz_webservice_demo.pl is unable to display bug data correctly,minor
+383042,1180847440,(?!https?://)......... gives bugzilla indigestion,critical
+383284,1181010634,Bugzilla requires new logins if coming from behind a NAT-ing proxy,major
+383595,1181188482,"""allows to"" isn't correct",trivial
+383745,1181288106,Incorrect charset specification in bug list when server push is in use,minor
+383903,1181424967,Voting for a bug gives a table lock error,critical
+384152,1181630588,Error message while running SUDO shows incorrect email address,trivial
+384400,1181776360,"Delete milestone message uses ""ALL"" incorrectly",minor
+384805,1182077145,whine.pl not sending any email anymore,major
+385140,1182288068,switched to the same mode! This should not happen.,minor
+385167,1182306245,Time estimation column is not found in bugzilla database,major
+385173,1182310893,The name of the keyword being deleted is not displayed in the confirmation page,minor
+385190,1182321741,"checksetup crashes ""DBD::mysql::db do failed: Column 'thetext' cannot be part of FULLTEXT """,major
+385209,1182330717,Any (powerless) user who can see a restricted bug can remove the bug from non-mandatory groups,blocker
+385366,1182422548,Perl crash when using PostgreSQL,major
+385453,1182480549,email_in.pl modifies resets group permissions,major
+385778,1182757736,Bugzilla.timezone should be LOGIN_EXEMPT,trivial
+385897,1182818018,editwhines.cgi doesn't allow to whine at groups with a name containing blanks,minor
+386474,1183235872,Using 'useqacontact' should not prevent it from respecting groups the qacontact is in,major
+386700,1183414698,Error Occur when i dump mysql data from already existing bugs - database,major
+386715,1183430633,Problem with Sending email,critical
+387177,1183728524,Cannot move bugs to another installation: status_workflow table not locked,critical
+387284,1183833668,There are wrong strings according to if conditions,trivial
+387397,1183945018,Reassign bug error,major
+387547,1184045862,Cross site scripting possible in attachments,critical
+387657,1184110423,Unable to seen existed customfield values after upgrading from version 2.22 to 3.0 in Bugzilla,major
+387678,1184130815,Warnings thrown when running ./runtests -v 11,trivial
+387681,1184131960,Adjust Whine Report Message/Query to Include Reopened Bugs,trivial
+387924,1184239893,bugs_activity.MDB was deleted by Symantec AntiVirus,critical
+388159,1184400099,'bug' hardcoded in setting-descs.none.tmpl,trivial
+388165,1184402372,Remove obsolete $field_descs.groupset,trivial
+388232,1184486952,Restricting a bug to a group sets reporter_accessible and cc_accessible to 0,major
+388249,1184502662,'buglist_load_named_query' from global/messages.html.tmpl is obsolete,trivial
+388590,1184743709,Misordered variables when calling diff_arrays from process_bug.cgi,trivial
+388723,1184783500,Bugzilla 3.0 does not wrap Japanese comment text,major
+389396,1185250845,No error is thrown when selecting a series you cannot plot,minor
+389835,1185514649,Cannot change the resolution of several bugs at once if at least one bug keeps the same status,major
+389840,1185516056,"Release 2.20.6, 2.22.3, 3.0.1, and 3.1.1",blocker
+389843,1185518554,"Security Advisory for 2.20.5, 2.22.3, 3.0.1, and 3.1.1",blocker
+389845,1185519056,Remove setup.cgi from Bugzilla (no web-based installation),blocker
+389916,1185552251,"The ""remaining_time_zeroed"" message is displayed even if none of the bugs being changed has its remaining time > 0",minor
+389925,1185562047,"bugzilla.mozilla.org suffers an internal error when using the keyword ""about:config warning""",major
+390040,1185689404,Wrong file name in customization.xml,minor
+390062,1185703774,"""url"" should be ""URL""",trivial
+390442,1185934546,Bugzilla/Template.pm fails on perl 5.9.5,major
+390756,1186095071,Bugzilla turns unusable after adding another language,critical
+390781,1186110190,Minimum version of XML-Twig may be required,minor
+391233,1186473705,Write Release Notes for Bugzilla 3.0.1,blocker
+391273,1186487038,filetemp.patch and dbschema.mysql should be removed from the docs directory,minor
+391710,1186737062,checksetup fails when upgrading from to the new workflow,major
+392527,1187281748,email_in.pl should use terms.Bug,minor
+392821,1187532560,Obsolete instructions in template variables.none.tmpl concerning bug_re.,trivial
+392943,1187610529,Bugzilla/Template/Plugin/Hook.pm shouldn't need to reach into Bugzilla::Install::Util,minor
+393143,1187726122,Release Notes for Bugzilla 2.22.3,blocker
+393145,1187726649,Release Notes for Bugzilla 2.20.5,blocker
+393147,1187729070,"Release/News Announcement for Bugzilla 3.0.1, 3.1.1, 2.20.5, and 2.22.3",blocker
+393277,1187780678,"Status Update for Bugzilla 3.0.1, 3.1.1, 2.20.5, and 2.22.3",blocker
+393293,1187785055,"Update Download page for Bugzilla 3.0.1, 3.1.1, 2.22.3, and 2.20.5",blocker
+393296,1187785731,"Update ""Changes"" Page for Bugzilla 3.0.1, 3.1.1, 2.22.3, and 2.20.5",blocker
+393304,1187787721,"Create Release Info pages for Bugzilla 3.0.1, 3.1.1 (3.2), 2.22.3, and 2.20.5",blocker
+393745,1188082595,"You will need to ""add at least one component "" before you can enter bugs against this product",trivial
+393753,1188092414,"Go back to the group list is rendered inline with Yes, delete",minor
+393755,1188094387,generated CSV is invalid,major
+394123,1188338173,Link to group list redundant on confirmation page for mass-removal,trivial
+394224,1188387755,Searching using invalid statuses causes an internal error in Bugzilla,minor
+394227,1188388416,Flagmail subject confused; X-Bugzilla-Type header broken,minor
+394796,1188820610,"""I'm added to or removed from this capacity "" for ""CCed"" is overridden by ""The CC field changes""",major
+394959,1188914785,turn votes off by default,trivial
+395505,1189230484,Fields with Chinese (and presumably other UTF-8 characters) are garbled in forms on localized web pages,major
+395710,1189426930,Release of 3.0.2 and 3.1.2,blocker
+395715,1189429187,Security Advisory for 3.0.1 and 3.1.2 Release,blocker
+395717,1189430038,Moving bugs crashes Bugzilla due to unlock tables,critical
+395896,1189571011,"Hide the ""Short Format"" button in ""Format for Printing"" when printing",minor
+396183,1189751412,Receive error below when you try and Reassign and bug.,major
+396376,1189947917,Crash on logout,major
+396505,1190042926,Release and News Announcement for 3.0.2 and 3.1.2,blocker
+396506,1190043065,Release Notes for 3.0.2,blocker
+396508,1190044738,Update Release Info pages for 3.0.2 and 3.1.2,blocker
+396563,1190097596,urlbase generates absolute URL's -,minor
+396591,1190113435,Unable to change bug ownership after 2.17 to 3.01 upgrade,major
+396612,1190122930,"Update ""Changes"" Page for Bugzilla 3.0.2 and 3.1.2",blocker
+396666,1190156344,ทดสอบไทย Thai Language  Testing,trivial
+397665,1190795633,"""Assigning Group Controls to Products"" doesn't explain editcomponents, canconfirm, editbugs",minor
+397969,1190990164,"""Show last search results"" returns search results from before upgrade from 2.18.3",major
+398142,1191212368,In ActiveState-Repositories missed packages Email-Send and more,critical
+398198,1191240393,Multiple Bugzilla databases with a single installation docs should have an id,minor
+398241,1191275582,mod_perl isn't using our precompiled templates,major
+398420,1191396589,Midair collision protection is broken,critical
+398548,1191472678,Can't locate Bugzilla/Auth/Login/.pm,critical
+398600,1191496618,Searching for bugs with a version of --- returns no bugs,major
+398739,1191567205,"""Taking a bug"" while adding a new attachment locks the bug status forever if the ASSIGNED bug status has been renamed or deleted",critical
+398798,1191587830,checksetup.pl 'commands to install' should quote Perl module names,minor
+398879,1191679684,Logging in after canceling a password-change token throws an error,minor
+398986,1191812525,Incorrect SQL query when moving bugs to another product,blocker
+399370,1192024084,Fulltext search with a LIKE on bugs.short_desc is too slow.,major
+399534,1192115704,Support the ability to change deadline in multiple bugs,minor
+399559,1192136734,LDAP administration is not experimental,minor
+399654,1192200427,Entering a bug with strict_isolation doesn't consider group inheritance,major
+400032,1192526260,"Entry ""Version"" missing in report form",minor
+400160,1192608284,contrib/merge-users.pl doesn't merge all required fields,major
+400678,1193024950,Default CC list for components not mentioned in the documentation,minor
+401098,1193288812,Duplicates numbers no less than the bug number,minor
+401672,1193700401,"perl email_in.pl - Bareword ""ON_WINDOWS"" not allowed while ""strict subs"" in use at Bugzilla/Install/Localconfig.pm line 66.",major
+401789,1193754473,Tables don't have good identifiers for use with css,trivial
+402638,1194284247,"When committing, bugzilla rejects keywords that are not in some list. If there is a restrictied set, please make this field a popup or dropdown list of some sort.",minor
+402640,1194284854,"To edit a bug with comment, only the first three records display in both bug interface and Format for Printting like in View Activity.",minor
+402874,1194426283,Entering a new bug into bugzilla should show the summary in the header.,minor
+404141,1195257005,rrfrefsrewfsdf,major
+404276,1195387055,Related to Functional,critical
+404581,1195551375,add_setting() incorrectly handles settings with no values,minor
+405350,1195995011,"Email is broken on tip, ""can't send mail from '1' to '1'""",critical
+405362,1196003244,Emails with UTF-8 in the body cause email sending to die,major
+405970,1196304431,checksetup.pl is really slow when there's nothing to do,minor
+408037,1197411591,[Oracle] Running checksetup.pl twice doesn't work,major
+408151,1197493513,error 'install_data_too_long' does not defined on checksetup.pl,major
+408337,1197586845,"Result of ""Change Columns"" should be text/html, not text/plain",major
+409593,1198354177,namedqueries.query_type has the wrong definition in DB::Schema,minor
+410182,1198915734,Bugzilla crashes when moving a bug into another product when no QA contact is defined and strict_isolation is enabled,critical
+410208,1198934901,Can confirm own bug by popular vote,trivial
+410717,1199376466,Release Bugzilla 3.0.3,blocker
+410769,1199417553,Status Update for 3.0.3,blocker
+410770,1199417794,"Update ""Download"" Page for 3.0.3",blocker
+410773,1199417998,"Update ""Changes"" Page for 3.0.3",blocker
+410775,1199418111,Release/News Announcement for 3.0.3,blocker
+410779,1199418611,Release Notes for 3.0.3,blocker
+410823,1199439135,Multi-select fields values are not editable.,major
+411240,1199736573,URL link not available in bug mails after bugzilla upgrade to latest stable version,major
+412487,1200396669,Release Bugzilla 3.1.3,blocker
+412500,1200402440,"Update ""Download"" Page for 3.1.3",blocker
+412501,1200402701,"Update ""Changes"" Page for 3.1.3",blocker
+412503,1200402967,Release/News Announcement for 3.1.3,blocker
+412548,1200425187,[PATCH] Allow the user to choose Ogg Video attachment from dropdown menu,minor
+412783,1200554511,if you execute checksetup.pl then an error with Cwd.so: strlcpy occurs.,critical
+412976,1200644998,"""Bug"" should be replaced with $terms.Bug in user-error.html.tmpl",minor
+413149,1200736142,There is twice the same paragraph bz_canusewhines in using.xml,minor
+413343,1200892662,"Requesting data for a bug restricted to a group while you are logged out throws ""Error 32000""",minor
+413948,1201203961,Adding/removing Opened column displays Html code instead of the actual page,minor
+414012,1201250521,Updating attachments.description fails to give enough info to fix the problems it finds,major
+414267,1201443926,show bug UI broken after editing an attachment,major
+414284,1201454775,New bug edit page is a nightmare for triagers,major
+414552,1201582579,Cannot change resolution for multiple issues at once,major
+414726,1201625099,Bugzilla::Update never updates bugzilla-update.xml if the file already exists locally,critical
+414786,1201644341,Un necessary text being displayed while zooming in or out.,trivial
+415471,1202040506,A user without canconfirm privs can enter bugs in the NEW/ASSIGNED status using XML-RPC,major
+415539,1202099520,Remove trailing whitespaces from bugmail,minor
+415544,1202107005,Mass-change erases all values from custom multi-select fields,critical
+415605,1202121212,checksetup.pl thinks Email::Send is not installed,major
+415652,1202132112,Bugzilla->get_fields() must cache all fields and let Perl return matching data,major
+415676,1202137577,All unqualified mentions of the landfill ppm repos should be updated,minor
+415796,1202205432,All webservice methods fail if a string has non-ASCII characters in it,major
+415862,1202242704,Comments relating to $bug_re in variables.none.tmpl out of date,trivial
+415973,1202297764,"variables.none.tmpl incorrectly states 'Changing this will not affect ""linkification"" of your new terms.'",minor
+416047,1202317961,"CPAN.pm makes test 1 fail for Bugzilla/Install/CPAN.pm and, in turn, install-module.pl",minor
+416118,1202359180,HTTP POSTs are slow,major
+416481,1202495846,No bugmail is sent if no comment is added on bug creation,major
+416784,1202687371,Wrong parameter in configuration documentation at createuser in PostgreSQL,trivial
+417188,1202860940,Can't post a comment to bug 417184,major
+417360,1202913163,Attactchment is deleted after commit.,major
+417438,1202947677,Show products on first (login) page by default,trivial
+417505,1202972784,Release Bugzilla 3.1.4 and 3.0.4,blocker
+417521,1202976601,Status Update for 3.0.4 and 3.1.4,blocker
+417522,1202976759,"Update ""Download"" Page for 3.0.4 and 3.1.4",blocker
+417523,1202976830,"Update ""Changes"" Page for 3.0.4 and 3.1.4",blocker
+417529,1202977680,Release/News Announcement for 3.0.4 and 3.1.4,blocker
+417531,1202978167,Release Notes for 3.0.4,blocker
+418863,1203587628,Bugzilla 3.0.x lets you mark bugs as VERIFIED or CLOSED with no resolution,major
+418895,1203595977,Assignee and QA contact fields always become revealed,minor
+418930,1203605364,"email_in.pl doesn't handle quotes around charset item in content-type header - ""Unknown encoding"" error",major
+418965,1203624074,cannot create a bug for a new product,major
+419188,1203751620,email_in.pl lets you do changes as if you were someone else,blocker
+419191,1203753648,CC'ed users not being in the group a bug is restricted to cannot do any change,blocker
+419243,1203789284,get_new_status_and_resolution is missing from Bug.pm,blocker
+419388,1203883176,"004template.t should fall back to ""en""",minor
+419440,1203917686,The Bugzilla version is not displayed in the welcome-admin page,trivial
+420684,1204507846,No DOCTYPE in generated HTML for duplicates.cgi,minor
+420821,1204574067,Bugzilla 3.0 does not wrap CJK comment text in BugMail,major
+420836,1204588824,Error occurs on creating new user,major
+421111,1204706615,Attachment is not added with a NEW bug if you CC someone.,major
+421856,1205095796,"""Wide character"" error when send mail!",major
+421931,1205145338,Group control identifiers on product edit page should be localizable,minor
+422111,1205219455,Merging users fails to update regexp-based group memberships,major
+423078,1205527541,"Advanced Search ""any one of"" wording wrong",trivial
+423346,1205687379,importxml.pl fails when importing attachments,major
+423777,1205859502,Keywords - Changes don't appear until a refresh,minor
+424380,1206089833,Bugzilla 3.0 lets you clear the resolution of resolved bugs,major
+424865,1206367489,checksetup tells me that commands listed below need to be run as root,minor
+425110,1206466587,Security Advisory for Bugzilla 3.0.4 and 3.1.4,blocker
+425620,1206662540,checksetup.pl doesn't pick up the user's language correctly,minor
+426036,1206847761,Changing the component of a resolved bug does not (let) reassign Assigned To / QA Contact.,minor
+426211,1206952224,invalid get_status call,trivial
+426899,1207229491,All webservice methods fail if a string has upper-ASCII characters in it,major
+427219,1207368047,"The ""Reset QA Contact to default"" checkbox remains bold when editing the component",minor
+427226,1207372794,Do not display the requestee field if the flag is not requestable,minor
+427236,1207375676,Different font sizes used in the group restrictions section of show_bug.cgi,trivial
+428383,1207825970,Release Notes for 2.22.4,blocker
+428384,1207826083,Release Notes for 2.20.6,blocker
+428414,1207834659,ActivePerl 5.10 users are effectively locked out,major
+428511,1207891251,Status and resolution values in dependency trees not localizable,minor
+428800,1208067273,"""Download a Bugzilla tarball"" should be linkified",minor
+429626,1208473488,editgroups.cgi incorrectly states that bug group names cannot contain spaces (regression of bug 119005),trivial
+429768,1208533761,show_bug_flags is needlessly set twice in edit.html.tmpl,minor
+429816,1208572153,Severity not saved in bookmarkable template,minor
+429818,1208572553,HTML validation error in the bug creation form due to missing ID for custom free text field,minor
+430098,1208768434,Cannot open bug as RESOLVED,major
+430630,1208994545,"Can not see bug's description, comments on browser",critical
+431143,1209355624,data/mail and data/mimedump-tmp no longer in use,trivial
+431370,1209461964,Make the bug summary edit field larger,trivial
+431720,1209634396,addtonewgroup is no longer used in Bugzilla 3.2,trivial
+431730,1209638825,Bugs with resolution MOVED cannot be edited anymore,critical
+432331,1209994076,Release Notes for Bugzilla 3.2,blocker
+432726,1210167964,[Oracle] DROP INDEX doesn't hash the index name,major
+432731,1210168775,Don't mention bugzilla_email_append.pl in the documentation,minor
+432927,1210263198,migrate bugzilla database from 2.18.5 version to 3.0.3,critical
+432958,1210285653,bugzilla ships without .htaccess by default,critical
+432959,1210285725,Change launches Mid-air collision on its own changes - due to reopen + comment ?,minor
+433015,1210319080,"The ""Remove Event"" and ""Update/Commit"" buttons in editwhines.cgi are too far on the right",minor
+433300,1210543073,dd,critical
+433348,1210579766,Created bug display should show extra nav links like show bug does (clone/xml/print),minor
+433547,1210669943,The home page is invalid,minor
+433631,1210694700,Zarro Boogs found,trivial
+434007,1210883211,Restrict group visibility text options is too small,trivial
+434199,1211012705,checksetup.pl fails on precompiling templates,blocker
+434701,1211239837,Possible visual artefacts in the last row of attachments table,trivial
+434724,1211250867,Viewing a bug with no privileges throws a JS error about the keyword chooser,minor
+435260,1211452672,checksetup.pl fails on Windows Server 2003 (clean installation of 3.0.4),major
+435504,1211548980,"Boolean charts use field descriptions from the DB, making them english only",minor
+435674,1211709723,Empty Bugzilla-Guide.txt manual page,minor
+435675,1211709841,The changelog on bugzilla.org needs a new column for the 3.2 branch,major
+436306,1212044443,"Resolution select box is not displayed in IE, but is in Firefox",major
+436424,1212075310,Website docs build broken by l10n reorganization,critical
+437212,1212554665,"Refresh does not update ""Severity"" field",minor
+438341,1213077344,bug count in edit products looks like a bug number,minor
+439075,1213338245,Importing bugs which have only one dependency fail,major
+439607,1213661970,Email Configuration can't be changed,critical
+440259,1213814760,User::match should be using Bugzilla::User->new_from_list,minor
+441114,1214099874,"Error ""dup_id isn't filled out"" while editing bug",major
+441503,1214267050,Need update on contrib/syncLDAP.pl,minor
+441527,1214281599,Find a specific bug requires search words,minor
+441542,1214286635,General Report button has wrong CSS id,trivial
+441921,1214401707,context=file fails due to taint issues in file names and file rev numbers,critical
+442645,1214784865,"[Oracle] ""Use of uninitialized value in string ne"" in collectstats.pl",minor
+442993,1214904202,"Release Bugzilla 3.2rc1, 3.0.5, and 2.22.5",blocker
+443044,1214916973,"Security Advisory for Bugzilla 3.2 RC1, 3.0.5, 2.22.5",blocker
+443243,1214996723,"""Loading Bug xxx processed"" page title reflects wrong bug number",trivial
+443519,1215099257,Changing Products with Strict Isolation fails when the CC list changes at the same time,major
+444352,1215584923,"mod_security doesn't like default ""mybugstemplate"" value: Error 400",minor
+445061,1215954870,Building the documentation should not require network access,critical
+445104,1215993120,ssl redirects come with a 200 OK HTTP code,critical
+446334,1216560769,Cannot search / view buglists in Firefox 3,major
+448241,1217193385,[Oracle] Foreign key:UPDATE CASCADE TRIGGER  update wrong tables and fields.,critical
+448414,1217322840,squash hard-coaded values from email/whine.txt.tmpl,minor
+449067,1217843990,All buttons should have an ID,minor
+449140,1217866592,There is no programmatic (API) way to determine the type of custom fields,minor
+449184,1217893013,Classification should not appear in new bugmail when useclassification = 0,minor
+449203,1217906480,graphviz-gd missing on landfill (dependency graphs broken),major
+449390,1217997410,"""Add Product"" fails with software error ""Column 'defaultmilestone' cannot be null""",major
+449511,1218043580,get_param_list() takes no argument,trivial
+449700,1218126762,Remove useless code from colchange.cgi,trivial
+449787,1218181610,Release Notes for Bugzilla 2.22.5,blocker
+449927,1218237325,"""Insert new group into all existing products"" should be a label when creating a new group",trivial
+449931,1218245394,Random users can unapprove all the quips,major
+450267,1218520064,"Boolean chart contains the phrase ""contains regexp"" when it should say ""matches regexp""",trivial
+450571,1218676715,"install-module.pm on windows starts with ""use of uninitialize value""",minor
+450598,1218696372,help for query.cgi does not work properly on IE6,minor
+450606,1218698342,"""down arrow""-button on user_verify_class is to much oversized (in IE6)",trivial
+451050,1219037135,"With the Dusk theme, the cursor hovering rows in buglists is displayed as a pointer despite rows are not clickable",minor
+451367,1219199884,Apache can't filnd Bugzilla index.CGI,major
+451449,1219234171,"""Can't use undefined value as ARRAY reference"" when logging into a new account",critical
+451524,1219276312,Template->process() failed twice,major
+451671,1219350119,"""DBD::mysql::db do failed""",major
+451735,1219393879,Wrong index for the series table,minor
+451759,1219402326,"Hide ""Add to footer"" checkboxes when not sharing a saved searches",minor
+451801,1219421366,Severity is hard coded; not all pages use field_descs.bug_severity,trivial
+451804,1219422847,"The word ""Platform"" is hard coded; not all pages use field_descs.rep_platform",trivial
+452037,1219617620,df,trivial
+452539,1219855660,"update FAQ/Bugzilla Email; remove reference to ""newchangedmail"" param and remove ""Cc"" comment",trivial
+452616,1219899732,All firefox or IE clients timeout while trying to reach the homepage,critical
+452874,1220017260,Some bugzilla links include trailing spaces,trivial
+452891,1220023545,The dashed border next to the line numbers in the Diff Viewer can be visually jarring,minor
+452896,1220031112,A user with no privs who reported a bug cannot move it to another product if the target milestone is set,major
+453434,1220410814,"Exception ""Can't use cf_anyCustomField as a field name"" when trying to execute a saved search from bugzilla 3.0",critical
+453497,1220437674,Undef to trick_taint at Bugzilla/Util.pm line 63 from editcomponents.cgi line 197,major
+453499,1220437810,Undef to trick_taint at Bugzilla/Util.pm line 63 from attachment.cgi,major
+453707,1220531949,"""Advanced search"" URLs contain lots of empty parameters",trivial
+453951,1220657386,Cannot delete and add Component with the same name,major
+454234,1220857352,missing to handle docs_urlbase = null at global/common-links.html.tmpl's link_to_documentation block,minor
+454238,1220858156,"bugmail fails with ""Wide character in syswrite"" when diff_header contains multi-byte string.",major
+454365,1220911398,Upgrade from older Bugzilla broken by UTF-8,major
+455172,1221308582,max-lenght of password seem too short,minor
+455255,1221398960,Problem with sending data via email,major
+455559,1221557825,The requestee field should be narrower in show_bug.cgi,minor
+455585,1221566348,Installation docs should recommend using yum or rpm instead of CPAN,minor
+455744,1221642679,Text fields on enter_bug.cgi are too large and inconsistent compared to show_bug.cgi,trivial
+455952,1221741274,filename field does not trim leading blanks,minor
+457524,1222564684,Table reports didn't calculation correctly if Products or Components are in Russian language,major
+457724,1222678038,Illegal Mix of Collations Fatal MySQL/Perl Exception when Attempting to Reassign Bug,major
+458391,1223017771,Group checkbox not shown to non-members when MemberControl/OtherControl set to Shown/Shown,major
+458607,1223194713,attachment flag review does not show userlist when usemenuforusers is on,minor
+458627,1223207498,"""My Requests"" link no longer displayed in the footer of page.cgi",minor
+459365,1223600364,Scrubber should let <fieldset> and <legend> pass,trivial
+459985,1224017000,"After trying to create a user in sabayon 3.5 with gnome, all the users disappear. Have to reinstall the distro !",critical
+460376,1224173923,checksetup.pl instructions to install missing Perl modules are hardcoded in english,minor
+460379,1224175975,New user accounts can access editusers and add and remove themselves from groups,blocker
+460787,1224489547,Default Untouched Values should be cleared whilst submitting,trivial
+460834,1224503596,Submitting comments to a bug should have a preview option,minor
+460837,1224504149,Bugzilla publishes browser user agent without consent,major
+461958,1225168055,"Account creation page uses word ""accountname"" - should be ""account name""",trivial
+462677,1225529256,Dependency bug list not updated with reload when it has been changed by another bug,major
+462836,1225679551,Unable to recode the databases to utf8.,major
+463008,1225757682,"When I try to close a resolved bug, getting error 'Legal Version Not Set'",major
+463048,1225782666,"Release Bugzilla 3.2rc2, 3.0.6, 2.22.6, and 2.20.7",blocker
+463247,1225876752,"Security Advisory for Bugzilla 3.2rc2, 3.0.6, 2.22.6, and 2.20.7",blocker
+463315,1225896313,Compiling buglist.cgi in Bugzilla 2.22.5+ with Perl 5.10 throws a warning,minor
+463376,1225929399,Release Notes for Bugzilla 3.0.6,blocker
+463527,1225987323,Release Notes for 2.22.6,blocker
+463529,1225987506,Release Notes for 2.20.7,blocker
+463536,1225989595,"Update Release Info pages for 3.2rc2, 3.0.6, 2.22.6, and 2.20.7",blocker
+463542,1225992249,"News & Release Announcement for 3.2rc2, 3.0.6, 2.22.6, and 2.20.7",blocker
+463589,1226018861,Release Bugzilla 3.2,blocker
+463677,1226055651,editusers.cgi: Use of uninitialized value in string eq,minor
+463688,1226059147,editusers.cgi no longer lets you search for users using regular expressions,major
+463817,1226130014,smtp authenticate unsuccessful,major
+464056,1226305872,impossible to save an impress .ppt after loading an openoffice template,critical
+464675,1226553356,E-mail is visible (for spummers) in lists archive,major
+464992,1226670028,Binary attachments not displaying correctly,major
+465075,1226722761,screen is error,major
+465803,1227095323,The default assignee field in editcomponents.cgi has emptyok = 1 despite this field cannot be blank,minor
+465817,1227099100,The sudo session UI lets you select several users to impersonate at once,minor
+465990,1227171306,editparams.cgi clobbers data/params file,major
+466030,1227180716,"Write a short summary of the bug at end states (FIXED, INVALID, WONTFIX)",minor
+466319,1227351112,"End tag of ""<kbd>docs/xml</li>"" should be kbd in pages/release-notes.html.tmpl",minor
+466398,1227452555,<select> is not escaped in the API documentation,minor
+466716,1227616944,News & Release Announcement for 3.2,blocker
+466724,1227619221,Status Update for 3.2,blocker
+466839,1227687006,Don't require a comment on Resolved DUPLICATE but do require for all other resolution types.,minor
+466912,1227709891,The Commit button is too far on the right,minor
+466988,1227763648,"Any search cannot be saved, pressing ""remember search"" results in ""The page cannot be displayed """,major
+467198,1227984133,Release Bugzilla 3.3.1,blocker
+467214,1227989131,The template 'confirm-delete.html.tmpl' should use 'quips' instead of 'votes'.,trivial
+467293,1228053593,"can't run checksetup.pl after updating localconfig, didn't find remote mysql database",major
+467388,1228127589,Database not upgraded nor is localconfig not created using ./checksetup.pl script,critical
+467506,1228172393,-d $dir check in add_language_set should not be commented-out,minor
+467633,1228222163,Customizations do not work after upgrading from 3.0.5 to 3.2 and copying customizations into their proper locations,major
+467645,1228225738,Unable to run Bugzilla on MySQL on Linux,critical
+467811,1228302436,Two issues with field display,major
+467920,1228372362,3.2,major
+468009,1228410306,SOAP::Lite versions greater than 0.68 and less than 0.710.06 return the wrong XML for methods,major
+468249,1228556486,"Security Advisory for Bugzilla 3.3.1, 3.2.1, 3.0.7 and 2.22.7",blocker
+468367,1228653703,"Crash - rpm installations, or add/delete packages",major
+468376,1228658066,serviceconf crash,major
+468617,1228804678,OS sniffing doesn't detect OSX 10.5,minor
+469186,1228995032,Inconsistent documentation for 'useentrygroupdefault'.,minor
+470038,1229508199,Attachments are returned with wrong encoding,major
+470486,1229693756,Graphical reports and New chart do not work and show broken image instead,major
+471125,1230183860,Need to not allow assignment to 3rd pty users,minor
+471249,1230337622,Update module requirments on win32install document,trivial
+471747,1230751560,Konqueror periodically can't copy text from web-pages,minor
+471777,1230794634,$type_id is no longer in use in Search.pm,trivial
+471890,1230890041,"The Index of Parameters should linkify parameters, not the category they belong to",trivial
+471994,1230990495,checksetup.pl resets user to executing user,minor
+472041,1231047957,"Update the Download, Changes, and Docs pages for 3.3.1, 3.2.1, 3.0.7, and 2.22.7",blocker
+472045,1231053478,"Release Info Pages for Bugzilla 3.3.1, 3.2.1, and 2.22.7",blocker
+472078,1231087446,Release Notes for Bugzilla 3.2.1,blocker
+472084,1231092971,Release Notes for 2.22.7,blocker
+472248,1231178072,Release Bugzilla 3.3.1,blocker
+472254,1231180486,"Update Download, Changes, Docs, News, and the Index for Bugzilla 3.3.1",blocker
+472274,1231202171,"summarized timetracking data line layout is quite ""heavy""",trivial
+472452,1231286520,Rephrase documentation about deleting custom fields,trivial
+472486,1231304432,bugs with specific values in a hidden field appear in report (and search?) results for query based on that field,minor
+472549,1231328373,Ignore undefined values when committing user pref changes,minor
+472552,1231328577,Ignore undefined values when committing user pref changes,minor
+473006,1231593460,welcome-admin page is wrong about visible administrative links,trivial
+473039,1231625616,utyutyutyuty,critical
+473141,1231726228,recode.pl problems when converting bugzilla´s 2.18 database to 3.2 schema,critical
+473520,1231894694,Add name saved search to search description as first item on buglist.cgi,trivial
+473521,1231894956,add space after comma in list values of search description to avoid early newlines,trivial
+473592,1231926008,checksetup.pl mentions the wrong URL about patchutils on Windows,minor
+473712,1231970186,Search functionality does not capture bugs with commas in the description/names of the fields.,minor
+474094,1232147273,"Non-working link ""File a new bug in the 'Core,Firefox,Toolkit' product"" shown at the bottom of bug list",minor
+474206,1232252947,There is a broken link about 'component_cc' at line 272 of 'confirm-delete.html.tmpl'.,trivial
+474399,1232414396,Named tags add extra 'Commit' button on bug edit pages,minor
+474467,1232447670,Binary attachments appear corrupted when downloaded,critical
+474747,1232570184,Change columns: empty buttons when images turned off,minor
+474761,1232585097,different Perl module requirements (e.g. CGI.pm),trivial
+474762,1232585920,"When using Internet Explorer default language is English, but should be German",minor
+474766,1232589726,[details] field doubled if click on reply to a comment with link to an attachment,trivial
+474956,1232671465,checksetup fails in upgrade from 3.0 to 3.2 when creating full text indexes,critical
+475234,1232855988,OS sniffing doesn't detect Windows 7 nor 2008,minor
+475918,1233187151,can not able to register with the system.,major
+476432,1233537813,crash and burn,major
+476435,1233537991,xdfcx,trivial
+476591,1233605774,dsftg,critical
+476594,1233609241,Calling rand() at startup time in mod_perl makes the same token be generated over and over,critical
+476597,1233610324,"Emergency Release: 3.2.2, 3.0.8, and 3.3.3",blocker
+476601,1233611701,GenerateUniqueToken can race with itself,trivial
+476612,1233618289,Release Notes for Bugzilla 3.2.2,blocker
+476613,1233619107,Release Notes for Bugzilla 3.0.8,blocker
+476618,1233619842,"Security Advisory for 3.3.2, 3.0.8, and 3.3.3",blocker
+476889,1233740696,importxml.pl crashes when importing bugs,critical
+477420,1234015941,Rename some of the token names used in attachment.cgi,minor
+477459,1234057701,"buglist.cgi crashes for logged out users if the ""Reporter"" column is displayed",blocker
+477513,1234094563,Cannot use saved search with utf-8 name (issue_hash_token problem),critical
+477683,1234184490,MPL Compliance,major
+478230,1234426130,You cannot log in immediately after logout,minor
+478234,1234426879,Firefox is unable to pass stored credentials to the mini login form when you have several user accounts,minor
+478601,1234637987,"Incorrect ""not a known field"" error message",minor
+479218,1235011692,Full login page onload focus JS fails,trivial
+479715,1235307854,"Voting ""simultanously"" for two bugs results in one vote being lost",major
+480007,1235471536,Test Bug Only - WSU MBA Evaluation Project,trivial
+480061,1235492056,"bug 478173 changed the handling of bz_default_hidden, causing breakage",major
+480068,1235495807,"Any attachement other thant "".png"" & "".txt"" crashes bugzilla",major
+480468,1235667225,Advanced Search bug_status options should be based on Status Workflow,minor
+480837,1235901712,"Release Bugzilla 3.3.4, 3.2.3, and 3.0.9",blocker
+480862,1235918755,relogin.cgi now just throws an error by default,minor
+480865,1235920173,Release Bugzilla 3.2.3 and 3.3.4,blocker
+480875,1235925109,Security Advisory for Bugzilla 3.2.3 and 3.3.4,blocker
+480999,1235989280,"Irrelevant username check in 'Email Addresses, Bug Numbers, and Votes' box",minor
+481506,1236172594,The latest email address filtering changes causes a DoS problem when comments have certain text in them,major
+481538,1236181945,Internal error while logging in after a restart,major
+481821,1236292423,Kanji named attachments names are corrupted when downloading on IE6,minor
+482100,1236458054,xngcc,trivial
+482219,1236568260,(new) images on index.cgi disappear when hover on/off the image in IE6,minor
+482254,1236582694,"Character encoding UTF-8 works on mod_cgi, but ISO-8859-1 seems necessary to mod_perl",minor
+482325,1236605631,Can not change case of login name,trivial
+482371,1236617055,'change several at once' with >500 bugs results in perl error,minor
+482490,1236673817,After the updation of the bugzilla from V3.0.1 to V3.2.2,minor
+483165,1236904775,crash if I close the mail window while checking for new POP mail,minor
+483275,1236944493,milestone url in products table has NULL default on MySQL,minor
+483741,1237237765,UI fails its citeria,trivial
+483987,1237355190,Administrator can't create account when using env authentication,major
+484950,1237865498,"Missing Recipient's Address, even though mentioned in assignee's field",major
+484952,1237865618,"Missing Recipient's Address, even though mentioned in assignee's field",major
+485062,1237902841,standard skin CSS causes comments to be wrapped twice,minor
+485724,1238240051,Sub-category list isn't populated when category hash multibyte characters in chart.cgi,major
+485845,1238341667,Release Notes for Bugzilla 3.2.3,blocker
+485989,1238411277,Status Update for Bugzilla 3.2.3 and 3.3.4,blocker
+485990,1238411370,News and Release Announcement for Bugzilla 3.2.3 and 3.3.4,blocker
+485998,1238412708,"Update Release Info, Download, Changes, and Docs pages for Bugzilla 3.2.3 and 3.3.4",blocker
+486056,1238433684,"Should not use raw ""Bug"" word in the description of FIELD_TYPE_BUG_ID",minor
+486073,1238449182,JSON webservice does not display errors properly under mod_perl,major
+486323,1238565128,Activity log (history) is completely blank if there's no content,trivial
+486796,1238778095,Bareword in 3.2.3 release notes,trivial
+487666,1239272132,Component descr wraps outside page body with Dusk skin + IE in enter_bug.cgi,trivial
+487769,1239326627,checksetup.pl can no longer create versions in TestProduct due to insufficient privileges (checksetup.pl fails),blocker
+488356,1239711124,Email notifications contain extra CRLF if special characters are in the comment.,trivial
+488467,1239763114,Sudo sessions no longer require a valid password to impersonate users,critical
+490562,1240932123,"QuickSearch ""+"" operator adds $qsword over and over for @subWords",minor
+490783,1241045192,"UI uses ""Find"" and ""Search"" interchangeably",minor
+490920,1241100050,"""We've made a guess"" note on enter_bug comes *after* the fields it's about",minor
+490922,1241100281,The grayed-out requestee field for flags can be confusing to users,minor
+491281,1241410781,watched users are not searched/matched in the same way as CC,minor
+492946,1242265027,"Buglists have the ""Please stand by ..."" text at the top of them",major
+493434,1242515182,LOgin window is missing,trivial
+494034,1242823312,Release Bugzilla 3.4rc1 and 3.2.4,blocker
+494037,1242823428,Release Notes for Bugzilla 3.4rc1,blocker
+494038,1242823540,Release Notes for Bugzilla 3.2.4,blocker
+494072,1242829974,editvalues.cgi lets you edit product names,major
+494215,1242894753,Hitting Commit button after adding bug comment results in blank page,major
+494557,1243035187,"After entering valid login details, it will lead into wrong page",critical
+494628,1243086838,Crash when trying to file a bug in a closed product,major
+494643,1243097353,Do not pass the same columns twice to the SQL query,minor
+494652,1243112281,Buglist headers are all centered in IE8,trivial
+495783,1243838551,Upgrade from < 2.20 to 3.5 crashes,critical
+496381,1244104979,Internet Explorer cannot display the webpage when trying to open an attachement,major
+496568,1244180034,After reattaching the doc file the user is getting the error regarding the server,major
+498890,1245212411,Bugzilla::User::Setting doesn't need to sort DB results,trivial
+499179,1245317755,CC list doesn't stay shown when hitting back button in IE 7,minor
+499392,1245417620,TopSecret hidden products & components are listed in 'advanced search' to users without permission,major
+499898,1245717571,Bugzilla Webservice produces invalid content-length header,major
+500853,1246032085,Small UI fixes to fields.html.tmpl,trivial
+502641,1246869167,buglist.cgi ends up with extra query variables after logging in,minor
+502975,1246981572,"""Field only appears when foo is set to"" feature broken",major
+503046,1247016101,Security Advisory for Bugzilla 3.2.4 and 3.4rc1,blocker
+503290,1247108842,Email::Send 2.196 has a bug in the SMTP module,major
+503405,1247145646,"Broken URL links to images in ""Bugzilla/docs""",trivial
+503980,1247494136,show_bug.cgi doesn't properly escape <!-- inside bug summary,minor
+505015,1247897921,Selections are not persistent across submissions,minor
+505592,1248188552,add_see_also and remove_see_also don't call check_can_change_field,major
+505826,1248255323,[Oracle] Error when doing boolean search on Comment field,major
+505973,1248316498,EVT_BUG_CREATED should be set for existing users,major
+506036,1248336319,Inconsistent name of command line option in install-module.pl,trivial
+506222,1248400597,bugzilla login page prevents firefox from auto-completing the username because 'text' type attribute is missing from HTML code of username input field.,minor
+506499,1248545781,Release Bugzilla 3.4,blocker
+507224,1248867017,"Bugzilla checksetup.pl fails on Base class package ""Bugzilla::Field::Choice"" is empty.",critical
+507800,1249091974,Release Bugzilla 3.4.1,blocker
+507801,1249092071,Security Advisory for Bugzilla 3.4.1,blocker
+507802,1249092387,Release Notes for Bugzilla 3.4.1,blocker
+507957,1249236179,Bugzilla user will not create templates in default directory on customization,minor
+507959,1249236531,typo in admin/groups/edit.html.tmpl,trivial
+508416,1249395107,Bug flags are always displayed in the XML view of bugs,minor
+508713,1249489360,Remove duplicated code in flag/list.html.tmpl,trivial
+509196,1249697194,session was mixing when 2 users are logged in Bugzilla,critical
+509520,1249902764,"file_too_large error should mention the ""Big File"" option if applicable",trivial
+509673,1249950181,User account missmatch,major
+511337,1250627482,checksetup.pl not properly throwing errors when it can't chmod a file,minor
+511401,1250661749,crash after upgrading from 3.2 to 3.4.1,critical
+511871,1250830872,Search & Product not selected: Returns all bugs of other not listed products,major
+512077,1250928790,Admins loose rights after successful upgrade from 2.20.1 to 3.4.1,major
+512598,1251217261,"""Save Changes"" button is no longer aligned with the comment box if you are in the insidergroup",minor
+514142,1251850020,Bugzilla in combination with JAWS doesn't work anymore after upgrading to version 3.4.1,major
+515054,1252306591,"DBD::mysql::db do failed: Can't create table './bugs/#sql-cad_28a17.frm' (errno: 150) [for Statement ""ALTER TABLE keywords ADD CONSTRAINT fk_keywords_bug_id_bugs_bug_id FOREIGN KEY (bug_id)",minor
+515061,1252310801,Release Bugzilla 3.4.2 and 3.5.1,blocker
+515454,1252493495,"Security Advisory for Bugzilla 3.0.9, 3.2.5, 3.4.2 and 3.5.1",blocker
+515509,1252506366,Release Notes for Bugzilla 3.4.2,blocker
+515606,1252549152,jobqueue.pl spams syslog with perl warning when failing to send mail,minor
+515617,1252554084,After upgrade to Bugzilla 3.2.4 malformed mails are sent,major
+515804,1252590828,Release Notes for Bugzilla 3.2.5,blocker
+515814,1252592829,Release Notes for Bugzilla 3.0.9,blocker
+515845,1252601061,Attempted DDoS of qa30 installation on landfill?,major
+516159,1252739635,install error,critical
+516164,1252742704,"when usemenuforusers is on ,new bug cann't be created",critical
+516173,1252749493,checksetup.pl missed the check module DateTime::TimeZone,minor
+516364,1252889125,Test,trivial
+516383,1252898712,Locale/Language.pm missing at Perl module checks,minor
+516409,1252904931,Error creating a new bug - error in file Template/Context.pm,major
+516917,1253059753,Version number on start page not updated on upgrade,minor
+517178,1253146399,passwords should not be truncated without notification,major
+517391,1253215426,Bugzilla fails with PostgreSQL 8.4 (64-bit datetimes problem),major
+517434,1253237257,Problem using legal_values as a web service,major
+517474,1253252393,Attachment not added when creating new bug,minor
+517502,1253263275,Security patch in 3.0.9 breaks some WebService Bug.create parameters,critical
+517534,1253268896,Release Bugzilla 3.0.10 and 3.5.1,blocker
+517650,1253305396,"Bugzilla leaks about 512K of RAM on every call, under mod_perl",major
+518194,1253619135,Search yields no results.,major
+518309,1253672148,test bug,major
+518397,1253696490,Bugzilla::Util::get_text implementation leads to performance issues on long bugs,major
+518963,1253888927,PROCESS user-message instead of INCLUDE'ing it,trivial
+519035,1253938410,"The FK for series.creator should have ""ON DELETE CASCADE"" instead of ""SET NULL""",minor
+519481,1254215706,Advanced search has empty version and milestone,major
+519676,1254277470,"You cannot set parameters to empty values with an ""answers"" file when creating an installation",minor
+520378,1254558053,Install severely broken,major
+520433,1254612287,URL (bug_file_loc) is not a possible column in the search column list,minor
+521043,1254908865,Release Notes for Bugzilla 3.4.3,blocker
+521045,1254908888,Release Notes for Bugzilla 3.0.10,blocker
+521276,1254992555,FAQ page has incorrect/incomplete information,trivial
+522464,1255578394,Trying to authenticate the bugzilla with MS active directory username and password.Shows me invalid username and password,minor
+522620,1255625551,Bugzilla::Bug->create is case-sensitive for version and target_milestone values,minor
+522949,1255843156,Change columns clears all columns - only ID shows,major
+523310,1255996816,Intranet Port is showing when i try to access the bugzilla through internet,major
+524244,1256313884,buglist header is still displayed when there are no bugs in the list,minor
+524603,1256573966,Non-root jobqueue.pl cannot write to data/mailer.testfile,minor
+524814,1256655959,"Flag requests are resent all the time, even when flags are not updated",major
+525025,1256727175,Custom field names having UTF8-characters in them crash Bugzilla and cannot be updated,major
+525254,1256806123,"editproducts.cgi shouldn't display the ""Edit classification 'Foo'"" link if you haven't editclassifications privs",minor
+526271,1257240797,Uninitialized value in can_enter_product() due to a missing argument,minor
+526485,1257314650,Whining Report with Assignee field empty,minor
+526734,1257385914,"English string ""From update of attachment"" in localized installations",minor
+527489,1257759348,calls to bz_alter_column on FK referenced columns will lose their referenced status in bz_schema unless the REFERENCES hash is included,major
+527780,1257858573,"bugs.token field changed to varchar(5) by upgrade, should have been left as varchar(16)",minor
+528789,1258256226,Download page update: localized templates,minor
+529223,1258404911,"JSON-RPC interface not working at all with JSON-RPC 1.0, because of $params mis-handling",major
+529480,1258492522,Release 3.5.2 and 3.4.4,blocker
+529481,1258492639,Security Advisory for Bugzilla 3.5.2 and 3.4.4,blocker
+529483,1258493351,Release Notes for Bugzilla 3.4.4,blocker
+529574,1258537370,Should notify of maximum password length on registration page,minor
+530015,1258667002,Template header is missing a few pieces of information after processing a bug,minor
+530088,1258701630,Spilling Reply in the Comments Section,trivial
+530270,1258757469,Whining fails if mail queueing is enabled,critical
+530388,1258853557,There is an extra tilde at line 156 of the template 'field.html.tmpl'.,trivial
+530942,1259077250,Download page update: localized templates (or lack thereof),minor
+531119,1259145745,Bugzilla.extensions no longer works,major
+531439,1259322257,Invalid parameter,major
+532493,1259756826,[SECURITY] Restricting a bug to a group while moving it to another product has no effect if the group is not used by both products,blocker
+532512,1259760567,"adding groups from the ""change product"" interstitial page doesn't work",critical
+532515,1259760913,Release Bugzilla 3.5.3 and 3.4.5,blocker
+532517,1259761059,Security Advisory for Bugzilla 3.5.3 an 3.4.5,blocker
+532584,1259780166,Can't login to webservice. Deserialization error.,major
+532911,1259906679,May not be able to upgrade to future versions because of existing data/nomail code,minor
+533050,1259958093,"After Adding Tags to Several Bug Reports, Can No Longer Add Tag to Another Report",major
+533067,1259979780,Should not allow 'edit search' on tag-based bug searches,minor
+533927,1260412188,email address domain filtering is applying to non-email fields in the history,minor
+534099,1260461569,Bug Number in Tagging Dialogue,minor
+534446,1260623516,[Oracle] Cannot upgrade to HEAD: ORA-06502: PL/SQL: numeric or value error: invalid LOB locator specified: ORA-22275,critical
+534584,1260744060,Typo/ wrong word,trivial
+536190,1261382350,Migration from 3.0.4 to 3.4.4: Problem with user member of many groups (more than 500),major
+536583,1261563117,"""Features"" underlines on mouseover",trivial
+537111,1262075348,"help link is broken, excludes locale..",major
+537758,1262599464,"Failed to bind to the LDAP server. The error message was: No password, did you mean noauth or anonymous ?",major
+537788,1262606429,Attachment not working without description,minor
+538039,1262702695,Typo when deleting a custom field value,trivial
+540391,1263776186,bug,major
+540570,1263869259,"Results confined of last searched bugs while editing search after clicking on ""showing last searched results""",minor
+541414,1264146631,"Bad french translation ""Totauxs""",trivial
+541427,1264149940,Blank page when trying to edit product group access control,critical
+541553,1264173224,[Oracle] During upgrade: ORA-04098: trigger 'BUGS_TIP.PRODUCTS_MILESTONEURL' is invalid and failed re-validation,critical
+542671,1264604768,attachment.cgi error on Windows server when temp folder is not c:\temp,minor
+543459,1265004874,The new duplicates.cgi is so slow that on bmo it will never return,major
+543987,1265177039,bzr to CVS replication broken since we branched,major
+544008,1265183645,"'Base class package ""Bugzilla::Field::ChoiceInterface"" is empty' thrown when running checksetup.pl",blocker
+544506,1265360219,Bugzilla->input_params is undefined when calling Bugzilla.version and other methods taking no argument,major
+544615,1265385539,Bug.legal_values triggers an insecure dependency in Bugzilla::Field::get_legal_field_values(),major
+544798,1265553186,"Using edit-multiple causes ""To reassign a bug, you must provide an address for the new assignee. """,major
+545277,1265733750,"Closed bugs are always FIXED, in the <select> in the UI",major
+545667,1265874462,Recent patch from bug 515568 breaks webservice code in extensions,minor
+545695,1265880936,show_bug.cgi: Use of uninitialized value,trivial
+545978,1266001165,A '<th>' tag ends with '</td>' in template/en/default/bug/edit.html.tmpl between lines 438-442.,trivial
+546338,1266237768,"Unclosed <a name> in ""Importance"" header of fields.html",trivial
+546353,1266246800,Fix validity of HTML output by dependency trees,minor
+546719,1266405273,"When reopening a Resolved Duplicated bug in IE, JS error stops the correct page behavior",major
+546763,1266413000,Extra spaces when copying bug header,trivial
+546871,1266440413,checksetup.pl throws a warning about bugzilla-update.xml if you aren't root,trivial
+547465,1266665657,Release Bugzilla 3.6rc1,blocker
+547466,1266665894,Release Notes for Bugzilla 3.6rc1,blocker
+547512,1266697368,"Remove ""Get your Bugzilla T-shirt!"" section on bugzilla.org",minor
+547748,1266826561,Wrong parsing if @foo has no data,minor
+549177,1267306242,Typo in admin.cgi page header,trivial
+549482,1267456108,Release Notes for Bugzilla 3.4.6,blocker
+550502,1267780224,"If ssl is set to always, and both sslbase and urlbase are set to https://url/to/bugzilla bugzilla creates a redirect loop",minor
+550618,1267802272,XML-RPC WebService returning wrong dateTime format,critical
+550765,1267943881,Garbaged charactor when using template/ja/default/setup/strings.txt.pl,major
+551068,1268063635,Dropdown box not user readable after scrolling,trivial
+551104,1268076043,People get asked about pg_config by install-module.pl when they aren't using Pg.,major
+551199,1268124373,"""datetime_format_inbound"" not found when calling Bug.search()",major
+551426,1268186554,percentage_complete missing in the xml output,minor
+552168,1268446569,Displaying bug comments loads users one at a time,minor
+552676,1268724297,"""Change several bugs at once"" mechanisem doesn't work",major
+553266,1268890845,config.cgi?ctype=rdf spends most of its time loading flagtypes from the database,major
+553591,1268981947,Custom field value visibility by Status or Resolution does not work,major
+553774,1269035770,User.login does not return any cookies under the JSON-RPC WebService,critical
+553818,1269079434,Bug.attachments has the wrong return value format,major
+553923,1269168748,JSON-RPC errors have newlines in them,minor
+554086,1269248577,undef error - Not an ARRAY reference at Bugzilla/Object.pm line 202 after reassigning or closing bugs,major
+554409,1269342308,"Scrolling down in bug list after ""dates changed between x and y"" in IE leads to error webpage",major
+554523,1269360550,Release Bugzilla 3.6,blocker
+554729,1269433759,User.login in the WebService returns (invalid) cookies when called with bad arguments,minor
+554986,1269508134,Searching Quicksearch using the minus sign operator doesn't work,major
+555318,1269612345,Login after Password Recovery token issues.,minor
+555538,1269746629,Unable to add the data in the proper format in the Excel cell (ALT+ENTER Doesn't work),minor
+555984,1269929477,Minor typo in edit-multiple JavaScript,trivial
+556000,1269932813,Bugzilla should admit to not being able to search pieces of words,trivial
+556021,1269936696,Bug bareword on request queue page,trivial
+557385,1270478627,Update the 3.6 Release Notes for the final release,blocker
+557806,1270616996,"When setting the upgrade_notification parameter, an error should be thrown if you don't have all the required Perl modules installed",minor
+558032,1270695462,"Incorrect ""X votes"" link when viewing a bug",minor
+558199,1270734829,Unused variable in Search.pm,trivial
+559245,1271177785,Internal error when attempting to browse the Administration>Parameters page,major
+559988,1271434398,Release Bugzilla 3.4.7,blocker
+560161,1271616088,Minor typo in Quicksearch help file,trivial
+560215,1271653670,cannot attach any file if maxattachmentsize is 0,minor
+560318,1271675083,install-module.pl fails to install DateTime with modern versions of Module::Build and CPAN,major
+560773,1271791186,Administration > Parameters > Attachment > maxattachmentsize cannot be 0?,minor
+560862,1271832710,defined(%hash) is deprecated in Perl 5.12,trivial
+561041,1271897223,invoking email_in.pl from the mail queue under suid fails due to insecure chdir,minor
+561067,1271908701,"Our 'List Results' ""Change Columns"" redirect results in un-rendered page",major
+561170,1271932074,Various warnings thrown when running QA tests with Perl 5.12.0,minor
+561213,1271941223,Large attachment results in blank page - no error reported,minor
+561379,1272005326,Upgrading from 3.4.4 to 3.6 fails with ORA-01400,major
+563571,1272908258,Fields in DB not found after upgrade to 3.6,critical
+563894,1273023919,Milestone URL needs to be removed from documentation,trivial
+565002,1273532659,"Sending e-mail is crashed.  In apache log ""... Error: no valid recipients""",major
+565145,1273578282,Invalid Parameter 'in_new_bugmail' error after submitting a new bug,blocker
+565364,1273653487,Arrows missing from buttons in change columns screen,trivial
+565790,1273759332,Unprivileged users cannot create bugs anymore,blocker
+565794,1273762122,Comments are no longer displayed,critical
+565920,1273820847,Update the Downloads page to also have Bzr instructions,blocker
+566195,1273988840,Release Notes for Bugzilla 3.6.1,blocker
+566198,1273991595,Release Notes for Bugzilla 3.4.7.,blocker
+566199,1273992730,Release Notes for Bugzilla 3.2.7,blocker
+567303,1274382735,VALIDATOR_DEPENDENCIES doesn't always sort field validation properly,critical
+567629,1274574777,"Can't open perl script ""\x96T"": No such file or directory\r",major
+567670,1274610692,"Security Advisory for Bugzilla 3.7.1, 3.6.1, 3.4.7 and 3.2.7",blocker
+570567,1275911275,Keyword deleted page does not mention the deleted keyword,minor
+570987,1276069570,"Argument """" isn't numeric in numeric gt (>) at template/en/default/bug/field-label.html.tmpl line 34",minor
+571003,1276072190,After changing the default milestone name the Action 'Delete' shows up for the default,minor
+571498,1276234699,After reseting password and changing password system doesn't allow to login,major
+571637,1276274982,Custom Search should be behind a show/hide widget,minor
+571820,1276460602,G41 LAN Realteck RTL8111DL Gigabit Ethernet controller works Intermittently,major
+572108,1276578283,"buglist.cgi: Use of uninitialized value $2 in uc at Bugzilla/Search.pm line 1184, <DATA> line 275., referer: https://***/describecomponent.cgi",minor
+572110,1276578681,"buglist.cgi: Use of uninitialized value in lc at Bugzilla/Search.pm line 391, <DATA> line 275., referer: https://***/describecomponents.cgi",minor
+572393,1276661772,The UI of pages is broken in Opera 10.60,major
+572603,1276713031,"If $action eq 'none' in process_bug.cgi, recent_search_for dies",critical
+574892,1277485739,Initial CC and Default QA Contact not set on bugs if the arguments are not passed to Bugzilla::Bug->create,major
+574895,1277487027,Release Bugzilla 3.7.2,blocker
+574896,1277487096,Security Advisory for Bugzilla 3.7.2,blocker
+574940,1277516426,percentage_complete searches fail on PostgreSQL,minor
+575021,1277570046,anyexact doesn't properly trim values in the list,minor
+575022,1277570692,anyexact percentage_complete searches return every bug in the database,minor
+575097,1277631043,Cannot display bugs (STS problem?),blocker
+575454,1277737373,Extra whitespace makes link look bad on index.cgi,trivial
+575497,1277751833,Error after changing email address if still logged in.,minor
+575499,1277752163,New advanced search page has a few text-related issues,trivial
+576060,1277894523,[SECURITY] checksetup.pl with $use_suexec=1 sets .bzr/ and data/webdot/ as world readable,minor
+576481,1278032901,Item not saving,critical
+576911,1278251716,"The ""before_table"" hook throws ""uninitialized value"" errors in the web server log",minor
+576916,1278255212,'keywordaction' is undefined when editing a single bug,minor
+577037,1278347076,convert-workflow causes IN_PROGRESS to have a lower sortkey than CONFIRMED,major
+577053,1278355562,Upgrading from 2.18 or earlier fails with the new status workflow patch,major
+577412,1278523834,Obsolete links pointing to editparams.cgi,minor
+577538,1278584346,xt/search.t does not pass on PostgreSQL,major
+577569,1278596995,[PostgreSQL] longdescs.isprivate casesubstring searches fail with a SQL error,minor
+577574,1278598132,"When creating a new component and an error is thrown, the default roles are cleared",minor
+577602,1278618132,[PostgreSQL] Can't use multi-selects as buglist columns,major
+577903,1278818103,bugbot doesn't parse flag requests correctly anymore,major
+577956,1278847214,Bugs which were never confirmed cannot be reopened as UNCONFIRMED,major
+578197,1278941552,[PostgreSQL] Fix old altered-to-serial columns that weren't upgraded as well as they could have been,minor
+578241,1278948958,Use the same ID in enter_bug.cgi and show_bug.cgi for group checkboxes,trivial
+578267,1278960315,Fix a few minor UI issues with the new keyword autocomplete changes,minor
+578366,1279003096,closing </dl> is missing in pages/fields.html.tmpl,trivial
+578599,1279050841,Hard to scroll past the attachment view in the details screen,minor
+579189,1279199492,New methods added to Bugzilla/User.pm by bug 24896 have no POD,minor
+579292,1279244832,"""Hours Worked is greater than 0"" boolean chart crashes",major
+579797,1279461781,Bugzilla::Group::ValidateGroupName() has been removed despite some scripts still use it,blocker
+580214,1279593262,"Security Advisory for Bugzilla 3.7.3, 3.6.2, 3.4.8 and 3.2.8",blocker
+580500,1279651270,Precompiling templates...file error - parse error - account/created.html.tmpl line 37: Assertion ((svtype)((_svi)->sv_flags & 0xff)) >= SVt_RV failed,critical
+580761,1279712178,YUI scripts no longer work,critical
+581316,1279851301,Minor typos in notification reason descriptions,trivial
+581326,1279855553,Misleading JSON error message,minor
+581327,1279855920,"Lists of bugs (aka tags) are broken, because bug IDs are no longer split on commas",major
+581422,1279864814,Tweak attachment detail view,trivial
+581622,1279904584,"When a quicksearch includes the ""content"" field, it is limited to 200 bugs",major
+581663,1279943601,Directive closed twice,minor
+581693,1279958010,Missing whitespace for the auth_failure_action hook,trivial
+581798,1280027677,Remove whitespaces from URLs when listing classifications and products in editproducts.cgi,minor
+582339,1280227530,Wrong spelling at bugzilla's documentations on Groups and Group Security Section,trivial
+583535,1280596924,wrap entire line in the Bug List with a <A HREF,trivial
+583614,1280655537,Simple Search no longer works,critical
+583645,1280676095,[PostgreSQL] Many searches on Pg fail with a taint error,critical
+583649,1280680375,Release Notes for Bugzilla 3.6.2,blocker
+583884,1280755670,User autocomplete fills in empty values instead of the autocomplete value,critical
+584018,1280807700,"@foo= bar in email_in.pl is not parsed correctly, due to a missing whitespace before ""=""",minor
+584021,1280808660,FILTER txt should also remove &nbsp;,minor
+584036,1280811546,_sync_fulltext() not called when (un)setting an existing comment as private,minor
+584069,1280821749,IE6 throws many JS errors,major
+584427,1280910772,"""Only bugs with at least X votes"" should not be in the ""Search by People"" section of query.cgi",minor
+584428,1280910911,Release Notes for Bugzilla 3.4.8,blocker
+584429,1280910937,Release Notes for Bugzilla 3.2.8,blocker
+584739,1280992638,Email Sent To: No One,major
+585454,1281248114,"In flagmail, the Date header field splits the Subject header field in two",minor
+585633,1281337692,checksetup.pl detects wrong version of perl modules,major
+585650,1281340721,"got cf_ciphase doesn't exist problem when upgrading from 3.2.3 -> 3.6.2,",critical
+585852,1281379999,"Error message for file_too_large mentions ""non-patch attachments"" when there is no such thing anymore",trivial
+585878,1281395391,Filing first bug crashes Bugzilla,critical
+586497,1281536099,"Cannot create flags.  Receive error ""DBD::mysql::db do failed: Duplicate entry '0' for key 1 """,major
+586871,1281640289,Convert all Bugzilla->get_fields calls to Bugzilla->fields,minor
+589100,1282262400,"Bug with keywords in Bugzilla/Bug.pm, causes errors",major
+589525,1282431194,"Useless text ""text"" at line 1821 of administration.xml",minor
+590901,1282794033,incorrect formating in opera-10.61,trivial
+591638,1282978941,Editing 'Field Values' is documented as 'Legal Values',minor
+591641,1282979904,Confusing wording of explanation of privileges on edituser (canedit vs. canconfirm),trivial
+591781,1283061196,'Voting' section remains in docs,minor
+591865,1283114078,Test Bug,trivial
+593170,1283433917,"see_also field incorrectly allows urls like ""show_bug.cgi?id=2323"" (with no domain)",minor
+593881,1283780063,Assignment to $[ has been deprecated in Perl 5.12.0,trivial
+594527,1283945774,"""You are receiving this mail because:"" email footer has dubious English grammar",trivial
+596740,1284553616,xlsx files are corrupted sometimes when downloading as attachment,major
+597683,1284786272,CreateAccount page displaying error message,minor
+597772,1284822485,Bugzilla::Bug::add_see_also does not check for undef input,minor
+598193,1284992816,"doing an advanced search for ""matches"" gives Illegal Search error",minor
+598698,1285146784,Possible unneeded selectrow_array() call in Bugzilla::Install::make_admin(),trivial
+599262,1285281133,Need feature to edit long description,minor
+599263,1285281802,Text message,minor
+599264,1285282626,Submit error,minor
+599552,1285342062,CGI.pm compile options are different under mod_perl than normal,minor
+600810,1285806620,[XMLRPC] Soap error after upgrade 3.2.5 -> 3.6.2,major
+601218,1285929841,Do not display (show) when the CC list is empty,trivial
+601370,1286003240,content_type does not work as a search parameter,trivial
+601371,1286003554,bug_status_type does not work as a query parameter,minor
+603566,1286841842,bxwbxj,major
+603762,1286883841,"Margins between header, footer, and content are not consistent",trivial
+604255,1286983610,Release Bugzilla 4.0rc1 and 3.6.3,blocker
+604256,1286983724,Release Notes For Bugzilla 4.0rc1,blocker
+604942,1287249761,Getting then message 'undef error - Cannot determine local time zone' while searching and while submitting new bug,major
+605824,1287555255,"CSS and JS expiry scheme doesn't work with mod_perl enabled, clobbers error log",minor
+606618,1287755757,Bugzilla 4.0 and Trunk need a YUI upgrade to avoid .swf XSS vulnerability,critical
+606854,1287927734,"Security advisory for Bugzilla 4.0rc1, 3.6.3, 3.4.9 and 3.2.9",blocker
+607581,1288141716,URLs in the See Also field are not linkified when the user is logged out,minor
+608188,1288295033,Release Notes for Bugzilla 3.6.3,blocker
+608437,1288363430,Unused variables passed to flag/list.html.tmpl,trivial
+608472,1288373849,Bugzilla 3.6.2 and redirection problems Options,major
+608645,1288542731,Release Notes for Bugzilla 3.2.9 and 3.4.9,blocker
+608671,1288566909,bugzilla remember last login data even another user login later,critical
+609404,1288793082,Components named with commas yield inaccurate searches,minor
+609817,1288893255,Keywords field covers custom fields.,minor
+611129,1289396239,Quicksearch fails in 3.6.3 if List::MoreUtils is not installed,major
+611201,1289407859,Interim Security Advisory for CGI.pm issue,critical
+611891,1289574845,Don't generate cookies for logins done over GET via the WebService,minor
+612888,1289976370,Remove mention of 3.0.x from Localizer's Guide,minor
+615636,1291112377,Labels badly aligned when editing versions and milestones in admin pages,trivial
+617308,1291696084,Checksetup fails to populate a new DB and tries to convert charset to utf8,major
+618161,1291908777,"""our $VERSION = BUGZLILA_VERSION"" fails on Perl 5.12 if BUGZILLA_VERSION contains ""rc"" or non-numeric characters",minor
+618271,1291954227,Advanced Search: Summary field is used twice,minor
+618841,1292227591,"bare word ""bug"" on release note",trivial
+618842,1292227700,"Should ""checksetup.pl"" be quoted with kbd tag in release note?",trivial
+618844,1292227921,Apache module must be 'enabled' (release note),trivial
+619203,1292336690,"XSS issue, by way of header injection in xml.cgi",major
+619555,1292426453,Fix the description of Bug.attachments,minor
+619594,1292435007,"An attacker can recover a password change token, and change the password of any account.",critical
+619637,1292455748,[SECURITY] XSS via real_name field in user autocomplete,major
+619648,1292460554,[SECURITY] XSS via short_desc in possible duplicate detection table,major
+619987,1292586786,Stored XSS (Stored Cross site scripting),critical
+619994,1292588761,Bugzilla is vulnerable to stored cross site scripting,critical
+620037,1292598904,"Release Bugzilla 4.0rc2, 3.6.4, 3.4.10, and 3.2.10",blocker
+620519,1292849956,Announce deprecation of Windows 2000 support on all branches,blocker
+620540,1292854433,"Security Advisory for Bugzilla 4.0rc2, 3.6.4, 3.4.10 and 3.2.10",blocker
+620694,1292916165,MySQL is not 'required' RDBMS for Bugzilla (glossary.xml),trivial
+620946,1292998003,Able to see the description of a confidential bug even after log out,major
+621104,1293056176,[SECURITY] User preferences pages lack CSRF protection,major
+621109,1293058113,[SECURITY] Column changing lacks CSRF protection,minor
+621591,1293457345,Critical Security Issue In Bugzilla Since 2.14: Early-Access Patch,critical
+621670,1293507035,Upgrading RedHat5 packages via yum update fails with rpm_check_debug,major
+622204,1293721504,Bugzilla::Migrate crashes trying to create bugs with resolutions,major
+622437,1293958529,Remove 'colchange_columns' hook from the Example extension,minor
+622460,1293977916,Bugzilla shouldn't allow user icons to be on remote servers,minor
+622487,1294001955,"Product and component  mismatch , a product without any component gets component of other projects in advance search",minor
+623476,1294272740,"SCMBUG : while starting daemon giving ""Scmbug error 79""",major
+623914,1294383718,"On Windows, several Perl modules reported as being installed by checksetup.pl cannot be loaded by Bugzilla",major
+624664,1294706955,unable to register account,major
+625020,1294803565,Checksetup.pl does not check for List/MoreUtils.pm,major
+625129,1294828626,simple search broken with multibyte query string (advanced works),minor
+627910,1295622045,Update Release Notes for Bugzilla 4.0rc2,blocker
+627923,1295624019,Release Notes for Bugzilla 3.6.4,blocker
+627930,1295625174,Release Notes for Bugzilla 3.4.10,blocker
+627931,1295625261,Release Notes for Bugzilla 3.2.10,blocker
+628066,1295709697,XSS in Landfill.bugzilla.org,major
+629153,1296045424,QA JSON-RPC client sends arguments when it shouldn't and can't handle 500 responses,minor
+629583,1296149734,"Rename mid-air collision to be save conflict, or some other more appropriate warning",trivial
+630681,1296566374,"SQLite: ""No such function MOD"" when running collectstats.pl",major
+633041,1297267419,Bug.add_attachment is missing an error code and should fill in content_type for patches,minor
+633055,1297270189,"Bug.legal_values throws warnings when you pass an undef ""field""",minor
+633139,1297306090,A link pointing to 404 in the interface,minor
+633422,1297363449,User.get doesn't require its required parameters and include_disabled is misdocumented,minor
+633902,1297640706,Release Bugzilla 4.0,blocker
+633945,1297663207,Private Comments are sent to persones outside the insider group,major
+634234,1297739171,upgrade failed to 3.6.4 from 3.6.3,major
+634591,1297837209,"Bugzilla 4.0 Upgrade, Checksetup.pl could not complete",major
+635217,1298005167,Bad argument param sent to Bugzilla::Product::new function,major
+635260,1298012784,Cannot determine local time zone on Search and New Bug,major
+635517,1298104775,Don't use mailer queue if mail_delivery_method is Test,minor
+635882,1298351195,Specifying a target for a link in a product or group description should be allowed,minor
+636249,1298463821,"After 4.0 Upgrade, No email notifications being sent",major
+636898,1298647394,Ubuntu 10.10's Bugzilla3 Vulnerable to CVE-2010-4572,major
+637016,1298701736,Password can't be used after upgrade from 2.22 to 3.6,minor
+637981,1299003482,Patch Diffs can cause XSS in IE 6-8,major
+638032,1299023449,Release Bugzilla 4.1.1,blocker
+639687,1299515033,Segmentation fault on Precompiling templates,major
+640022,1299594051,upgraded to 4.0 from 3.6 - bombing adding new bug - undefined column reverse_desc,critical
+640184,1299655863,border radius style css3 compliant,trivial
+640995,1299832131,Products containing spaces won't show any bugs while browsing,major
+641792,1300159426,Some links on Bugzilla Version 2.18rc2 do not function (they open a save as window),minor
+642388,1300322347,"Description of field days_elapsed missing from global/field-descs.none.tmpl, so it could not be translated",trivial
+642948,1300447620,checksetup.pl requires math-random-secure,major
+643342,1300640411,Attaching a file to a new bug DNW on google chrome,minor
+644969,1301026939,Rename bugmail-common.txt.html to bugmail-common.txt.tmpl,minor
+645006,1301036368,If shutdownhtml set then tweakparams or admin users cannot login,major
+646750,1301513614,checksetup.pl fails on openSUSE 11.4 with Assertion error,critical
+647158,1301613113,Firefox WebConsole reports: unbalanced tree was written,minor
+647168,1301616274,No mapping for the Unicode character exists in the target multi-byte code page,major
+650173,1302794797,Bugzilla 4 priority names can't be distinguished in search results,minor
+652126,1303452681,"Typo in Field label: ""Broswer Version Used:""",trivial
+652405,1303604920,"""Add"" Textbox in CC List (click edit link to activate) has &ndash; in the title attribute",trivial
+652474,1303657490,"Release Bugzilla 4.1.2, 4.0.1, 3.6.5 and 3.4.11",blocker
+653273,1303911278,Release Notes for Bugzilla 4.0.1,blocker
+653275,1303911397,Release Notes for Bugzilla 3.4.11,blocker
+654451,1304403932,500 Internal server error,major
+656216,1305066318,test,trivial
+656227,1305071422,test,trivial
+656585,1305168523,This is the test please ignore.,trivial
+656611,1305178796,Abbreviated Summary ending in multi-byte utf-8 characters breaks,trivial
+656856,1305238072,summary,trivial
+657707,1305624402,importxml.pl not importing keywords,major
+657894,1305680882,spelling mistake occurs when no search results are found,trivial
+657895,1305681024,spelling mistake occurs when no search results are found,trivial
+657896,1305681077,spelling mistake occurs when no search results are found,trivial
+659880,1306363204,"undef error - Can't locate object method ""walk_parts"" via package ""Email::MIME"" at Bugzilla/Mailer.pm line 95.",major
+660528,1306642474,"Security Advisory for Bugzilla 4.1.3, 4.0.2, 3.6.6 and 3.4.12",blocker
+660531,1306642669,"Release Bugzilla 4.1.3, 4.0.2, 3.6.6 and 3.4.12",blocker
+660947,1306840341,Version List truncates on report query,major
+662202,1307283289,"Accessing query.cgi throws: Argument """" isn't numeric in addition (+)",trivial
+662835,1307519959,"When I set ""SMTP"" as mail_delivery_method, its perl script complains that some value is not defined",major
+666313,1308731923,Remove the obsolete [% FLUSH %] directive,trivial
+666421,1308751263,"Running recode.pl fails with ""Wide character in subroutine entry...""",critical
+667228,1309000155,"improvement for installation.xml section ""2.2.4.1. Bugzilla using Apache"" with MODPERL2 directive",trivial
+670062,1310057181,"Uninitialized value in Search.pm when running a query with ""a CC list member contains foo""",minor
+670169,1310111584,Escape '>' in js filter,minor
+670868,1310423365,[SECURITY] Account preferences page trusts user-modifiable field for obtaining current e-mail address,major
+673976,1311583037,Style for #somebugs is duplicated in create-guided.html.tmpl,trivial
+675751,1312202828,Release notes for Bugzilla 3.4.12,blocker
+675752,1312202867,Release notes for Bugzilla 3.6.6,blocker
+675754,1312202922,Release notes for Bugzilla 4.0.2,blocker
+678772,1313250608,"version.pm 0.92 and newer forbids negative values, making checksetup.pl to fail",major
+678844,1313312772,"When trying to edit a non-existent classification, the error message has missing words",minor
+682203,1314299938,migrate.pl fails at requirements check,major
+683644,1314781418,Foreign keys aren't renamed correctly when DB tables are renamed,major
+685316,1315398677,Simple Search should be using field_descs for Status and Product,trivial
+686133,1315639885,Bugzilla crashes when deleting a bug,major
+686780,1316004677,Editing votes crashes Bugzilla,major
+686786,1316006254,Decreasing votestoconfirm in editproducts.cgi crashes Bugzilla,major
+686904,1316074995,Removing an invalid URL from the See Also field crashes Bugzilla,major
+686995,1316096903,Calling Product.get while being logged out causes high CPU usage on the Bugzilla server,critical
+687247,1316233546,Bugzilla crashes when creating a new flagtype on PostgreSQL,critical
+693137,1318122145,Bug still can be searched after setting in different group permission.,major
+695294,1318902788,"The See Also field is not visible in ""Format for Printing""",minor
+697699,1319688613,XSS in Chart Generator,critical
+698068,1319796952,"""There is no saved search named"" page has a ""forget"" link",trivial
+702713,1321353747,"Release Bugzilla 4.1.4, 4.0.3, 3.6.7 and 3.4.13",blocker
+705393,1322240681,Improve the error message thrown by Update.pm when updates.bugzilla.org is unavailable,minor
+707594,1323020227,Account lockout notifications are no longer notifying the maintainer,major
+711714,1324097675,[SECURITY] The User.offer_account_by_email WebService method let's you create new user accounts independently of the value of Bugzilla::Auth::Verify::*::user_can_create_account,critical
+711925,1324254516,[Pg] Update from 4.0 or older to 4.2 or trunk fails when bug_see_also field is populated,critical
+713343,1324694985,Release notes for Bugzilla 3.4.13,blocker
+713344,1324695058,Release notes for Bugzilla 3.6.7,blocker
+713345,1324695112,Release notes for Bugzilla 4.0.3,blocker
+713346,1324695178,Release notes for Bugzilla 4.2rc1,blocker
+713348,1324695487,"Security advisory for Bugzilla 4.2rc1, 4.0.3, 3.6.7 and 3.4.13",blocker
+714664,1325502551,"The content of the ""emailregexpdesc"" parameter is not escaped when displayed to the user",minor
+715432,1325710946,Cloned bugs will include duplicates in the CC list if the reporter is also CC'd to the bug,minor
+716726,1326120606,"Fix the documentation of WebServices and the release notes that the next major version is 4.4, not 5.0",blocker
+718283,1326603904,"Indentation and newlines in the ""Descriptive text sent within whine message"" is ignored in HTML whinemail",trivial
+720745,1327396394,"Release Bugzilla 4.2rc2, 4.0.4, 3.6.8 and 3.4.14",blocker
+720746,1327396679,"Security advisory for Bugzilla 4.2rc2, 4.0.4, 3.6.8 and 3.4.14",blocker
+720750,1327397013,Release notes for Bugzilla 3.4.14,blocker
+720751,1327397079,Release notes for Bugzilla 3.6.8,blocker
+720752,1327397147,Release notes for Bugzilla 4.0.4,blocker
+720756,1327397397,Update release notes for Bugzilla 4.2rc2,blocker
+727890,1329382400,"Release Bugzilla 4.2rc3, 4.0.5, 3.6.9 and 3.4.15",blocker
+727891,1329382506,Release notes for Bugzilla 3.4.15,blocker
+727892,1329382568,Release notes for Bugzilla 3.6.9,blocker
+727893,1329382619,Release notes for Bugzilla 4.0.5,blocker
+727896,1329382855,"Security advisory for Bugzilla 4.2rc3, 4.0.5, 3.6.9 and 3.4.15",blocker
+731175,1330403597,legal_values() shouldn't assume that someone else already loaded required modules,minor
+733458,1331027523,"The ""creator"" argument is listed twice for the Bug.search WebService method",trivial
+734413,1331282241,Tabular reports' column headers do not use display_value,minor
+740879,1333095658,"If you're not allowed to change status or resolution, their values are being displayed unlocalized",minor
+741075,1333166255,"Release Bugzilla 4.3.1, 4.2.1, 4.0.6 and 3.6.9",blocker
+741077,1333166479,Release notes for Bugzilla 4.0.6,blocker
+741078,1333166583,Release notes for Bugzilla 4.2.1,blocker
+741079,1333166866,"Security advisory for Bugzilla 4.2.1, 4.0.6 and 3.6.9",blocker
+745397,1334338092,[SECURITY] The JS template for buglists permits attackers to access all bugs that the victim can see,critical
+745460,1334389071,Comment toggling text is not localizable because it's in a .js file,minor
+752303,1336269451,It is no longer possible to cancel an email address change when this one has already been confirmed,blocker
+756023,1337207977,If you believe your account should be restored,critical
+758086,1337788923,Search description does not list multiple values for a multiple-selection custom field,minor
+758148,1337818871,Comment toggling link should use &minus; so that its width stays constant,trivial
+759168,1338201190,fields.html does not describe CLOSED status,trivial
+759413,1338282655,"Use ""cannot"" instead of ""can not""",trivial
+760020,1338423257,Remove leftover support for single-file skins,minor
+760944,1338682459,Missing stylesheets when CGI names are given twice,trivial
+761230,1338798723,The server push page no longer displays all debug data,minor
+767211,1340292300,"mid-air collision option for ""submit only my comments"" possibly removing/resetting custom tracking/status flags",major
+770104,1341187638,Use of uninitialized value in pattern match (m//) at /data/www/bugzilla.mozilla.org/Bugzilla/UserAgent.pm line 191,minor
+777398,1343203763,html bugmail exposes information about restricted bugs,critical
+777553,1343225924,Release Bugzilla 4.2.2 and 4.3.2,blocker
+777555,1343226099,Release notes for Bugzilla 4.2.2,blocker
+777558,1343226371,Security advisory for Bugzilla 4.2.2 and 4.3.2,blocker
+777675,1343268972,Release notes for Bugzilla 4.0.7,blocker
+777676,1343269024,Release notes for Bugzilla 3.6.10,blocker
+778112,1343361686,All web service update() methods except Bug.update crash on invalid param names,major
+779061,1343687340,Create group documentation & UI inconsistency,minor
+779098,1343705910,How to disable product list from Bugzilla for unauthorized user?,major
+779414,1343768864,recode.pl still has bugs_activity listed as special_keys,trivial
+779709,1343840740,It is possible to search on history for attachments you cannot see,major
+780028,1343917275,[Oracle] Oracle crashes if a column listed in ORDER BY appears twice in SELECT,critical
+780053,1343924119,[Oracle] Oracle crashes when listing tags in buglists,major
+781059,1344353890,-moz-border-radius is obsolete and must be replaced by the standard border-radius CSS property,minor
+781549,1344494648,"All Advanced Searching fails with ORA-00960 ""ambiguous column naming in select list"" error",blocker
+782687,1344931514,list/list.js.tmpl is restored when upgrading Bugzilla using CVS with the BUGZILLA-3_6-STABLE and BUGZILLA-4_0-STABLE tags,major
+783053,1345025451,Release Bugzilla 4.3.3 and 4.2.3,blocker
+783386,1345121534,Removing PATH_INFO prevents Bugzilla to work correctly with IIS,critical
+783786,1345272417,PostgreSQL databases can be created with the wrong encoding,major
+783879,1345350146,Sub-optimal SQL query when displaying tags in buglists,major
+785470,1345803752,[SECURITY] Missing escaping of the username can lead to LDAP injection,critical
+785511,1345810762,Prevent directory browsing in docs/,minor
+785522,1345812973,[SECURITY] Prevent directory browsing in extensions/,major
+786157,1346097817,Vulnerabilities in Password mangament by the web application,critical
+786351,1346143433,Release notes for Bugzilla 4.2.3,blocker
+786352,1346143509,Release notes for Bugzilla 4.0.8,blocker
+786355,1346143587,Release notes for Bugzilla 3.6.11,blocker
+786364,1346143877,"Security advisory for Bugzilla 4.3.3, 4.2.3, 4.0.8 and 3.6.11",blocker
+787371,1346382061,Many boxes on Tinderbox fail because Bugzilla now requires 5.10.1 and only 5.8.8 is available,critical
+797680,1349296035,"""Reset Assignee to default"" and ""Reset QA Contact to default"" should only be checked when the assignee/qa-contact is the default",minor
+800317,1349919971,show_bug.cgi makes poor use of space (esp. comment list) on large screens,minor
+800842,1350000748,Inconsistency in field names in editcomponents.cgi,minor
+804557,1350961762,Use of uninitialized value in pattern match (m//) - Util.pm line 74 (from enter_bug.cgi),minor
+805640,1351171023,"Security advisory for Bugzilla 4.4rc1, 4.2.4, 4.0.9 and 3.6.12",blocker
+805644,1351171219,"Release Bugzilla 4.4rc1, 4.2.4, 4.0.9 and 3.6.12",blocker
+805645,1351171510,Release notes for Bugzilla 4.4rc1,blocker
+805647,1351171659,Release notes for Bugzilla 4.2.4,blocker
+805649,1351171732,Release notes for Bugzilla 4.0.9,blocker
+805650,1351171792,Release notes for Bugzilla 3.6.12,blocker
+807937,1351825933,Some doc corrections in Object.pm,minor
+807978,1351835413,bugzilla.org has no documentation for the 4.4 branch,blocker
+808845,1352129383,[SECURITY] Security vulnerability in YUI's swfstore.swf in YUI 2.8.2,critical
+810934,1352700956,missing info in etlGothenburg,critical
+812054,1352916183,Javascript error on advance search page,major
+814654,1353639265,Minor documentation fix in Bugzilla::Component,trivial
+821585,1355426377,test,critical
+824644,1356439523,Typo in code comment: request_cahce,trivial

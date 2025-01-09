@@ -1,0 +1,856 @@
+id,timestamp,description,severity
+126984,1139411652,PDE generating destructive build.xml for plugins that specify Bundle-ClassPath=bin,critical
+129810,1141125356,eclipse.buildScript: either documentation or behavior is wrong,major
+128598,1140403573,"3.2 M5 Product export to multiple platforms, missing option in export wizard",critical
+130105,1141278296,Lock while synchronizing my workspace,major
+137173,1145330719,Equinox-Launchconfigs cannot be debugged and started again,blocker
+140609,1147083988,PDE Export generates inappropriate access restriction errors,critical
+142854,1148049325,Fragments exprted as directories don't work right,critical
+151262,1153389534,Cannot launch plug-in,major
+155931,1157069769,"""Invalid character constant"" when exporting plugin or product",critical
+156718,1157707653,Projects can no longer reference ICU4J packages,blocker
+158768,1159260497,execution environment causing bundles to be not resolved,major
+168683,1166602045,Not recognizing the plugin path attribute in eclipse.generateFeature task,major
+170081,1168417393,Unable to launch eclipse (self-host),major
+172524,1170329063,Workspace crashed message after normal shutdown,major
+153515,1155242233,editor opens on the wrong page,minor
+175476,1172447186,Scale slider graphic not displayed properly,major
+177216,1173803001,PDE build does not package orbit bundles,blocker
+178151,1174326036,Build not triggered for non-java project when they are affected by StateDelta,minor
+179180,1174795095,Wrong access restirctions set in 3.3 M6 for some plug-ins,major
+180396,1175441835,Editor loses text position on focus,critical
+180396,1175476793,[typing] Editor loses text position on focus,major
+175288,1172223817,Changing a plugin to a fragment back to a plugin makes it disappear,major
+181628,1176118186,Generated config.ini should not start fragments,critical
+182592,1176723435,Show the plug-in depenceny hierarchy doesn't,major
+187228,1179291924,[RCP]: Available templates missing.,major
+195394,1183539760,NPE in org.eclipse.pde.internal.ui.editor.plugin.ImportPackageSection,minor
+195525,1183976824,[Manifest][Editors] Choice extension elements are not sorted properly in context menu,trivial
+197813,1185353709,Plug-ins view does not contain 'Add to Java Search' (and 'Remove from ...') any more,major
+202410,1189049617,PDE No Longer Imports Source,critical
+204572,1190717338,Product build of RCP app fails to produce executable,blocker
+205888,1191966988,Serious performance problems with PDE Classpath Containers,major
+206440,1192507798,NPE in PluginModelManager#findModel(BundleDescription),critical
+206702,1192644937,"Target Platform Preferences page gives invalid value dialog, IAE",major
+213088,1197696926,Create plugin from Jar throws NPE,critical
+214923,1199963071,Extensions point information from required plug-ins not available,major
+216359,1201108776,Target platform is broken,critical
+217054,1201662427,[import/export ] forceContextQualifier is ignored,major
+220641,1204118195,Manifest editor page does not work in high contrast,major
+221852,1204878312,Can't export features from a p2-enabled SDK,critical
+221019,1204302495,Duplicated entries in classpath container,major
+224318,1206589312,Source for org.junit (3.8.2) missing,major
+224470,1206633655,[source lookup] source lookup for folders is broken,major
+224647,1206699772,Can't find source code when developing for eclipse 3.4 with eclipse 3.3,critical
+192842,1181884601,Sub-elements of New menu is wrong,major
+199241,1186553876,buildUpdateJar target calls non-existing rootFiles*_*_* target,critical
+227280,1208311621,PDEPlugin foces activation of DebugPlugin,major
+223289,1205959370,[Manifest Editor] Fragment cannot resolve dependencies,critical
+230146,1209936693,PDE ignores the delta pack,major
+230990,1210172974,P2 Target provisioner fails to open wizard,major
+233441,1211438921,Importing binary project is broken in I20080521-2000,major
+233883,1211748189,Reports wrong error on correct @since 3.4 tag,major
+233715,1211539615,TVT34:TCT340: SV: Dropdown menu items in Eng on Compiler panel,minor
+234360,1211959950,NPE when editing help context files,critical
+189051,1180024746,Export Wizard fails to use compiler source/target directives,critical
+237025,1213324709,Plug-in does no load (ClassNotFoundExceptions),critical
+237435,1213668362,Product export generates incomplete install,major
+243136,1217904705,Tons of API tooling errors after importing binaries,major
+244941,1219631947,[api tooling] No missing @since tag should be reported for a protected member in a final class,minor
+246804,1220990188,Missing NLS message in org.eclipse.pde.internal.core.pderesources,major
+243766,1218448002,Need to clean up api descriptions when projects are deleted,major
+242002,1216897173,import cannot be resolved,critical
+250599,1223854248,Exception in launching plug-ins in Eclipse 3.4,blocker
+242341,1217298461,PDE import the files into an incorrect folder,major
+258319,1228908426,NPE in eclipse launch configuration,major
+258038,1228793936,Tons of API tooling errors after importing binaries,major
+261180,1231996232,Import binary plug-ins randomly failing,critical
+262324,1232897093,NPE exporting a product,blocker
+268212,1236783007,Installing from remote site does not download the jars,major
+269540,1237545390,assemblyTempDir not deleted after assembly,major
+269225,1237372643,Regression in R35_M6 basebuilder,major
+273199,1240364044,Strange API problem reporting,major
+274657,1241172506,Add Darin as Co-Lead on PDE UI committers page,critical
+277119,1242797371,Riena Features report error in Target Provisioning (cant install !!!),major
+276931,1242726401,Self-hosted Eclipse crashed when linked folders are used for sources and binaries,major
+277729,1243250087,[product] do not add fragments to configuration section,major
+278958,1244017376,Installing a sample fills my log,major
+280259,1245044508,messages.properties missing in org.eclipse.ide.source,major
+280259,1245053016,[regression] All resources missing when importing plugin as source project,critical
+286276,1249985318,[ua] [editor] On save help editors remove new items from the table,major
+287271,1250819061,Several NPEs on shutdown,major
+287242,1250783033,Unable to open fragment.xml with plugin editor,blocker
+288941,1252481598,Plug-in Dependencies View incorrectly identified in Help Tips and Tricks,minor
+290220,1253670210,Bug is back: import fails because files cannot be deleted,major
+290220,1254118345,API tooling keeps lock on files (was: import fails because files cannot be deleted),critical
+296686,1259732402,API Tools builder taking 10 min.,major
+298318,1261394376,[Regression] EclipseLink 2.0.0 Bundles Break PDE Validation,major
+299319,1263222745,Race condition causes API filters to be removed,major
+304961,1268014081,Incorrect errors that API exception filters are unnecessary when code is changed,major
+306903,1269387381,"NL Characters in the API Use Report are displayed as question mark ""?"".",major
+309884,1271779702,Failed to export a product,major
+313489,1274239223,Plug-in import failed: could not delete files (JAR),critical
+314814,1275012724,NPE in AbstractBundleContainer if there is no FrameWorkAdmin service which requires silently the Declaration Serviceilently the Declar,critical
+317838,1277369661,Feature based launch starts all fragments of a bundle although some of them are not included in the features,major
+320774,1279900391,Missing type arguments on org.eclipse.pde.internal.build,trivial
+322521,1281595231,Can't launch because org.eclipse.sdk.ide product is not found,blocker
+326679,1287567969,[regression] NPE running Ant task,major
+334059,1294799499,Tons of errors after plug-in import,critical
+191119,1181054336,Don't make API tools action set visible by default,minor
+220664,1204126737,API Tools make Auto Build unusable,critical
+220667,1204128130,NPEs from API Tools,major
+220730,1204178807,No way to get rid of api tooling errors,major
+220904,1204255552,Profile pref page: should use check box for default,minor
+221179,1204542274,[api tooling] Cannot set a default profile anymore,blocker
+221866,1204882483,API profiles pref page polish,minor
+221920,1204902446,"[api tooling] ""Unable to resolve method signature"" when adding @noreference in a method on the next build",major
+223666,1206355163,[api tools] not flagging missing since tags,major
+223667,1206355306,[api tools] not flagging extenders who shouldn't be extending,major
+224636,1206697840,[api tooling] Change of interface method signature is not recognized as API breakage,major
+224637,1206698070,[api tooling] Spell checker problems with @noimplement and friends,minor
+225181,1207055389,Not possible to have two API problems with the same ids on the same resource,major
+226254,1207713998,API tools use too much memory,major
+226472,1207801772,'API Problem Filters' properties page: Remove ellipsis from Remove...,trivial
+226969,1208168693,[api tooling] Missing @since tags are not flagged for newly added types,major
+227368,1208340143,Make exact specification of @no* tags available in the SDK,major
+229750,1209588171,Project specific errors/warnings doesn't work anymore,critical
+229815,1209639132,removing the last filter should remove the parent,minor
+230181,1209965480,[api tooling] Incorrectly reported missing @since tag for RSEDefaultNewConnectionWizard#getFirstAdditionalPage(),trivial
+230198,1209970891,Content assist should not propose @no* tags that are already present,minor
+230947,1210160496,Similar problems are being dropped from analyzer,major
+230976,1210168741,Filter quick-fix should use filter icon,minor
+231699,1210619790,org.eclipse.pde.api.tools dependency on pde.core is broken with pde.core downgrade version,blocker
+231957,1210694570,"API Baselines pref page - should be ""Remove"" (no ellipsis)",minor
+232249,1210820068,"""Tag '@noinstantiate' is unsupported on a class"" should say ""abstract class""",minor
+232784,1211180302,API Baselines preference page should use dialog font everywhere,trivial
+233426,1211432355,Lots of new API errors after switching to I20080521-2000,major
+233445,1211440798,Reports wrong error on correct @since 3.4 tag,major
+233616,1211506368,API Verification Report: List of all non API bundles misleading,trivial
+233643,1211517969,API builder performance too bad for incremental build,major
+233731,1211544933,Project API descriptions retain all members,major
+234023,1211811391,Tag scanner does not respect source level,major
+235822,1212652134,"""Comparing 'project' to API baseline..."" message could be better",trivial
+236734,1213194505,No baseline equals no scanning for analysis that doesn't require a baseline,major
+244302,1218788373,API tooling creats wrong 'Missing @since tag' errors,major
+246672,1220921651,@extend violation not detected for inner and anonymous subclasses,major
+246842,1221020708,Tons of API tooling errors after importing binaries,blocker
+246953,1221093526,Many errors due to wrong warning about changed restrictions,major
+246957,1221095418,API tooling errors in org.eclipse.debug.ui,major
+250221,1223501496,Plugin projects Fail to launch with Eclipse 3.4 on Mac OSX Leopard with Java 1.6(64 bit),major
+251313,1224357880,Failed assertion in API tooling build,major
+251679,1224648400,Error for API addition gets wrongly reported,major
+252240,1225112004,Missing API problems in the workspace,critical
+255222,1226572898,Invalid tags leak into API descriptions,major
+256745,1227758229,Avoid dead code problem,trivial
+256902,1227863779,Cascading failures in build N20081127-2000,major
+257589,1228392059,Remove dead code from delta tests,trivial
+257928,1228728158,Types are not completely processed when they are parameterized,major
+260070,1231240542,False report of EE problem,major
+260235,1231306359,Newst I-build gives NPE,major
+261964,1232586715,Change to p2 Query API (part II),critical
+263011,1233287175,Many exceptions from api tooling,major
+263306,1233590244,Installed metadata group no longer spans the preference page,trivial
+264060,1234027318,Doc of reportconversion ant task contains wrong attribute names,trivial
+264842,1234512593,Adding new API method results in errors in many projects,critical
+265642,1235117805,NPE during Eclipse build inside the ant verification task,critical
+266084,1235529984,Wrong API Tooling Report,major
+267978,1236698950,Usage tests do not perform incremental builds,major
+267998,1236712023,Incremental usage build does not work when restrictions are changed,major
+268517,1236924692,Heads up: chkpii warnings with next version of chkpii (v11.03),trivial
+270992,1238665942,Unable to add EE descriptions,major
+274515,1241077682,313 API tooling errors after using Replace With > Latest from HEAD,major
+275936,1242131485,ApiType#getSimpleName() fails for local types,major
+279552,1244492527,NPE running API use scan,major
+279697,1244560434,ArrayIndexOutOfBoundsException running use scan,major
+279729,1244579793,ZipException scanning bundle witrh other entries on bundle classpath,major
+280286,1245057952,Search engine should report results after a threshold has been hit,major
+280464,1245144375,First build performance must be improved,major
+282803,1247024166,NPE in ReferenceExtractor.visitMethod(ReferenceExtractor.java:1164),major
+282923,1247062279,Unused strings in plugin.properties for api tools UI,minor
+283573,1247652048,ReferenceExtractor is failing to lookup method signatures,major
+285050,1248869634,TVT35:TCT335: CHS: Duplicate Mnemonic Keys,minor
+285123,1248920257,Baseline 'workspace' is disposed logged and API tooling wrongly reports missing @since tag problem,major
+285454,1249289200,Lots of wrong errors from incremental build after accepting incoming changes,major
+289422,1252977303,API tooling not triggered when updating from CVS,major
+295366,1258456590,NPEs in SystemApiDetector.considerReference,major
+296217,1259209877,NLS missing message: ReferenceExtractor_failed_to_lookup_field,trivial
+296375,1259333765,API builder fails to build dependent types,critical
+296819,1259832231,"Remove use of the word ""profile"" to mean baseline",trivial
+296825,1259835553,Unexpected *.class delta from a Javadoc change,major
+297634,1260550630,Memory leak due to requesting delta but never using it,major
+299153,1262950724,Name collision for certain method keys causes false-positive illegal use to be reported,major
+299968,1263815959,API builder performance still bad for incremental build,major
+303286,1266549956,API builder throws error when deleting a project,major
+304204,1267430358,Log entry each time I delete a *.java file,major
+304315,1267498626,Uncaught CancelOperationException,minor
+309481,1271406082,[regression] APIFreezeTask no longer supports R:<pattern> entries in the exclude file,major
+309635,1271644474,Setting / removing API baseline makes .settings/.api_filters dirty,major
+321685,1280891121,"Add missing @since tag suggests wrong version, causes additional work",major
+321738,1280912340,"Consistently use ""API Tools"" (not ""API Tooling"")",trivial
+325185,1284404201,SWT Exception: Invalid Thread Access when trying to reach the display from non-UI thread.,critical
+328828,1288165936,PDE API Tooling crashes if plugin.xml contains non-ascii characters,major
+328856,1288174425,"An internal error occurred during: ""Setting build path"".",major
+331130,1290675648,Baseline wizard does not indicate what it is doing,minor
+335357,1295957186,'Edit location...' button in 'API Use Scans' preference page should be in title case,trivial
+335899,1296484563,Checked count on setup wizard has white background on Linux,trivial
+336831,1297330823,configure Glasfish server in eclipse,major
+337704,1298265078,JSP Editor is not available in my Eclipse 20090920-1017,major
+338924,1299221677,Eclipse OSGi IDE doesn't following correctly  the OSGi R4 specification,major
+125789,1138647012,PDE  build ant tasks path and source attachments incorrectly configured,minor
+126020,1138786541,PDE build and JAR'd plugins,major
+126289,1138900233,Method moving adds tab characters,minor
+126290,1138900728,Method moving adds tab characters,minor
+127257,1139558978,"Eclipse Product export wizard generates error: Problems during export, Reason Unable to find plug-in: org.eclipse.jdt.core_3.2.0.v-631. Please check the error log for more details",blocker
+127726,1139910035,create ant build file does not create expected artifacts,major
+127825,1139920492,Plug-in export skips long files,critical
+128459,1140182697,Runtime Target,blocker
+129007,1140607684,"""unsupported encoding format"" error running generated build.xml",major
+135059,1144230708,export to multiple plateforms problem (not correctly generated),major
+135561,1144400276,[cleanup] change callers of BuildTimeSite.findFeature() to directly use PluginVersionIdentifier,minor
+137404,1145382692,"Fragments have ""Host bundle",major
+139268,1146228602,building update source jars broken,blocker
+139923,1146636922,Bug in pde build script generation!,major
+139947,1146641712,Unable to find plug-in ui_3.2.0.I20060427-1600,critical
+140651,1147095284,PDE Export generates inappropriate access restriction errors,critical
+140762,1147148935,adding jarfile using extraclasspathentries doesnot add jar file in ant-runtime classpath,major
+140763,1147149000,adding jarfile using extraclasspathentries doesnot add jar file in ant-runtime classpath,major
+140907,1147181315,Export of plugin is causing line wrap in manifest leading to breakage,blocker
+140949,1147190630,PDE export  ignores files with long path names,critical
+142595,1147958970,Export Deployable Plugins ignores Project Specific Compiler compliance setting,major
+143160,1148350600,Hangs during plugin export,critical
+143291,1148388625,build.properties bootclasspath default too restrictive,minor
+144773,1149086038,customBuildCallbacks doesn't support absolute paths,major
+144863,1149137762,Launchable Product Cannot Be Exported Might Because of Wasteful Check,major
+144864,1149138947,eclipse.fetch generates an incomplete fetch script for features,blocker
+145762,1149666184,no taskdefs,major
+148288,1150983514,unable to use archivesFormat with eclipse.buildScript task called from inside a macrodef,major
+149406,1151824608,Can not unzip eclipse sdk 3.2 on Windows XP Pro SP2,blocker
+150932,1153202509,"build automation for RCP-javaWebStart generates ""wrong"" *.jnlp files",critical
+150933,1153202828,jnlp generation don't resolve binding between MANIFEST.MF & build.properties,major
+150971,1153217535,Product Export does not create a working package for gtk-linux,major
+152619,1154513773,.class files not included in exported plugins,major
+154344,1155879141,"Difference in behavior is seen while exporting the ""org.eclipse.cdt.make.core"" as Deployable plugin by giving destination as 1. Archive file 2. Directory",major
+154540,1156148055,Junit tests won't work,major
+158589,1159179070,Export deployable plugins/features wizards fails with target plugins imported,major
+161434,1161167048,unable to export plugins which references jars from outside the workspace,major
+162756,1162201237,Compilation error of 3.2.1 on our Solaris10 node - FeatureWriter.java,blocker
+165861,1164524420,PDE build fails on packaging based on .product file,blocker
+172079,1170089027,Ant scripts: eclipse.fetch  with fetchTag parameter is not initialized if no value is given,minor
+174107,1171387634,VM Args not getting copied from .product to ini file in Mac build,major
+176413,1173106254,Eclipse Product Export Wizard fails when encoding is set to UTF-16,major
+178275,1174382935,Missing white space when reporting a missing plugin,trivial
+180339,1175295929,BuildApplication (org.eclipse.pde.build) in Eclipse 3.3M6 expects AntRunner to be IPlatformRunnable,major
+186604,1178880372,IllegalArgumentException when exporting a feature/plug-in,critical
+187241,1179297026,PDE Build is broken in 3.3M7 because org.eclipse.help.webapp is jarred,critical
+187250,1179300918,Wrong classpath created in build.xml,critical
+188612,1179894826,plug-in export fails,critical
+189387,1180322948,plug-in export fails when there are spaces on ant.jar path,major
+189435,1180338949,Plug-ins added multiple times to the state,major
+191815,1181369436,eclipsec.exe missing in packaging.properties,minor
+192127,1181617881,"Product Export on Mac always generates an ""eclipse.app"" additional to the branded ""myproductname.app""",major
+205019,1191204861,NPE when exporting CDT feature to zip archive,major
+205230,1191332048,NPE in IdReplaceTask,major
+206708,1192667091,"Bundle-Version format ""x.x.x.x.(build no)"" not supported",major
+206788,1192703193,Headless PDE build produces .tar.gz which are .zip files for macosx.carbon.*,major
+206837,1192730614,Can not build with recent I-builds,blocker
+206959,1192811032,NPE in IdReplaceTask: backport to 3.3.1.1,major
+207335,1193225228,NPE in eclipse.buildScript when building p2 bundles,blocker
+210464,1195576635,"Export of plugin project fails,",critical
+213660,1198176087,javaCompiler*.args generated just once per session,major
+213715,1198236438,PDE build creates jars with corrupt signatures / Java Web Start not possible,major
+217238,1201754464,[RCP]Cannot  export RCP due to Java 1.6 specific compiler errors,major
+221424,1204656825,productBuild.xml zips mac product but names it .tar.gz,trivial
+224098,1206522978,"Headless build gets NPE in 3.4, worked fine in 3.3",major
+230044,1209743229,Source features are generated with invalid discovery url,major
+230975,1210168679,problem calling generator when exporting feature,major
+230995,1210173519,Exporting features on a mac fails,major
+237242,1213585537,build.properties - Impossible  to exclude a file or a directory via build.properties at compile! time,major
+237874,1213913989,Exporting plugin containing jar library as jar does not work,major
+237875,1213914149,Exporting plugin containing jar library as jar does not work,major
+237922,1213946748,PDE Build not generating RCP launcher branding icons,blocker
+240338,1215679174,Features in update site could not be sorted into categories,major
+240474,1215753545,"NPE in IconExe.unloadIcons(String, ImageData[]) when building for win32,win32,x86_64",major
+246391,1220605806,product export from the ui does not generate bundles.info,major
+251832,1224741558,PDE does not detect unbuildable because of cycle involving fragments,major
+253913,1225872387,p2.director fails to create product following product build with multiple configs,critical
+256787,1227776867,org.eclipse.jdt.ui has no EE set inside the build N20081126-2000,critical
+261870,1232537858,.api_description file not always written to jar for api enabled projects,critical
+266222,1235576225,Generated RCP Product breaks after first install of a feature,blocker
+268395,1236862144,Second state resolved due to premature site access,major
+269122,1237328820,repoBaseLocation doesn't work,major
+271373,1239026091,Plugins having multiple values for one filter attribute fail to get installed,critical
+272084,1239634072,Creating an update site fails: unable to find plugin,blocker
+272237,1239739268,osgi.ws and other similar values are not correctly set,critical
+272588,1239897487,Need backwards compatibility for 3.4 bundles with custom build.xml,major
+272907,1240217217,Nested jars are missing from published bundles,critical
+273687,1240663586,Feature.xmls don't have their versions replaced,blocker
+274624,1241125332,Plugin jar that has nested Jars inside using Bundle-ClassPath and exports packages on the jars in bundle classpath doesn't make the classes visible to the compiler,major
+274934,1241483103,"""Export features"" failes with ant error",major
+276034,1242181103,product export generates wrong MacOSX p2 metadata and binary (Eclipse.app - eclipse.app),major
+277768,1243265555,p2.inf is not processed if customBuildCallbacks is defined,major
+282740,1246974294,addRepository settings absent for non-Admin users on Vista,major
+283091,1247159882,product mirroring from context should be non-greedy,major
+283185,1247231818,product mirroring from context should be non-greedy,major
+287800,1251342998,PDE customCallBack.xml template report wrong jar.location,minor
+289614,1253089930,Product export produces application that is not executable,major
+291930,1255083189,Crystal Reports Plug-in With Java Application SQL Issues,minor
+292885,1256108094,Plugin export creates faulty bundle when using custom target platform and junit4 dependency,major
+293905,1257135043,Problems with auto start and start levels have in headless mode of PDE build - no bundles.info is created.,major
+298239,1261174334,"empty 'source' bundles generated for ""binary only"" bundles",major
+305623,1268335833,"In the style tag of jsp file, when the cursor is located before the �g<�h character of </style> tag, the content assist function may not work properly.",major
+306957,1269428396,"'zos' platform support, or unknown platform support for BrandingIron",minor
+315548,1275537907,Eclipse Hanging when exporting a product,critical
+315647,1275569197,productBuild.xml has invalid xml comment in prolog,blocker
+315762,1275637353,"bundles with compile errors never published even through p2.publishonerror is set to ""true""",major
+316641,1276258802,"bundles with compile errors never published even through p2.publishonerror is set to ""true""",major
+320078,1279244393,Product file based on launch configuration = crashed application,critical
+320779,1279906309,Missing type arguments on org.eclipse.pde.internal.build.fetch,trivial
+320780,1279906955,Missing type arguments on org.eclipse.pde.internal.build.properties,trivial
+320781,1279907325,Missing type arguments on org.eclipse.pde.internal.build.publisher,trivial
+320782,1279907698,Missing type arguments on org.eclipse.pde.internal.build.ant,trivial
+320794,1279946742,Missing type arguments on org.eclipse.pde.internal.build.publisher.compatibility,trivial
+320797,1279949613,Missing type arguments on org.eclipse.pde.internal.build.site,trivial
+320798,1279949809,Missing type arguments on org.eclipse.pde.internal.build.site.compatibility,trivial
+320800,1279951707,Missing type arguments on org.eclipse.pde.internal.build,trivial
+321877,1280995165,"When using headless build, java process does not exit with exit code !=0 when build fails",major
+321888,1280999017,Headless build can't build more than one feature,major
+321901,1281005165,Export product with metadata fails bc p2 metatada contains wrong information,major
+324553,1283741496,The type org.eclipse.core.expressions.Expression cannot be resolved. It is indirectly referenced from,major
+326181,1285329615,SVEditor 0.2.5 version when installed has issues,major
+327706,1286974546,Headless build failure with Eclipse 3.6.1,major
+329169,1288555215,feature build.properties loaded repeatedly,minor
+343094,1303091085,Building/Opening web.xml or any xml file Problem,major
+128908,1140540852,PDE javadoc should say Eclipse 3.2,trivial
+142358,1147878706,Add reference to the cheat sheets in the PDE tips and tricks,trivial
+147851,1150780483,Typo in PDE Documentation,trivial
+152469,1154424985,missing text between <strong> tag in error log view page,trivial
+152514,1154444088,doc slightly inconsistent on import plugins page,trivial
+167753,1165941213,test,trivial
+185375,1178185527,Confusion in cheat sheet re: Eclipse logo icon,minor
+188373,1179829963,Help contents cannot be fully indexed,major
+235119,1212389937,[doc] Typo in Javadoc Attachments extension point doc,trivial
+248831,1222494758,Problems in pdeOptions.txt,minor
+257922,1228724104,PDE repository not accessible for annonymous access,blocker
+271552,1239146437,Fetching from Repositories doc is out of date,major
+274661,1241173919,Add picture of Ankur as contributor,major
+277357,1242904219,Ben needs a pic on the committer page!,major
+279266,1244191147,PDE doc missing concepts folder - UA Test failure,major
+281922,1246289826,"[Doc] Broken hyperlink in help page ""Layout of Feature Metadata""",minor
+286191,1249924407,"bug in ""Create a rich client application -> Create a plug-in"" cheat sheet",trivial
+286192,1249924917,"bug in ""Create an Eclipse plug-in -> Create an update site"" cheat sheet",minor
+286720,1250390612,DVT35:TCT601: FRA - Access Rules title should be in bold,minor
+293891,1257121742,"typo in ""Creating an eclipse plug-in"" cheat sheet (text box insted of check box)",trivial
+295579,1258612718,"Extension Point Scheme Editor: attribute type ""identifier"" not documented.",minor
+295608,1258624011,Missing page in PDE doc,minor
+299534,1263387274,A typo in the help Plug-in Development Environment Guide -> Concepts -> Feature,trivial
+315450,1275482371,Update target definition doc for feature based targets,major
+315452,1275482427,Add new help doc in Tasks section for import from source repository (CVS),minor
+334923,1295520040,Helios Plug-in Development Environment Guide Documentation - Duplicate Entry,trivial
+338391,1298869041,Use css instead of hard-coded <font>,trivial
+177345,1173865335,[API Tools] Should seed DirectoryDialog with current chosen directory,minor
+206293,1192417936,[pde viz] Multiple selection possible,minor
+211596,1196412788,[api tooling] debug options need to be added for tracing,minor
+212904,1197545120,[api tooling] tooling setup wizard should properly report progress,minor
+239501,1215087761,[ds] minimize access restrictions,minor
+243946,1218557433,[ds] DSMasterTreeSection Improvements,major
+122620,1136360168,jar arhiver windows noerror excludes classes from arhive,major
+123395,1136948888,3.2M4 newWizards/importWizards/exportWizards not available ,major
+123486,1136984501,Feature Export is Disabled,major
+123491,1136987012,Target Editor does not update remove/remove all buttons correctly,trivial
+123694,1137091170,Inconsistent tab height of views with large icons...,major
+124995,1138085725,"feature ""missing required source folder 'src'""",major
+125380,1138285686,Plugin Dependencies classpath container missing when converting a project to plug-in project,major
+125640,1138501435,PDE Target Location doesn't have a clear way to reset location,minor
+125759,1138634991,Warning in plug-in generated from template,minor
+125781,1138641219,Have to remove one plugin at a time from dependencies,minor
+125913,1138716479,New Extension dialog should give default focus to filter text field,minor
+126210,1138875807,Esc in field dirties manifest editor,minor
+127268,1139563681,Plugin exporter compiles against wrong version of required plugin,major
+127904,1139930210,SWTException: Widget is disposed creating new extension,major
+128114,1140021484,StringIndexOutOfBoundsException opening MANIFEST.MF,major
+128303,1140102859,target editor does not pick up correct plugins/features,major
+128518,1140255902,"should ""mark internal"" default filter be *.internal*",minor
+129689,1141057214,Unable to add extra dependencies to an RCP project,major
+131157,1141908604,Deadlock deleting plugin project,critical
+131271,1141953460,JVM terminated.Exit code=1,major
+131324,1141979733,"Manifest editor: Selecting ""Activate this plug-in when one its classes is loaded"" clears unsaved changes in Manifest.MF",minor
+131434,1142083567,It is impossible to set an editor without an icon,minor
+131890,1142396350,"UI problems in JRE block on PDE launch config ""Main"" tab",trivial
+132126,1142484608,"garbled text for ""External Features"" in ""Import""  wizard",minor
+132134,1142488010,version error not shown in the log,minor
+132333,1142582148,Plugin dependencies corrupted when deleting one of two plugins with same ID,major
+132893,1143039627,Extension points declared in fragments get wrong namespace,critical
+132991,1143101162,Description text lost on focus change,major
+133070,1143129077,"Can't compile plugin with ""Import-Package:"" PDE container incomplete",critical
+133072,1143129512,"Cannot launch an ""Eclipse Application"" without the -ws argument",major
+133516,1143527072,JUnit's assertions preference affects Eclipse Runtime launch config,major
+134240,1143773671,Can't Create Target Definition project,major
+134302,1143804976,Exported deployable plugin is missing classes,major
+134788,1144144702,Fragments no longer have access to hosts dependencies,major
+134851,1144158765,PDE showing inappropriate access restrictions,major
+136083,1144730390,PDE content type IDs changed,critical
+136481,1144856619,Error about extraneous empty line,major
+137405,1145382766,"Fragments have ""Host bundle 'xxx' exists but is unresolved""",major
+138000,1145616926,plugin dependency validation is broken,major
+138475,1145971243,Can't start eclipse when config.ini file in the platform contains fully qualified path,blocker
+138613,1146035310,Patch to accomodate for changes due to JUnit4 support,major
+138704,1146053568,"""Features"" list box in product editor not popluated with feature after clicking ""New Feature..."" button",minor
+139083,1146152973,Saving feature.xml with no version causes unexpected results,minor
+139271,1146228763,"Confusing warning message 'A ""source.."" build entry is missing'",minor
+139456,1146403517,"Need for ""add dependencies"" of new ""Automated Management of Dependencies"" easy to miss",major
+139617,1146497627,Inconsistent use of source text editors,minor
+139640,1146501715,"Creating a Rich Client Cheat sheet, Customize product step is not Linux friendly",minor
+140170,1146732868,config.ini processing in PDE is unable to handle relative plugin paths in osgi.bundles list,major
+140173,1146733216,config.ini processing in PDE is unable to handle relative plugin paths in osgi.bundles list,major
+141993,1147765167,Lack of extensions' subnodes in Plug-in Manifest Editor.,major
+142076,1147788577,New Plug-in project wizards forces the entry of optional fields,minor
+142738,1148023694,TVT3.2:TCT564: KO: Column name shown in English,major
+143823,1148565396,XML parser is instantiated and utilized for only one XML instance document parse and discarded,minor
+144041,1148654156,"Class / Interface search scope defined for PDE ""Select Type"" dialogs too wide",minor
+144775,1149086596,TVT3.2:TCT815: Trucated string in the Externalized Strings panel,major
+144967,1149170444,ITemplateSection typo,trivial
+145238,1149409318,Unhelpful JRE classpath diagnostic,minor
+146094,1149773350,RCP product does not start properly with config.ini template,major
+146188,1149818130,run dialog gets distorted with the change of screen resolution and font size,major
+146297,1149851820,Duplicate package names in package selection dialog,minor
+146329,1149860563,Eclipse product export wizard synchronize breaks plugin.xml,major
+146757,1150156737,No launch file when exporting using a target platform with eclipse runtime,major
+146863,1150195050,Eclipse launcher has two fields for alt+R on main tab,trivial
+147979,1150828381,PDE export reports incorrect errors on multi-plugin export,critical
+148377,1151044329,Feature Manifest Editor creates invalid import statement,minor
+149365,1151719917,"Locator in ""Import Plug-ins and Fragments"" isn't useful",minor
+149681,1152089713,I cannot launch a new config from Linux,major
+150129,1152514671,exsd editor : Crash IDE,major
+150260,1152606148,Incorrect call in org.eclipse.pde.ui.launcher.MainTab.dispose(),minor
+150651,1152865963,Error log event order doesn't match .log file,major
+151109,1153308638,[Content Assist] Out of memory exception generated on large plugin.xml files,major
+151394,1153460097,run -> Clear workspace -> DELETION!,critical
+153093,1155028293,Inconsistent placement of labels in update site editor,minor
+153671,1155381703,Gray background of FilteredTree,minor
+154091,1155725394,Type reference search does not work for nested types,minor
+154249,1155809435,Missing plugin dependencies targeting Eclipse 2.1,major
+154853,1156319438,Missing border on Extensions tab,trivial
+156021,1157139618,Exception clicking on translatable attribute with no value,minor
+156111,1157356176,non-jarred plugin using . as classpath is not resolved correctly at PDE build time,major
+156206,1157446078,Context menu in Extensions tab in Plug-in manifest editor is missing options,minor
+156442,1157556453,Remove occurences of '(no description available)' in extension point schemas,trivial
+157030,1158046578,Unresponsive UI caused by torrent of NPEs,critical
+157504,1158318702,CCE trying to define a new fragment,critical
+157598,1158517225,[Cheat Sheet Authoring] Enable UI to preserve cheat sheet validity,minor
+157693,1158588667,Run As > OSGi Framework is broken,critical
+157888,1158670288,Cheat sheet editor outline problems,minor
+158882,1159289161,[Cheat Sheet Editor] Update simple cheat sheet icons,minor
+159107,1159428794,need a flush state button,blocker
+159531,1159806475,PDE launcher fails when running in DBCS language,major
+159540,1159826593,Add source location dialog in the target platform preferences page use workbench as its parent shell,minor
+159919,1160050534,Conflicting mnemonics on New Plug-in Project from existing Jar Wizard,minor
+160076,1160140324,deadlock when exporting deployable plug-in,major
+160106,1160160199,Unable to create display plug-in,major
+160181,1160347580,Export Deployable plug-ins and fragments is failing,major
+161985,1161603421,NPE in feature editor - cannot assume that IStorage has a path,major
+163258,1162479342,Bundle-Localization Manifest Header not honored by plugin.xml editor,minor
+163384,1162564483,Wrong order of classpath entries in self-hosting,major
+163958,1163063189,ErrorLog view has wrong icons,minor
+164024,1163081828,PDE does not correctly model relationships between fragments of the same host,major
+165228,1164037757,[Cheat Sheet Editor] Remove unnecessary vertical spacing adjustment applied depending on form toolkit border style,minor
+165339,1164106092,[Cheat Sheet Editor] Flicker present in master tree viewer when moving objects up / down,minor
+165477,1164194464,[Cheat Sheet Editor] Create general purpose form error page,minor
+165656,1164265480,When trying to start a plugin in the runtime-workbench with 3.3.M3 I get an IllegalStateException,major
+166518,1164971304,[Cheat Sheet Editor] Ctrl-C / Ctrl-V does not work in the Introduction / Conclusion text fields,minor
+166562,1164986928,RequireBundleObject.getVersion() returns only a partial version,minor
+167400,1165811218,linked resources in .project file not taking effect,blocker
+168417,1166434269,Generated Ant Script to export plugin projects not working,critical
+168466,1166458041,[Content Assist] Wrong icon associated with extension proposals invoked within plugin elements,minor
+169528,1167883353,Widget Disposed exception when trying to import plug-ins,critical
+169632,1167938182,PDE runtime text is larger than original host Eclipse,minor
+170190,1168488712,cheat-sheet incomplete,minor
+170213,1168502348,Launch Configuration Name should not allow '#',minor
+170370,1168618828,[Cheatsheet Editor] skip set to false disables skip checkbox,minor
+170516,1168866430,Preview Reference Document should offer to save file,minor
+170772,1169023573,Unable to launch RCP application,major
+171067,1169202086,Replace deprecated uses of FormColors,minor
+171425,1169550801,[launching] New fields for launch delegates,trivial
+171820,1169807823,Something's wrong with the JUnit Plug-in Test launcher,critical
+172484,1170316918,CCE when opening context menu on PDE search result,major
+172529,1170330566,make jre section in product editor shareable,major
+172856,1170665368,NPE in the plugin model,major
+173210,1170783446,Typo in Command Composer Dialog,trivial
+173311,1170851873,Normalize cheat sheet editor on preview,minor
+173357,1170864759,Cheat sheet editor command dropdown amnesia,minor
+173377,1170875566,Error messages in cheat sheet editor title area look strange,minor
+173393,1170890016,Missing Entries in Manifest generated by the Template Wizard,major
+173487,1170932091,[Cheat Sheet Editor] Fields out of vertical alignment,trivial
+173490,1170932555,[Cheat Sheet Editor] Detail pages should reuse static sections instead of creating new widgets,minor
+173493,1170933252,[Cheat Sheet Editor] Validation code informing user of disabled widgets is deprecated,minor
+174168,1171443780,Wrong section name in the dialog to enter version number for an exported package,minor
+174493,1171633522,Prompted to choose a workspace location for runtime workbench launch,major
+174640,1171879243,"Finish button state should be based on the selected templates, not all templates",major
+174668,1171889981,[Schema Editor] No element initially selected on Definition page,minor
+174915,1172014277,[Product Editor] Disabled combo field value propagated to other tabs on switch in JRE section,minor
+175291,1172224114,Adding and removing Eclipse-GenericCapability from fragment manifest triggers access restrictions in all dependant plugins,critical
+175665,1172546754,Access rules are not created  if there's only plugin.xml,major
+176045,1172742626,Extension editor doesn't remember field changes,major
+176175,1172824787,make VM setting inheritance optional,major
+176368,1173082685,Export product results in a bad launcher on OS X,major
+176406,1173100607,Command line arguments from host eclipse unexpectedly applied to launch,major
+178309,1174387036,Using the add required bundles in the product editor brings along javax.servlet,major
+178582,1174473718,Content assist lightbulb icon slightly cut off,minor
+178632,1174484270,[Eye Candy] Promote new splash screen used for splash handler templates to be the default for all branded templates,minor
+178853,1174568604,Export Product wizard wont start,blocker
+178889,1174577383,ArrayIndexOutOfBoundsException building update site with no features,minor
+179656,1175046901,"""@dot not found"" error when exporting a plugin based product",major
+179736,1175069519,Default values set in launch configurations should always be visible and tweakable,major
+180960,1175676062,Project import does not check if there is a project available on the filesystem,critical
+181317,1175784619,[Cheat Sheet Editor] CompCS detail pages should be made static and reused,minor
+181371,1175810325,"Preferences: ""Editors"" vs. ""Editor""?",minor
+181601,1176108504,Closing org.eclipse.osgi in the IDE causes an internal error when starting the configuration,major
+181644,1176123226,Eclipse-ExtensibleAPI does not work well,major
+181997,1176295604,AbstractLauncherToolbar leaks menus,major
+183000,1176891650,Blocking dialogs and NPE when switching between manifest editor source pages,minor
+183136,1176950963,Plug-in Project Wizzard generates invalid application class,minor
+184041,1177494241,Changing target environment does not update the plugin container,major
+184404,1177649060,In property view Schema leaf elements  'Namespace' reference showing wrongly.,critical
+184838,1177997162,Export of Plugin from MANIFEST.MF not working,major
+184894,1178011578,Three colors leaked from extension tab of manifest editor,major
+184897,1178011908,Three images leaked in extension point schema editor,major
+184960,1178026131,Duplicate Fragment Entries in the Target Platform,critical
+185128,1178095297,SWTException thrown by JavaArgumentsTab.performOk,minor
+185364,1178182621,"""Java Runtime Environment"" group on Main tab of PDE launch configs is clipped",minor
+186317,1178766083,shift left / right in the plugin.xml editor has no effect,major
+187278,1179305481,"""Import as"" should be ""Import As""",minor
+187422,1179335457,"PDE project  creation wizard with version 3.0 does not add default import, hence compilation error",major
+189102,1180060909,Missing sub-elements in Extension tab (for expressionLanguage.exsd based extension points),major
+189305,1180219674,Regression:  Schema Editor falsely being marked as dirty,major
+189869,1180495857,Classes cannot be resolved,critical
+191231,1181110689,breaking API change: protected method removed from AbstractLauncherTab,critical
+191232,1181110897,api breakage: public method removed from EquinoxPluginsTab,critical
+192244,1181645866,[Schema][Editors] Should not be able to delete extension element or its attributes,minor
+192275,1181656361,"[Schema][Editors] Should not be able to specify an element reference to the ""extension"" element",minor
+192296,1181663454,[Schema][Editors] Extension element details section tweaks,minor
+192329,1181687644,"[Schema][Editors] ""Translatable"" field should be disabled if the element specifies element content",minor
+192330,1181688933,[Schema][Editors] DTD approximation EMPTY when should be PCDATA,minor
+192517,1181740650,"[Schema][Editors] Clicking on ""Extends"", ""Implements"" hyperlink does not preload package, class name into Java wizard fields",minor
+192727,1181821799,"site.xml ""Build All"" destroys your project",blocker
+192992,1181925297,Extensions page and plugin.xml page not synchronized,critical
+195212,1183415886,rcp example error opening file,minor
+195454,1183567670,"PDE supplies -pdelaunch to IApplication launches, which is not stripped out by platform",major
+195732,1183768851,Eclipse-ExtensibleAPI only works for fragments within workspace,critical
+196227,1184164532,"[Manifest][Editors] Remove ""Extension..."" menu entry from Extensions tree viewer context menu",minor
+196821,1184662431,Cannot add 2 sequences to an element in manifest editor,major
+196867,1184679655,"[Manifest][Editors] Extensions section tree viewer could use a ""Remove"" button",minor
+197410,1185067207,Manifest completion proposals are not sorted,trivial
+197717,1185290608,Excepion stack trace shown inside the Package View,blocker
+198881,1186251669,Hyperlink detector not working on Build source page,trivial
+198927,1186384201,PDE Manifest compiler broken when wrong Bundle-ManifestVersion is entered,major
+199178,1186503877,TOC editor should allow xhtml as extension when browsing,minor
+201054,1187923466,[Forms] org.eclipse.ui.forms causes org.osgi.framework.BundleException,major
+201081,1187940657,Help template does not modify plugin.xml,major
+201880,1188539265,Plugin Registry view shows incorrect information from other versions,minor
+202560,1189106985,[RCP] Attempt to run project deletes content of a workspace folder,major
+202917,1189496294,Selecting shared launch config causes outgoing change,major
+202964,1189511663,[Manifest][Editors] Remove internal interface methods in IBundlePluginBase,minor
+203053,1189572050,full build after starting with a newly installed build,critical
+203795,1190105615,exception when opening and editing site.xml with features using invalid qualifier strings,minor
+203993,1190194540,Schema HTML generator cause CHKPII errors,major
+204327,1190384904,Leafy Picture of Patrick Dempsey,critical
+205315,1191407847,Leafy Picture of Curtis Windatt,critical
+205912,1192000524,Error Log view completely broken,critical
+206493,1192531093,Regression in performance test testEditorOpenXML(),minor
+206610,1192601908,Cannot build fresh workspace with I20071016,blocker
+206672,1192623966,Class not found from ClassLoader.findClass,major
+206887,1192779353,Building a workspace with an IES target and a large number of plugins takes much longer with 3.3 than 3.2,blocker
+207067,1193049382,Starting a workspace with latestest builds causes full build,critical
+207410,1193276444,Error Log view does not refresh when new errors are logged,major
+207620,1193406852,Les Jones picture for PDE Hall of Fame,critical
+207931,1193722946,New  Error Log view search field should be pre-selected,minor
+208291,1193835371,AFE while comparing XML file - can't see dif when releasing code,critical
+208453,1193918880,Imported 'org.junit' plug-in has no attached source,major
+208966,1194377430,Remove unused dependencies in manifest cleanup wizard is broken,major
+209044,1194428726,core expressions all generate errors on I20071106,major
+209138,1194487920,the host plugin is presented into the Automated Management of Dependencies/Add dialog of a fragment,minor
+209474,1194845568,NPE when opening nested log entry,major
+209869,1195055493,Spying plugin spy window should close previous window,minor
+210411,1195554184,Reload button on target page does not update grey state of checkboxes,trivial
+210998,1196100593,Exporting deployable feature fails,critical
+211386,1196301938,PDE importer broken due to new source distro format,blocker
+211893,1196764034,Extension points declared in a non-singleton plugin should be flagged,major
+211931,1196784089,[log view] IllegalArgumentException from log view,major
+212735,1197439573,Eclipse hangs when XML Schema Editor is edited in read only mode,major
+212744,1197446949,Can't importing plug-ins (NPE) when Java app is running,major
+212745,1197447077,Wording and wrong title case in dialog that warns when importing while running a target,trivial
+212764,1197450909,Deletion of launch configuration doesn't take effect immediately.,minor
+213120,1197820194,Can't search for extensions by attribute values,major
+213565,1198122234,Simplify org.eclipse.pde.internal.ui.PDEPlugin.getTextFileDocumentProvider(),trivial
+214518,1199707962,PDE template indents quick comments,minor
+215223,1200303274,Convert to Plug-in Projects action has disappeared,major
+215314,1200367032,manifest editor content assist: additional info has wrong status text,trivial
+215760,1200627479,"In PDE Target Pref page, 'Enable All' doesn't update the 'greyed' status of the parent location",trivial
+216008,1200912173,IPluginBase.remove(IPluginImport) doesn't really work,major
+216132,1200982992,Ctrl+S does not work reliably in plugin.xml source editor,major
+216914,1201596959,NPE org.eclipse.pde.internal.ui.correction.java.FindClassResolutionsOperation.isImportedPackage(String),major
+216962,1201613723,NPE in PDEExtensionRegistry,major
+217652,1202098393,[logview] detect optional bundles availability in new way,minor
+217820,1202193468,Can no longer switch to new build as importing unshared plug-ins is broken,blocker
+217824,1202195487,Target no longer start after importing binary plug-ins,critical
+217983,1202278228,Can no longer lunch any of my existing Eclipse launch configs,critical
+218223,1202385551,PDE editor browse type causes OOME,critical
+218277,1202435626,Compiler warning in I20080207-1530,trivial
+218294,1202450925,Error Log view: inconsistent menu to load other logs,trivial
+218589,1202762046,Missing import error is reported as non visible package,major
+218942,1202975337,Invalid Thread Access doing a search,major
+219331,1203332897,Carbon specific code in BrowserInformationControl no longer needed,trivial
+219401,1203394447,Can no longer change JRE in Eclipse App launch config,blocker
+219577,1203483898,Use lowercase 'w' in 'Link with Editor',trivial
+219925,1203651236,"[Schema Editor] The schema identifier attributes is not refreshed when using the ""Browse..."" button",minor
+221125,1204523337,Improve progress for target platform resetting,minor
+221754,1204818288,"java.lang.StackOverflowError with ""One or more bundles are not resolved"" messages",major
+221776,1204828475,p2 self-hosting issue,major
+221859,1204880086,[p2] launching with p2 ide causes exception,major
+222389,1205303147,site.xml editor's Build button screws up line delimiters in file,major
+222425,1205317879,"back slashes should not be needed in href=\""analyze\""",trivial
+223140,1205861144,[p2] product export is broken,critical
+223583,1206277853,[schema identifier] wrong reference identifier being built,major
+223678,1206357126,JUnit plug-in tests require an IDE target platform,major
+223706,1206365553,can't import plug-ins with source,critical
+225210,1207063089,"Plug-in Manifest builder throws IllegalArgumentException when ""./"" is on ""Bundle-Classpath""",minor
+225576,1207212608,Mnemonics missing for Import wizard,trivial
+225788,1207308138,Context Help Editor help not associated properly,minor
+228147,1208815339,Cascading workbenches does not work with binary/links,critical
+228765,1209049958,Can't use an existing config.ini in product editor,blocker
+228854,1209097423,Thai3.4:Externalize string wizard unable to handle hard coded non latin string.,minor
+228987,1209193794,Bundle version change breaks launch configuration,blocker
+229194,1209400498,"[product] if update.configurator is included, product export is broken",major
+229433,1209472758,running out of memory quickly when self-hosting,major
+229441,1209473822,invalid flagging of internal extension points,major
+229584,1209527510,Compute dependencies on a feature is broken,major
+229791,1209633137,Only save version info in launch configurations if needed,major
+229868,1209651204,Invalid thread access from RegistryBrowser,major
+230258,1209985908,Message on product export wizard suggests a problem that does not exist,minor
+230417,1210066745,Regression: New Plug-in project Wizard blocks the UI,critical
+231830,1210668490,site.xml build produces bad p2 metadata?,major
+232539,1210934749,pde.runtime minor version should be reverted to 3.4M6a version,critical
+233256,1211362017,Eclipse 3.4 [PDE] does not work anymore with target platform based on 3.3 using extension-locations.,major
+233355,1211385588,[Error Log View] NPE on MultiStatus error entries,major
+233389,1211416664,Cannot change target platform,major
+233496,1211454629,"Error encountered while trying to view particular toc.xml file in PDE, when browsing in CVS Repository Exploring view",critical
+233597,1211476591,TVT34:TCT535: ES: Unexternalized strings in Compilers Preferences panels,minor
+233628,1211511325,Message for failed import could be improved - part 2,trivial
+234167,1211878306,New Class dialog filled in with incorrect case,major
+234276,1211907500,Setting target platform from a P2 Eclipse does not load the bundles from all the sites listed in platform.xml,blocker
+235739,1212610290,GDI object leak when opening & closing plugin.xml editor,major
+238235,1214292441,[Bundle-Localization] Default to /OSGI-INF/l10n/bundle.properties and not /plugin.properties,major
+239766,1215398999,Unable to add extension elements in Manufiest Plug-in editor,major
+239777,1215404369,Error: Bundle symbolic name contains illegal characters.  Legal characters are A-Z a-z 0-9 . _,blocker
+239996,1215507285,Regression: Extension points and extension tabs removed by default from PDE editor,major
+240084,1215531209,Exporting an RCP product causes the built application not to start because of corrupt config.ini file,critical
+240685,1216025382,Same mnemonic found on 3 PDE project creation wizards.,minor
+241074,1216187529,[templates] HelloRCP template contains non-externalized strings,trivial
+242038,1216932032,'Organize Manifests' wizard has conflicting mnemonics,minor
+242238,1217232310,Schema editor incompatibly uses appinfo instead of appInfo,major
+243086,1217851992,[Mail Template] move perspective ID from AWA to Perspective,minor
+243087,1217853517,[Sample View Template] generate attribute for view ID,minor
+243440,1218102425,Custom templates should be unchecked by default,trivial
+243521,1218131480,Cannot launch PDE JUnit test from Eclipse 3.3.2 when target platform is 3.4.0,major
+246229,1220519918,New Plug-in Wizard does not advance pages,major
+246834,1221015040,NLS missing message: BundleErrorReporter_MissingVersion in: org.eclipse.pde.internal.core.pderesources,critical
+247507,1221555437,13 seconds for switching between JUnit Plugin Configurations,major
+247663,1221642272,Improve text in outline view when DS editor overview page displayed,minor
+247907,1221754310,Error Log date sorting works improperly with same timestamps,trivial
+248334,1222177036,Unable to create a new plugin project from jars,major
+249187,1222781427,[ds] New Service Component wizard creates invalid manifest header entries on Windows systems,major
+249485,1222933741,Workspace no longer cleared,major
+250322,1223552374,Tracing tab in PDE launch configs does not show checkmark for selected options,major
+250340,1223561408,[patch] Create template method in JUnitLaunchConfigurationDelegate,trivial
+250342,1223562517,[patch] open up o.e.pde.internal.junit.runtime.UITestApplication,trivial
+251056,1224126474,"Many errors ""content type not found"" in the log",minor
+251412,1224495646,pde.ui manifest does not export all its packages,trivial
+251652,1224621714,JUnit Plug-In Test workspace not cleared,major
+251676,1224647385,NPE in FeatureErrorReporter.validateUnpack,major
+251784,1224689792,Convert Projects to Plugin Projects should not replace hyphen with underscore,minor
+253076,1225550806,[UA] Javadoc erroneous for CtxHelp model classes (and perhaps some others),minor
+253212,1225704619,[templates] org.eclipse.ui.decorators template should use FileLocator#find instead of Platform#find,minor
+255796,1227083068,Databinding Access Restriction Error,major
+256298,1227521807,Simplify setup of ContentAssistAction,trivial
+256593,1227675273,Tons of errors after import. I20081125-0840 unusable.,blocker
+256860,1227840888,Export a plug-in from the IDE UI throws a NoSuchMethodException,major
+257233,1228215666,[refactor] moving compilation unit may end with 'Changes to be performed' dialog that contains to many items,minor
+258308,1228906306,Default version for new plugin projects is 3.4 not 3.5,minor
+258327,1228909949,Possible to get an empty template wizard page,minor
+258339,1228914067,Empty Target  Platform when path contains spaces & based on installed plugins,blocker
+258344,1228916072,Patch IU should have a user readable name,trivial
+258881,1229362200,Switching to new FilteredTree look causes issues on Mac,major
+258953,1229419669,Fix margins with the new FilteredTree look,major
+259270,1229595296,"PDEEditor ""Extensions"" tab empty",major
+259847,1230766578,Enable/Disable action,major
+260395,1231403893,Error Log view: improve LAF when making filter visible,trivial
+260742,1231756303,[registry] fix tests,major
+261419,1232246229,Update RCP Mail Template with commands,trivial
+261886,1232547297,NPE trying to set up a new Eclipse application launching configuration,major
+262211,1232712243,Launch configuration does not remember list of plug-ins,critical
+262345,1232942551,"Use SWT,ICON_CANCEL instead of SWT.CANCEL for Text widgets",trivial
+262353,1232947142,PDE's class search participant does not find all matches,major
+262658,1233066518,PDE internal repository should have a name,minor
+262903,1233218863,Target Content wizard label does not span properly,minor
+262976,1233245786,NPE in product editor after add required plugins,major
+263047,1233305837,Launching rcp mail example fails,major
+263270,1233577224,Selecting a fragment inside the eclipse application launching configuration creates error on startup,major
+264056,1234024503,[target] be able to open external target files using Open File...,major
+264075,1234049592,"[target] Minor UI issues with ""Target Platform (experimental)"" preference page",trivial
+264103,1234107691,"""Convert Projects to Plugin Projects"" label is silly",minor
+264139,1234148868,3.5M5 - Target platform variable support broken,major
+264288,1234208489,New Plugin Project Wizard allows % in project name,trivial
+264462,1234301353,Product editor loses fragment flags for unavailable fragments,critical
+265311,1234949110,Conflicting mnemonics in the launch configuration's 'Plug-ins' tab,minor
+265570,1235064373,hover (tooltip) from error log view doesn't go away,major
+266167,1235560982,[target] Allow users to load a target platform with errors,major
+266168,1235561038,JUnit Plug-n Test Launch does not work if selecting specific bundles to run,major
+266756,1236010544,[target] Add new feature bundle containers wizard locks UI when finish is pressed,minor
+267036,1236158831,"[target] When there are no target platforms, adding one should make it active",minor
+267382,1236331552,Widget is disposed error in the .log file,major
+267662,1236596624,[target] issues while working with features and duplicate bundles,major
+267848,1236675480,PDE illegally complains about non-externalized strings,major
+267927,1236688942,Inconsistent wording in RCP cheat sheet,minor
+267933,1236690814,Create an Eclipse Plug-in cheat sheet needs updating,minor
+267939,1236691616,Typo in Create an Update Site cheat sheet,trivial
+268123,1236765029,Declarative Services component.xml editor problems,major
+268132,1236767191,Labels on 'Main' launch tab does not use sentence style,trivial
+268210,1236782721,Target provisioner needs to have a mode to show non categorized content,major
+269615,1237725090,Target platform support broken for shared targets,major
+269804,1237872734,Manifest info not picked up,major
+270029,1237994311,[target] provisioner needs to download features as part of the process,major
+270048,1238009054,[plug-in registry] CCE in RegistryBrowserLabelProvider,major
+270366,1238272029,Startlevel settings of plugins in run configuration are ignored,critical
+270793,1238574014,PDE launch config Main tab should show more items in combos,trivial
+270891,1238600970,Deadlock after changing target platform,major
+272245,1239743392,Good plugins manage feature requested,major
+272322,1239785159,[target] Setting target platform when missing optional plug-ins causes NPE,minor
+272361,1239799975,don't write out 0 for start levels,major
+272486,1239864479,Problem dialog without log entry when trying to add target platform,major
+272527,1239878249,"Error Log view button ""Show in Stack Trace Console View"" has bogus tooltip",trivial
+272619,1239916011,trying to self-host debug using an Eclipse Application run configuration causes a NPE in ClasspathHelper,major
+272758,1239978820,"[launching] when launching from manifest, rcp mail fails",major
+272876,1240207886,Add labels for compare *MergeViewers,trivial
+273017,1240275347,Intially invalid PDE workspace preferences,major
+273049,1240289455,[CheatSheet] Registering a cheat sheet fails with java.lang.NullPointerException,major
+273399,1240459520,Exception from PDECore.stop() when exiting my target,major
+273511,1240495776,PDERegistryStrategy is leaking tons of zip file handles.,major
+273749,1240760080,Product overview page refers to Configuration page instead of dependencies page,minor
+273809,1240805243,Plug-in import breaks my workspace due to not being able to delete,major
+273834,1240817297,[target] error reading manifest for two bundles,major
+274149,1240924121,Generated config.ini ignores launcher auto-start setting for core.runtime,critical
+274167,1240928806,[target] Hitting apply button does not update reload button.,trivial
+274211,1240943399,Can't export a product when a target is being set,blocker
+274225,1240953251,Bundle added to target multiple times breaks self-hosting,major
+274245,1240968106,[target],trivial
+274393,1241012255,[target] Move... button on pref page enabled for multi-selection,trivial
+274426,1241017165,[target] Add implicit dependencies dialog should filter duplicates,minor
+274642,1241165691,Source lookup fails when using a target platform,major
+274889,1241445908,[ui] start levels read-only in product configuration editor,critical
+275088,1241547474,Categorize repository option just does not work,major
+275186,1241608128,"Typo in dialog ""Edit target definition""",trivial
+276509,1242376781,Eclipse samples review wizard has incorrect text margins,minor
+276971,1242734856,[target] old plug-ins with non-bundle manifest not recognized by target platform,critical
+277848,1243321658,move PDEPreferencesTestCase to other package?,trivial
+277882,1243331162,[target] Dependency resolution should consider all locations,major
+278107,1243428849,[target] JRE sections named differently,minor
+278371,1243575168,Default version should definitely not be 1.0.0.qualifier,major
+278781,1243930580,Launching eclipse application fails when a vm arg in eclipse.ini contains a space,major
+278801,1243934247,Export wizards have missing mnemonics,trivial
+279260,1244189449,Properties files missing in imported plug-ins,major
+279509,1244463347,BrowserInformationControl leaks TextLayout,major
+280098,1244799975,Plug-in Validation dialog uses wrong parent shell,minor
+283682,1247715663,NPE when product does not want to show filter,major
+284999,1248849910,Extension point schema doc builder misses apiInfo section,major
+285051,1248869657,TVT35:TCT333: CHS: Duplicate Mnemonic Keys,minor
+285157,1248939779,TVT35:TCT347: CHS: Duplicate Mnemonic Keys,minor
+285745,1249472844,[target] Variables buttons on arguments tab are different si,trivial
+286030,1249652615,Sources are not imported,major
+286049,1249716233,Improve error message when plug-in can't be found while running tests,minor
+287195,1250758914,Product editor content not replaced when underlying file changed,critical
+287245,1250783942,BLOCKER: Fragment editor could not be open.,blocker
+287679,1251261085,Clean + build ==> NPE in FeatureErrorReporter.validateVersion,major
+288404,1251899253,Find unused dependencies does not consider references to Java classes from plugin.xml,major
+288525,1251975747,"[Cheat sheet] ""Creating a Rich Client Application"" typo",trivial
+288641,1252049496,NPE in NameVersionDescriptor hashCode() method when the version is null,major
+288650,1252053105,ProductIntroWizardPage does not dispose its FormToolkit,major
+289248,1252671928,PDE does not correctly consider exported packages of a bundle,major
+290393,1253772069,Wrong equals check in PluginElement,trivial
+290865,1254274385,Javadoc warnings in build,trivial
+290885,1254286224,[perfs] Regression on 'Open Plug-in Editor: plugin.xml' test,minor
+290979,1254328843,Application.close() method provided by template is not correct,minor
+292936,1256128024,"""Plug-in with a property page"" template generates incorrect code",minor
+292938,1256128433,"""Open extension point schema"" link fails in plugin.xml editor",minor
+293662,1256803333,"'Plug-in Seach' radio buttons are ""blocked""",minor
+294196,1257320322,Junit plugin test launcher creates incorrect dev file,major
+294690,1257791719,New Android Project UI,minor
+294928,1257968146,"Use extension points for adding view in ""RCP with a view"" example",minor
+294935,1257981954,problem in plugin configuration,minor
+295827,1258942952,Plug-in importer should use qualifier color to ender the version,trivial
+295878,1258967941,Widget disposed exception when closing LCD without closing PluginStatusDialog,minor
+296970,1259941043,Plug-in import detail page has bad layout in linux,minor
+297187,1260253832,UI polish for Delete Plug-in Projects dialog,trivial
+297446,1260411697,Polish 'Delete Plug-in Projects' dialog,trivial
+297667,1260618359,[PDE Templates] Unnecesarry imports,trivial
+297710,1260749974,AndroidLayoutEditor  crashes when i open any view(in design mode) and eclipse exits without any messages,major
+298162,1261114408,"Plugin and Fragment icons in 32x32, 48x48 sizes",trivial
+300413,1264076689,Removing and restoring default target definition does not remove message,minor
+300687,1264410467,"When i try to paint into a popup shell on mouse over,it gives me a Unhandled loop event and it only happens on all Windows plataforms,unix plataforms it works great.Error log in details.",major
+301707,1265191167,Missing NLS message using I20100128-1731,trivial
+302551,1265853261,Typo in /org.eclipse.pde.core/src/org/eclipse/pde/internal/core/pderesources.properties,trivial
+303214,1266492015,Wrong error reported,major
+303339,1266577060,Error logged during Window > Show view due to pde.runtime.RegistryBrowser,minor
+303433,1266728283,"Can no longer validate selected bundles in launch config - ""No bundles are selected"" - Config only starts with osgi bundle",major
+304028,1267169841,Dependency properties dialog has no title,minor
+304791,1267762093,Target Content preference page resolves always target contents,major
+305208,1268137093,Import plug-ins from source repository should provide explanation when no plug-ins available,minor
+305429,1268241296,Sporadic ConcurrentModificationException when importing existing plugin projects,critical
+305695,1268387114,Target Platform preference page: Cannot cherry-pick from Running Platform any more,critical
+305847,1268642142,"Plug-in import wizard: ""Delete Plug-in Projects"" doesn't delete filtered plug-ins any more",major
+306743,1269258744,Adding Classpath Entries using IBunldeProjectDescription does not add entries to the bundle manifest,major
+307076,1269511230,"JUnit Plug-in test runner exception ""No Classloader found for plug-in ..."" is confusing",minor
+307269,1269631325,Product Export Wizard hangs during export,major
+307500,1269920320,Add Project Explorer is as Show In target to PDE perspective,trivial
+308313,1270614761,Plug-in Manifest Builder fails with errors/exceptions during build of workspace,critical
+308714,1270838967,manifest editor doesn't flag invalid parameter names,minor
+308973,1271130337,DBCS3.6: Japanese calendar date format is truncated in Event detail,minor
+309050,1271169117,PDE doesn't update Plug-in Dependencies in project with flexible bundle root,major
+309055,1271172264,Autostart combo aligned to right side on OSGi bundles tab of launch config,minor
+309100,1271222473,CCE thrown when filtering bundles in launch config,major
+309251,1271272001,PDE's Junit Runner should make org.eclipse.ui.id.workbench an optional dependency,minor
+309256,1271284953,unable to import joda-time,critical
+309549,1271431169,IOOBE in org.eclipse.pde.internal.core.builders.BuildErrorReporter.validateSourceEntries(...),major
+309860,1271770207,Headless Junit configs require the workbench to run,major
+310121,1271924934,External target definition file shows with Object#toString on the preference page,minor
+310142,1271930802,BuildErrorReporter.validateExecutionEnvironment(...) wrongly write to .log,major
+311933,1273143624,Validate on feature based launch config does not consider application plug-in as requirement,major
+312180,1273386887,PDE Product Export fails with NPE in 3.6m7,critical
+312187,1273409226,DS editor hung in UI thread,major
+312192,1273420771,PDE Extension editor unreliable in 3.6,critical
+313385,1274177524,Plug-ins view: change mnemonic in Import As from I to m,trivial
+313605,1274274129,[feature launching] Polish select features button,minor
+313952,1274442754,NPE from import page crashes Eclipse,major
+314706,1274952977,Many errors after import,critical
+317157,1276747360,Set as Target platform in Platform editor always fails,major
+319531,1278910699,PDE feature should be increased to 3.7.0,trivial
+321670,1280881973,NPE related to org.eclipse.jface after clean install,major
+322515,1281592838,"""Plug-in Dependencies"" container not resolved for certain projects",major
+323289,1282310218,NPE changing target platforms,major
+328515,1287760428,Launching with features should not add optional things,major
+328636,1288003907,"""Preferences > Plug-in Development"" is missing ""JUnit"" keyword",trivial
+328743,1288090599,Wording of new JUnit workspace location preference,trivial
+328849,1288172645,Preference page should use sentence casing for groups,minor
+330464,1289986823,multiPageEditor template leaks SWT Font,major
+330795,1290409158,"Regression: ""Error reading manifest"" for source bundles when creating a target platform based on running Eclipse",major
+331300,1290998944,Provide more control over the target platform cache,major
+331458,1291120065,"Plug-in projects won't generate code from (""old"") templates anymore",blocker
+332335,1291989251,Fix for wrong usages of affect* and effect*,trivial
+334034,1294758365,[target] IU containers do not report all contained features,major
+334061,1294802301,NPE when importing binary plug-ins,critical
+335956,1296547375,Launching a JUnit test takes minutes,major
+336080,1296639772,Closing the DS editor with cmd-w caused deadlock,major
+340690,1300796494,NPE when removing locations from target definition,minor
+341606,1301635737,Saving and closing new component definition causes IDE to freeze.,blocker
+341980,1302050821,The arrows in the Import plug-ins and fragments wizard page could be changed,trivial
+342430,1302504104,NPE in Manifest Editor when adding packages,major
+343099,1303092684,Access restriction: The type OutputFormat is not accessible due to restriction on required library,major
+344912,1304637504,How to write user defined SAVE Plugin which extends the functionality of Default SAVE in JAVA Editor?,trivial
